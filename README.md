@@ -11,6 +11,11 @@ https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 【译文】64张图，看懂AI Agent的核心技术与未来 <br>
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
+## 热点产品
+** hot-product-tracking ** 
+https://github.com/skyming/awesome-ai-agent/tree/main/hot-product-tracking
+
+
 ## 5.1 重点关注框架
 
 ### 5.1.1 LangChain/LangGraph  
