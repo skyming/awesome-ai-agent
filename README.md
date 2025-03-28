@@ -1,5 +1,10 @@
 # awesome-ai-agent
 
+## 市场调研
+AI Agent 市场调研
+https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md
+
+
 ## 5.1 重点关注框架
 
 ### 5.1.1 LangChain/LangGraph  
