@@ -1,8 +1,12 @@
 # awesome-ai-agent
 
 ## 市场调研
-AI Agent 市场调研 <br>
+**AI Agent 市场调研** <br>
 https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md
+
+**热点产品榜** <br>
+https://www.producthunt.com/
+
 
 ## 概念扫盲
 【大淘宝技术】技术人的大模型应用初学指南 <br>
@@ -10,10 +14,6 @@ https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 
 【译文】64张图，看懂AI Agent的核心技术与未来 <br>
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
-
-## 热点产品
-**ProductHunt**  <br>
-https://www.producthunt.com/
 
 
 ## 5.1 重点关注框架
