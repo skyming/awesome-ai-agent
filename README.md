@@ -5,9 +5,11 @@ AI Agent 市场调研 <br>
 https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md
 
 ## 概念扫盲
-技术人的大模型应用初学指南<br>
+【大淘宝技术】技术人的大模型应用初学指南 <br>
 https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 
+【译文】64张图，看懂AI Agent的核心技术与未来 <br>
+https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ## 5.1 重点关注框架
 
