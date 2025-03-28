@@ -16,7 +16,7 @@ https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 
-## 5.1 重点关注框架
+## 重点关注框架
 
 ### 5.1.1 LangChain/LangGraph  
 **GitHub**:  
