@@ -33,7 +33,21 @@ https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ---
 
-### 5.1.2 AgentGPT  
+### 5.1.2 LangManus
+**GitHub**:（原工程链接闭源了，这里是 fork 后的）
+- [langmanus/langmanus](https://github.com/skyming/langmanus)  
+- [langmanus/langmanus-web](https://github.com/skyming/langmanus-web)  
+
+**使用场景**：学术研究（如 DeepSearch、多 Agent 协作机制探索）。  
+**技术亮点**：社区驱动的分层多智能体协作系统。  
+**源码解读**：  
+- **模块化智能体设计**：按角色划分模块（如 `ResearcherAgent`、`CoderAgent`）[[3]]；  
+- **任务流程引擎**：基于 `LangGraph` 的 `Graph` 类管理任务分解与结果聚合[[7]]。  
+
+---
+
+
+### 5.1.3 AgentGPT  
 **GitHub**: [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)  
 **使用场景**：无需编程的 AI 代理部署（如非技术用户定制客服机器人）[[16]]。  
 **技术亮点**：浏览器端部署、可视化界面支持，基于 LangChain 实现[[16]]。  
@@ -43,15 +57,6 @@ https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ---
 
-### 5.1.3 AutoGPT  
-**GitHub**: [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)  
-**使用场景**：端到端任务自动化（如代码生成、数据分析）[[3]]。  
-**技术亮点**：基于“思维链”（CoT）实现多步推理[[3]]。  
-**源码解读**：  
-- **CoT 实现逻辑**：研究子任务拆分与依赖关系管理（如 `TaskManager` 类）；  
-- **自我修正机制**：分析错误检测与重试策略（如异常捕获与回退逻辑）。  
-
----
 
 ## 5.2 近期高热度开源框架
 
@@ -84,19 +89,6 @@ https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ---
 
-### 5.2.3 LangManus  
-**GitHub**:  
-- [langmanus/langmanus](https://github.com/langmanus/langmanus)  
-- [langmanus/langmanus-web](https://github.com/langmanus/langmanus-web)  
-
-**使用场景**：学术研究（如 DeepSearch、多 Agent 协作机制探索）。  
-**技术亮点**：社区驱动的分层多智能体协作系统。  
-**源码解读**：  
-- **模块化智能体设计**：按角色划分模块（如 `ResearcherAgent`、`CoderAgent`）[[3]]；  
-- **任务流程引擎**：基于 `LangGraph` 的 `Graph` 类管理任务分解与结果聚合[[7]]。  
-
----
-
 ## 5.3 多智能体协作框架
 
 ### 5.3.1 Swarm  
@@ -112,6 +104,15 @@ https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 **GitHub**: [microsoft/autogen](https://github.com/microsoft/autogen)  
 **使用场景**：企业级协作（如客服系统、数据分析流水线）[[12]]。  
 **技术亮点**：微软背书，支持多 Agent 动态协商[[12]]。  
+
+---
+### 5.3.3 AutoGPT  
+**GitHub**: [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)  
+**使用场景**：端到端任务自动化（如代码生成、数据分析）[[3]]。  
+**技术亮点**：基于“思维链”（CoT）实现多步推理[[3]]。  
+**源码解读**：  
+- **CoT 实现逻辑**：研究子任务拆分与依赖关系管理（如 `TaskManager` 类）；  
+- **自我修正机制**：分析错误检测与重试策略（如异常捕获与回退逻辑）。  
 
 ---
 
