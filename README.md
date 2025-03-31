@@ -7,6 +7,9 @@ https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.m
 **热点产品榜** <br>
 https://www.producthunt.com/
 
+**经济发展规律演进思考** <br>
+https://github.com/skyming/awesome-ai-agent/blob/main/the-evolution-of-human-economic-development.md
+
 
 ## 概念扫盲
 【大淘宝技术】技术人的大模型应用初学指南 <br>
