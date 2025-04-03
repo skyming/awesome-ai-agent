@@ -24,6 +24,11 @@ https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 **详情介绍：** https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ <br>
 **开源地址：** https://github.com/openai/preparedness/ <br>
 
+## ai-agents 项目集合
+**awesome-ai-agents**  <br>
+https://github.com/e2b-dev/awesome-ai-agents
+
+
 ## 重点关注框架
 
 ### 5.1.1 LangChain/LangGraph  
