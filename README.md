@@ -18,6 +18,11 @@ https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 【译文】64张图，看懂AI Agent的核心技术与未来 <br>
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
+## AI Agent评测基准
+**PaperBench** <br>
+2025年4月3日，OpenAI开源了一个全新的AI Agent评测基准——PaperBench。 <br>
+**详情介绍：** https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ <br>
+**开源地址：** https://github.com/openai/preparedness/ <br>
 
 ## 重点关注框架
 
