@@ -20,7 +20,7 @@ https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ## AI Agent评测基准
 
-**GAIA Leaderboard**
+**GAIA Leaderboard** <br>
 GAIA is a benchmark which aims at evaluating next-generation LLMs (LLMs with augmented capabilities due to added tooling, efficient prompting, access to search, etc)  <br>
 https://huggingface.co/spaces/gaia-benchmark/leaderboard
 
