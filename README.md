@@ -19,10 +19,17 @@ https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ## AI Agent评测基准
+
+**GAIA Leaderboard**
+GAIA is a benchmark which aims at evaluating next-generation LLMs (LLMs with augmented capabilities due to added tooling, efficient prompting, access to search, etc)
+https://huggingface.co/spaces/gaia-benchmark/leaderboard
+
+
 **PaperBench** <br>
 2025年4月3日，OpenAI开源了一个全新的AI Agent评测基准——PaperBench。 <br>
 **详情介绍：** https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ <br>
 **开源地址：** https://github.com/openai/preparedness/ <br>
+
 
 ## ai-agents 项目集合
 **awesome-ai-agents**  <br>
