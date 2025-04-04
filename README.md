@@ -34,6 +34,9 @@ https://huggingface.co/spaces/gaia-benchmark/leaderboard
 ## ai-agents 项目集合
 **awesome-ai-agents**  <br>
 https://github.com/e2b-dev/awesome-ai-agents
+**awesome-foundation-agents**   <br>
+a curated collection of papers exploring the path towards Foundation Agents, with a focus on formulating the core concepts and navigating the research landscape.  <br>
+https://github.com/FoundationAgents/awesome-foundation-agents
 
 
 ## 重点关注框架
