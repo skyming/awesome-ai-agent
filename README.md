@@ -31,6 +31,21 @@ https://huggingface.co/spaces/gaia-benchmark/leaderboard
 https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ
 
 
+## AI Agent SDK 
+
+**Openai-Agents**  <br>
+The OpenAI Agents SDK enables you to build agentic AI apps in a lightweight, easy-to-use package with very few abstractions. It's a production-ready upgrade of our previous experimentation for agents, Swarm <br>
+https://openai.github.io/openai-agents-python/
+
+**AWS Nova Act**  <br>
+4月1日，亚马逊发布了一款名为Nova Act的AI智能体，这是一款专门用于控制网络浏览器并执行简单操作的通用AI Agent。  <br>
+https://github.com/aws/nova-act  <br>
+
+**Qwen Agent**  <br>
+Qwen-Agent is a framework for developing LLM applications based on the instruction following, tool usage, planning, and memory capabilities of Qwen.  <br>
+https://github.com/QwenLM/Qwen-Agent
+
+
 ## ai-agents 项目集合
 **awesome-ai-agents**  <br>
 https://github.com/e2b-dev/awesome-ai-agents
