@@ -153,6 +153,10 @@ https://github.com/FoundationAgents/awesome-foundation-agents
 - **CoT 实现逻辑**：研究子任务拆分与依赖关系管理（如 `TaskManager` 类）；  
 - **自我修正机制**：分析错误检测与重试策略（如异常捕获与回退逻辑）。  
 
+### 5.3.4 Giselle  
+**GitHub**: [giselles-ai/giselle](https://github.com/giselles-ai/giselle)  
+**使用场景**：通过连接多个 LLM 和数据源，使用直观的节点式界面创建强大的 AI Agents。  
+
 ---
 
 ## 5.4 代码编程方向
