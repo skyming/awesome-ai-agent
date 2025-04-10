@@ -54,6 +54,9 @@ https://github.com/e2b-dev/awesome-ai-agents
 a curated collection of papers exploring the path towards Foundation Agents, with a focus on formulating the core concepts and navigating the research landscape.  <br>
 https://github.com/FoundationAgents/awesome-foundation-agents
 
+**awesome-llm-apps**  <br>
+A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.  <br>
+https://github.com/Shubhamsaboo/awesome-llm-apps
 
 ## 重点关注框架
 
