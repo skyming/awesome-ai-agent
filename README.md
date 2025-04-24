@@ -12,7 +12,7 @@ https://www.producthunt.com/
 【大淘宝技术】技术人的大模型应用初学指南 <br>
 https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 
-【译文】64张图，看懂AI Agent的核心技术与未来 <br>
+【译文】A Visual Guide to LLM Agents <br>
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
 
 ## AI Agent评测基准
