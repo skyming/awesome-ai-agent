@@ -58,6 +58,19 @@ https://github.com/FoundationAgents/awesome-foundation-agents
 A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.  <br>
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
+## 推荐开源工程
+### LangManus
+前端工程主要采用了 TS、PNPM、Next.JS、TailWindCSS、Zustand 技术栈，后端基于 Python、LangChain/LangGraph、FastAPI、构建的 AI 服务，集成了多种 LLM 模型，具有 Web API 功能。
+前后端项目结构清晰，代码质量非常高，支持 Docker部署，入门学习首选。 <br>
+**GitHub**:（原工程链接闭源了，这里是 fork 后的）
+- [langmanus/langmanus](https://github.com/skyming/langmanus)  
+- [langmanus/langmanus-web](https://github.com/skyming/langmanus-web)  
+
+### Suna 
+前后端采用了和 LangManus 几乎完全一致的技术栈，产品功能实现更为完整，支持数据库相应的能力  <br>
+**GitHub**: https://github.com/kortix-ai/suna
+
+
 ## 重点关注框架
 
 ### 5.1.1 LangChain/LangGraph  
@@ -75,18 +88,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 
 ---
 
-### 5.1.2 LangManus
-**GitHub**:（原工程链接闭源了，这里是 fork 后的）
-- [langmanus/langmanus](https://github.com/skyming/langmanus)  
-- [langmanus/langmanus-web](https://github.com/skyming/langmanus-web)  
-
-**使用场景**：学术研究（如 DeepSearch、多 Agent 协作机制探索）。  
-**技术亮点**：社区驱动的分层多智能体协作系统。  
-**源码解读**：  
-- **模块化智能体设计**：按角色划分模块（如 `ResearcherAgent`、`CoderAgent`）[[3]]；  
-- **任务流程引擎**：基于 `LangGraph` 的 `Graph` 类管理任务分解与结果聚合[[7]]。  
-
----
 
 
 ### 5.1.3 AgentGPT  
