@@ -87,8 +87,8 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 - **内存管理**：分析 `Memory` 模块对长对话的支持（如对话历史缓存）[[8]]。  
 
 ---
-### 5.1.1 Deer-Flow
-**GitHub**:  https://github.com/bytedance/deer-flow
+### 5.1.2 Deer-Flow
+**GitHub**:  https://github.com/bytedance/deer-flow  <br>
 **使用场景**：DeerFlow（Deep Exploration and Efficient Research Flow）是一个社区驱动的深度研究框架，它建立在开源社区的杰出工作基础之上。我们的目标是将语言模型与专业工具（如网络搜索、爬虫和Python代码执行）相结合，同时回馈使这一切成为可能的社区。  
 
 
