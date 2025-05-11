@@ -8,12 +8,15 @@ https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.m
 https://www.producthunt.com/
 
 
-## 概念扫盲
-【大淘宝技术】技术人的大模型应用初学指南 <br>
+## 基础知识推荐
+**【大淘宝技术】技术人的大模型应用初学指南** <br>
 https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 
-【译文】A Visual Guide to LLM Agents <br>
+**【译文】A Visual Guide to LLM Agents** <br>
 https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
+
+**AI Agent：7大认知框架全解析与代码实现** <br>
+https://zhuanlan.zhihu.com/p/703716036 <br>
 
 ## AI Agent评测基准
 
