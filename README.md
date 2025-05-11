@@ -2,38 +2,33 @@
 
 ## 市场调研
 
-**AI Agent 市场调研** <br>
-https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md
-
-**热点产品榜** <br>
-https://www.producthunt.com/
-
+- **AI Agent 市场调研**  
+  [ai-agnet-market-research.md](https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md)
+- **热点产品榜**  
+  [Product Hunt](https://www.producthunt.com/)
 
 ## 基础知识推荐
 
-**【大淘宝技术】技术人的大模型应用初学指南** <br>
-https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
+- [【大淘宝技术】技术人的大模型应用初学指南](https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ)
+- [AI Agent：7大认知框架全解析与代码实现](https://zhuanlan.zhihu.com/p/703716036)
+- [【译文】A Visual Guide to LLM Agents](https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA)
 
-**【译文】A Visual Guide to LLM Agents** <br>
-https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA
+## AI Agent 评测基准
 
-**AI Agent：7大认知框架全解析与代码实现** <br>
-https://zhuanlan.zhihu.com/p/703716036 <br>
+### 行业评测
+- [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)
 
-## AI Agent评测基准
+### 评测平台
+1. **GAIA Leaderboard**  
+   - *机构*：Meta × HuggingFace × AutoGPT  
+   - *能力评估*：多步骤推理/工具使用/多模态处理  
+   - *平台地址*：<https://huggingface.co/spaces/gaia-benchmark/leaderboard>
 
-**AI Agent评测基准大揭秘：智能体的“体检标准”**  <br>
-https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ
-
-**GAIA Leaderboard** <br>
-由Meta、HuggingFace和AutoGPT团队联合推出的基准测试平台，旨在评估通用AI助手在现实任务中的多步骤推理、工具使用及多模态处理能力，支持用户提交模型并公开比较性能 <br>
-**链接地址：** https://huggingface.co/spaces/gaia-benchmark/leaderboard
-
-**PaperBench** <br>
-2025年4月3日，OpenAI开源了一个全新的AI Agent评测基准——PaperBench。 <br>
-**详情介绍：** https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ <br>
-**开源地址：** https://github.com/openai/preparedness/ <br>
-
+2. **PaperBench**  
+   - *发布时间*：2025年4月3日（OpenAI 开源项目）  
+   - *项目介绍*：  
+     [技术解析](https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ) |  
+     [GitHub 仓库](https://github.com/openai/preparedness/)
 
 
 
