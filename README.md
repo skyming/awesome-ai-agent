@@ -1,6 +1,7 @@
 # awesome-ai-agent
 
 ## 市场调研
+
 **AI Agent 市场调研** <br>
 https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md
 
@@ -9,6 +10,7 @@ https://www.producthunt.com/
 
 
 ## 基础知识推荐
+
 **【大淘宝技术】技术人的大模型应用初学指南** <br>
 https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ
 
@@ -20,18 +22,19 @@ https://zhuanlan.zhihu.com/p/703716036 <br>
 
 ## AI Agent评测基准
 
-**GAIA Leaderboard** <br>
-GAIA is a benchmark which aims at evaluating next-generation LLMs (LLMs with augmented capabilities due to added tooling, efficient prompting, access to search, etc)  <br>
-https://huggingface.co/spaces/gaia-benchmark/leaderboard
+**AI Agent评测基准大揭秘：智能体的“体检标准”**  <br>
+https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ
 
+**GAIA Leaderboard** <br>
+由Meta、HuggingFace和AutoGPT团队联合推出的基准测试平台，旨在评估通用AI助手在现实任务中的多步骤推理、工具使用及多模态处理能力，支持用户提交模型并公开比较性能 <br>
+**链接地址：** https://huggingface.co/spaces/gaia-benchmark/leaderboard
 
 **PaperBench** <br>
 2025年4月3日，OpenAI开源了一个全新的AI Agent评测基准——PaperBench。 <br>
 **详情介绍：** https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ <br>
 **开源地址：** https://github.com/openai/preparedness/ <br>
 
-**AI Agent评测基准大揭秘：智能体的“体检标准”**  <br>
-https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ
+
 
 
 ## AI Agent SDK 
