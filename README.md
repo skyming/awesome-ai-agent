@@ -75,41 +75,13 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 - [langmanus/langmanus](https://github.com/skyming/langmanus)  
 - [langmanus/langmanus-web](https://github.com/skyming/langmanus-web)  
 
-### Suna 
-前后端采用了和 LangManus 几乎完全一致的技术栈，产品功能实现更为完整，支持数据库相应的能力  <br>
-**GitHub**: https://github.com/kortix-ai/suna
-
-
-## 重点关注框架
-
-### 5.1.1 LangChain/LangGraph  
-**GitHub**:  
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain)  
-- [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)  
-
-**使用场景**：构建 LLM 驱动的应用（如 RAG 系统、聊天机器人）[[7]]。  
-**技术亮点**：  
-- 模块化架构，解决上下文保留与多步骤协调[[3]]；  
-- 图结构设计支持复杂工作流（循环、并行）[[3]][[9]]。  
-**源码解读**：  
-- **链式组件设计**：研究 `Chain` 类与外部工具（`Tool`）的集成逻辑[[3]]；  
-- **内存管理**：分析 `Memory` 模块对长对话的支持（如对话历史缓存）[[8]]。  
-
----
-### 5.1.2 Deer-Flow
+### Deer-Flow
 **GitHub**:  https://github.com/bytedance/deer-flow  <br>
 **使用场景**：DeerFlow（Deep Exploration and Efficient Research Flow）是一个社区驱动的深度研究框架，它建立在开源社区的杰出工作基础之上。我们的目标是将语言模型与专业工具（如网络搜索、爬虫和Python代码执行）相结合，同时回馈使这一切成为可能的社区。  
 
-
-### 5.1.3 AgentGPT  
-**GitHub**: [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)  
-**使用场景**：无需编程的 AI 代理部署（如非技术用户定制客服机器人）[[16]]。  
-**技术亮点**：浏览器端部署、可视化界面支持，基于 LangChain 实现[[16]]。  
-**源码解读**：  
-- **前端与后端交互**：分析代理配置与任务执行流程（如 WebSocket 通信）；  
-- **上下文记忆管理**：研究对话历史存储与检索机制（如本地存储或数据库集成）。  
-
----
+### Suna 
+前后端采用了和 LangManus 几乎完全一致的技术栈，产品功能实现更为完整，支持数据库相应的能力  <br>
+**GitHub**: https://github.com/kortix-ai/suna
 
 
 ## 5.2 近期高热度开源框架
@@ -141,23 +113,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 - **角色分工与协作**：模拟人类团队协作流程（如 `PlannerAgent` 与 `ExecutorAgent`）；  
 - **工具链集成**：分析外部 API 调用与错误处理逻辑（如 `ToolExecutor` 类）。  
 
----
-
-## 5.3 多智能体协作框架
-
-### 5.3.1 Swarm  
-**GitHub**: [kyegomez/swarms](https://github.com/kyegomez/swarms)  
-**使用场景**：创建和管理多个 AI Agent，支持复杂任务编排。  
-
-### 5.3.2 CrewAI  
-**GitHub**: [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)  
-**使用场景**：角色扮演型协作（如虚拟团队完成设计项目）[[16]]。  
-**技术亮点**：支持角色职责分配与动态任务调整[[16]]。  
-
-### 5.3.3 AutoGen  
-**GitHub**: [microsoft/autogen](https://github.com/microsoft/autogen)  
-**使用场景**：企业级协作（如客服系统、数据分析流水线）[[12]]。  
-**技术亮点**：微软背书，支持多 Agent 动态协商[[12]]。  
 
 ---
 ### 5.3.3 AutoGPT  
@@ -168,13 +123,20 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 - **CoT 实现逻辑**：研究子任务拆分与依赖关系管理（如 `TaskManager` 类）；  
 - **自我修正机制**：分析错误检测与重试策略（如异常捕获与回退逻辑）。  
 
-### 5.3.4 Giselle  
-**GitHub**: [giselles-ai/giselle](https://github.com/giselles-ai/giselle)  
-**使用场景**：通过连接多个 LLM 和数据源，使用直观的节点式界面创建强大的 AI Agents。  
+---
+
+### 5.1.3 AgentGPT  
+**GitHub**: [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)  
+**使用场景**：无需编程的 AI 代理部署（如非技术用户定制客服机器人）[[16]]。  
+**技术亮点**：浏览器端部署、可视化界面支持，基于 LangChain 实现[[16]]。  
+**源码解读**：  
+- **前端与后端交互**：分析代理配置与任务执行流程（如 WebSocket 通信）；  
+- **上下文记忆管理**：研究对话历史存储与检索机制（如本地存储或数据库集成）。  
 
 ---
 
 ## 5.4 代码编程方向
+
 
 ### 5.4.1 MetaGPT  
 **GitHub**: [geekan/MetaGPT](https://github.com/geekan/MetaGPT)  
@@ -206,3 +168,5 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
   使用场景：基于私有数据构建智能代理（如企业知识库问答）[[9]]。  
 - **NVIDIA AgentIQ**: [NVIDIA/AgentIQ](https://github.com/NVIDIA/AgentIQ)  
   优化企业级多智能体系统协作效率。  
+- **Giselle**: [giselles-ai/giselle](https://github.com/giselles-ai/giselle)  
+  通过连接多个 LLM 和数据源，使用直观的节点式界面创建强大的 AI Agents。  
