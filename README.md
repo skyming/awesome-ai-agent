@@ -8,6 +8,20 @@
 - [【译文】A Visual Guide to LLM Agents](https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA)
 - [微软-AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)
 
+以下是对您提供内容的重新排版，已为每个资源增加了一句话简介：
+
+## 基础概念 
+
+- **🔍 [技术人的大模型应用初学指南](https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ)**  
+  *简介：大淘宝技术团队撰写的实践指南，帮助开发者快速掌握大模型应用落地的核心方法论。*  
+- **🤖 [AI Agent：7大认知框架全解析与代码实现](https://zhuanlan.zhihu.com/p/703716036)**  
+  *简介：系统拆解AI Agent核心框架设计，结合可复现代码演示工程实现路径。*  
+- **📊 [【译文】A Visual Guide to LLM Agents](https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA)**  
+  *简介：可视化解读LLM Agents技术架构，通过图形化演示降低理解门槛。*  
+- **🎓 [微软-AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)**  
+  *简介：微软官方开源入门课程，包含12课时实践项目及行业应用案例解析。*  
+
+
 ## AI Agent 评测基准
 
 ### 行业评测
