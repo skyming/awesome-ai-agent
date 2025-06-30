@@ -18,28 +18,41 @@
   *简介：深度解析主流Agent评估体系，揭示工业界与学术界对智能体能力的差异化验证逻辑。*  
 
 1. **🌐 [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)**  
-   *简介：Meta联合HuggingFace推出的多模态智能体评测平台，强调复杂任务拆解与工具协作能力。*  
+   *简介：Meta与HuggingFace共建的多模态评测平台，聚焦复杂任务拆解与工具链协作能力验证，覆盖跨模态推理与工具调用场景*  
 
-2. **📚 [PaperBench](https://github.com/openai/preparedness/)**    **[技术解析](https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ)**  
+2. **📚 [PaperBench](https://github.com/openai/preparedness/)**  **[技术解析](https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ)**  
    *简介：OpenAI开源的科学复现评测框架, 2025年4月3日发布，通过8,316项子任务量化Agent复现论文的完整能力。*  
 
 3. **🧠 [AgentBench](https://github.com/THUDM/AgentBench)**  
-   *简介：清华大学开发的**多环境实战评测基准**，覆盖操作系统、数据库等8类真实场景的决策能力验证。*  
+   *简介：清华大学主导的多环境实战基准，覆盖操作系统、数据库、知识图谱等8类真实场景，量化Agent动态决策能力。*
+   
+4. **📊 XBench**  
+  红杉中国推出的**双轨测评体系**：  
+  - *AGI Tracking*：测试技术上限  
+  - *Profession-Aligned*：量化商业场景效用价值（如招聘/营销）。  
 
+## Agent SDK 
 
-## AI Agent SDK 
+1. **🤖 [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)**  
+   *简介：轻量级开发套件，支持快速构建生产级Agentic AI应用（Swarm项目升级版）。*
 
-**Openai-Agents**  <br>
-The OpenAI Agents SDK enables you to build agentic AI apps in a lightweight, easy-to-use package with very few abstractions. It's a production-ready upgrade of our previous experimentation for agents, Swarm <br>
-https://openai.github.io/openai-agents-python/
+2. **🌐 [Google Agent SDK](https://cloud.google.com/vertex-ai/agents)**  
+   *简介：谷歌多模态智能体开发套件，集成Vertex AI与Gemini模型。*
 
-**AWS Nova Act**  <br>
-4月1日，亚马逊发布了一款名为Nova Act的AI智能体，这是一款专门用于控制网络浏览器并执行简单操作的通用AI Agent。  <br>
-https://github.com/aws/nova-act  <br>
+3. **⚙️ [Microsoft AutoGen](https://microsoft.github.io/autogen/)**  
+   *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
 
-**Qwen Agent**  <br>
-Qwen-Agent is a framework for developing LLM applications based on the instruction following, tool usage, planning, and memory capabilities of Qwen.  <br>
-https://github.com/QwenLM/Qwen-Agent
+4. **☁️ [AWS Agent SDK](https://aws.amazon.com/machine-learning/agents/)**  
+   *简介：亚马逊云服务的智能体开发工具集（含Nova Act等组件）。*
+
+5. **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**  
+   *简介：LangChain生态的有状态多代理系统，基于图结构构建循环工作流。*
+
+6. **🐉 [Qwen Agent](https://github.com/QwenLM/Qwen-Agent)**  
+   *简介：基于通义千问的LLM应用框架，支持指令遵循、工具调用与记忆管理。*
+
+7. **👥 [CrewAI](https://github.com/joaomdmoura/crewai)**  
+   *简介：面向角色扮演型Agent的编排框架，支持任务委派与团队协作。*
 
 
 ## ai-agents 项目集合
