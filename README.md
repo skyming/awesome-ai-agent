@@ -17,19 +17,15 @@
 - **[AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
   *简介：深度解析主流Agent评估体系，揭示工业界与学术界对智能体能力的差异化验证逻辑。*  
 
-1. **🌐 GAIA Leaderboard**  
+1. **🌐 [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)**  
    *简介：Meta联合HuggingFace推出的多模态智能体评测平台，强调复杂任务拆解与工具协作能力。*  
-   - **平台地址**：<https://huggingface.co/spaces/gaia-benchmark/leaderboard>  
 
-2. **📚 PaperBench**  
-   *简介：OpenAI开源的科学复现评测框架，通过8,316项子任务量化Agent复现论文的完整能力。*  
-   - **发布时间**：2025年4月3日
+2. **📚 [PaperBench](https://github.com/openai/preparedness/)**  
+   *简介：OpenAI开源的科学复现评测框架, 2025年4月3日发布，通过8,316项子任务量化Agent复现论文的完整能力。*  
    - **技术解析**：<https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ>  
-   - **平台地址**：<https://github.com/openai/preparedness/>  
 
-3. **🧠 AgentBench（新增）**  
+3. **🧠 [AgentBench](https://github.com/THUDM/AgentBench)**  
    *简介：清华大学开发的**多环境实战评测基准**，覆盖操作系统、数据库等8类真实场景的决策能力验证。*  
-   - **平台地址**：<https://github.com/THUDM/AgentBench>  
 
 
 ## AI Agent SDK 
