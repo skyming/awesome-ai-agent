@@ -12,23 +12,36 @@
   *简介：微软官方开源入门课程，包含12课时实践项目及行业应用案例解析。*  
 
 
-## AI Agent 评测基准
+## 评测基准
 
-### 行业评测
-- [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)
+### 🔍 行业评测  
+聚焦智能体评估标准与行业实践  
 
-### 评测平台
-1. **GAIA Leaderboard**  
-   - *机构*：Meta × HuggingFace × AutoGPT  
-   - *能力评估*：多步骤推理/工具使用/多模态处理  
-   - *平台地址*：<https://huggingface.co/spaces/gaia-benchmark/leaderboard>
+- **[AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
+  *简介：深度解析主流Agent评估体系，揭示工业界与学术界对智能体能力的差异化验证逻辑。*  
 
-2. **PaperBench**  
-   - *发布时间*：2025年4月3日（OpenAI 开源项目）  
-   - *项目介绍*：  
+
+### 🧪 评测平台  
+权威机构推出的智能体能力量化工具  
+
+1. **🌐 GAIA Leaderboard**  
+   *简介：Meta联合HuggingFace推出的多模态智能体评测平台，强调复杂任务拆解与工具协作能力。*  
+   - **机构**：Meta × HuggingFace × AutoGPT  
+   - **核心维度**：多步骤推理/工具调用/跨模态处理  
+   - **平台地址**：<https://huggingface.co/spaces/gaia-benchmark/leaderboard>  
+
+2. **📚 PaperBench**  
+   *简介：OpenAI开源的科学复现评测框架，通过8,316项子任务量化Agent复现论文的完整能力。*  
+   - **发布时间**：2025年4月3日  
+   - **关键资源**：  
      [技术解析](https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ) |  
-     [GitHub 仓库](https://github.com/openai/preparedness/)
+     [GitHub仓库](https://github.com/openai/preparedness/)  
 
+3. **🧠 AgentBench（新增）**  
+   *简介：清华大学开发的**多环境实战评测基准**，覆盖操作系统、数据库等8类真实场景的决策能力验证。*  
+   - **核心价值**：首个系统性检验Agent在开放环境中的泛化能力  
+   - **关键发现**：商业模型（GPT-4）显著领先开源模型  
+   - **平台地址**：<https://github.com/THUDM/AgentBench>  
 
 
 ## AI Agent SDK 
