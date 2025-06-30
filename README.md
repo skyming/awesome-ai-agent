@@ -1,11 +1,5 @@
 # awesome-ai-agent
 
-## 市场调研
-
-- **AI Agent 市场调研**  
-  [ai-agnet-market-research.md](https://github.com/skyming/awesome-ai-agent/blob/main/ai-agnet-market-research.md)
-- **热点产品榜**  
-  [Product Hunt](https://www.producthunt.com/)
 
 ## 基础知识推荐
 
