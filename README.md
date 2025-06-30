@@ -19,21 +19,16 @@
 
 1. **🌐 GAIA Leaderboard**  
    *简介：Meta联合HuggingFace推出的多模态智能体评测平台，强调复杂任务拆解与工具协作能力。*  
-   - **机构**：Meta × HuggingFace × AutoGPT  
-   - **核心维度**：多步骤推理/工具调用/跨模态处理  
    - **平台地址**：<https://huggingface.co/spaces/gaia-benchmark/leaderboard>  
 
 2. **📚 PaperBench**  
    *简介：OpenAI开源的科学复现评测框架，通过8,316项子任务量化Agent复现论文的完整能力。*  
-   - **发布时间**：2025年4月3日  
-   - **关键资源**：  
-     [技术解析](https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ) |  
-     [GitHub仓库](https://github.com/openai/preparedness/)  
+   - **发布时间**：2025年4月3日
+   - **技术解析**：<https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ>  
+   - **平台地址**：<https://github.com/openai/preparedness/>  
 
 3. **🧠 AgentBench（新增）**  
    *简介：清华大学开发的**多环境实战评测基准**，覆盖操作系统、数据库等8类真实场景的决策能力验证。*  
-   - **核心价值**：首个系统性检验Agent在开放环境中的泛化能力  
-   - **关键发现**：商业模型（GPT-4）显著领先开源模型  
    - **平台地址**：<https://github.com/THUDM/AgentBench>  
 
 
