@@ -73,6 +73,12 @@ https://github.com/FoundationAgents/awesome-foundation-agents
 A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.  <br>
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
+
+**Awesome-Foundation-Agents**  <br>
+https://github.com/FoundationAgents/awesome-foundation-agents
+
+
+
 ## 推荐开源工程
 ### LangManus
 前端工程主要采用了 TS、PNPM、Next.JS、TailWindCSS、Zustand 技术栈，后端基于 Python、LangChain/LangGraph、FastAPI、构建的 AI 服务，集成了多种 LLM 模型，具有 Web API 功能。
