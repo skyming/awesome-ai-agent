@@ -126,6 +126,11 @@
 
 ---
 
+## Agent 论文
+
+**awesome-foundation-agents**   <br>
+a curated collection of papers exploring the path towards Foundation Agents, with a focus on formulating the core concepts and navigating the research landscape.  <br>
+https://github.com/FoundationAgents/awesome-foundation-agents
 
 
 ## 其他开源
@@ -164,10 +169,6 @@
 
 **awesome-ai-agents**  <br>
 https://github.com/e2b-dev/awesome-ai-agents
-
-**awesome-foundation-agents**   <br>
-a curated collection of papers exploring the path towards Foundation Agents, with a focus on formulating the core concepts and navigating the research landscape.  <br>
-https://github.com/FoundationAgents/awesome-foundation-agents
 
 **awesome-llm-apps**  <br>
 A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.  <br>
