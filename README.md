@@ -61,7 +61,34 @@
    *简介：面向角色扮演型Agent的编排框架，支持任务委派与团队协作。*
 
 
-## ai-agents 项目集合
+## 开源项目
+
+### 🦌 **1. [DeerFlow](https://github.com/bytedance/deer-flow)**  
+*字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。*  
+- **核心特点**：  
+  - **多智能体分工**：基于 LangGraph 实现模块化架构（协调器、规划器、研究员、报告员），支持动态任务迭代与重规划（Re-planning）。  
+  - **工具深度集成**：支持 Tavily/DuckDuckGo 搜索、Python 代码执行、学术资源（Arxiv）抓取，扩展性强。  
+  - **人机协同创作**：提供类 Notion 的交互式编辑界面，支持自然语言修改研究计划，并生成报告、PPT、播客脚本等多模态内容。  
+  - **MCP 无缝扩展**：可接入私有域知识库或第三方服务（如高德地图），实现定制化研究场景。  
+
+### 🌐 **2. [Suna](https://github.com/kortix-ai/suna)**  
+*Kortix AI 推出的通用型智能体，专注于跨平台任务自动化执行。*  
+- **核心特点**：  
+  - **浏览器自动化引擎**：基于 Playwright 实现网页导航、数据抓取及表单操作（如 LinkedIn 简历采集、竞品价格监控）。  
+  - **安全沙箱环境**：通过 Docker 容器隔离任务执行，支持敏感数据（API 密钥）动态注入，保障宿主系统安全。  
+  - **多工具链协同**：整合 Python 解释器、命令行工具和 API 服务，支持复杂指令解析（例：“分析医疗市场规模并生成 PDF 报告”）。  
+  - **企业级部署**：提供云端 SaaS 服务（免费版至企业版）及自托管方案，适配商业分析、销售自动化等场景。  
+
+### 🤖 **3. [AgentGPT](https://github.com/reworkd/AgentGPT)**  
+*自主智能体部署平台，支持浏览器端配置目标驱动的 AI 智能体。*  
+- **核心特点**：  
+  - **零代码智能体编排**：用户通过自然语言设定目标，系统自动分解任务并调用工具链执行。  
+  - **Web 优先架构**：基于 Next.js 实现可视化控制面板，实时展示任务状态与执行日志。  
+  - **开源社区驱动**：支持集成 OpenAI、Anthropic 等模型，工具插件生态持续扩展。  
+
+---
+
+
 **awesome-ai-agents**  <br>
 https://github.com/e2b-dev/awesome-ai-agents
 
@@ -74,23 +101,7 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
 
-## 推荐开源工程
-### LangManus
-前端工程主要采用了 TS、PNPM、Next.JS、TailWindCSS、Zustand 技术栈，后端基于 Python、LangChain/LangGraph、FastAPI、构建的 AI 服务，集成了多种 LLM 模型，具有 Web API 功能。
-前后端项目结构清晰，代码质量非常高，支持 Docker部署，入门学习首选。 <br>
-**GitHub**:（原工程链接闭源了，这里是 fork 后的）
-- [langmanus/langmanus](https://github.com/skyming/langmanus)  
-- [langmanus/langmanus-web](https://github.com/skyming/langmanus-web)  
-
-### Deer-Flow
-**GitHub**:  https://github.com/bytedance/deer-flow  <br>
-**使用场景**：DeerFlow（Deep Exploration and Efficient Research Flow）是一个社区驱动的深度研究框架，它建立在开源社区的杰出工作基础之上。我们的目标是将语言模型与专业工具（如网络搜索、爬虫和Python代码执行）相结合，同时回馈使这一切成为可能的社区。  
-
-### Suna 
-前后端采用了和 LangManus 几乎完全一致的技术栈，产品功能实现更为完整，支持数据库相应的能力  <br>
-**GitHub**: https://github.com/kortix-ai/suna
-
-
+## 其他开源
 
 ### 5.2.2 Camel-Owl  
 **GitHub**:  
@@ -115,15 +126,7 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 
 ---
 
-### 5.1.3 AgentGPT  
-**GitHub**: [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)  
-**使用场景**：无需编程的 AI 代理部署（如非技术用户定制客服机器人）[[16]]。  
-**技术亮点**：浏览器端部署、可视化界面支持，基于 LangChain 实现[[16]]。  
-**源码解读**：  
-- **前端与后端交互**：分析代理配置与任务执行流程（如 WebSocket 通信）；  
-- **上下文记忆管理**：研究对话历史存储与检索机制（如本地存储或数据库集成）。  
 
----
 
 ## 5.4 代码编程方向
 
@@ -150,7 +153,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 
 ---
 
-## 其他开源
 
 - **AutoGLM**: [xiao9905/AutoGLM](https://github.com/xiao9905/AutoGLM)  
   基于 LLM 的自主研究代理，支持结构化研究报告生成。  
