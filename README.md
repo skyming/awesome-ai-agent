@@ -45,10 +45,10 @@
 2. **🌐 [Google Agent SDK](https://cloud.google.com/vertex-ai/agents)**  
    *简介：谷歌多模态智能体开发套件，集成Vertex AI与Gemini模型。*
 
-3. **⚙️ [Microsoft AutoGen](https://microsoft.github.io/autogen/)**  
+3. **⚙️ [Microsoft AutoGen](https://github.com/microsoft/autogen)**  
    *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
 
-4. **☁️ [AWS Agent SDK](https://aws.amazon.com/machine-learning/agents/)**  
+4. **☁️ [AWS Agent SDK](https://github.com/strands-agents/sdk-python)**  
    *简介：亚马逊云服务的智能体开发工具集（含Nova Act等组件）。*
 
 5. **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**  
