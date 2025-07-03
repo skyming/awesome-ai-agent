@@ -127,6 +127,8 @@
 ---
 
 
+
+## 其他开源
 **awesome-ai-agents**  <br>
 https://github.com/e2b-dev/awesome-ai-agents
 
@@ -138,9 +140,6 @@ https://github.com/FoundationAgents/awesome-foundation-agents
 A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.  <br>
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
-
-
-## 其他开源
 
 ### 🤖 **7. [AgentGPT](https://github.com/reworkd/AgentGPT)**  
 *自主智能体部署平台，支持浏览器端配置目标驱动的 AI 智能体。*  
@@ -174,14 +173,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 ---
 
 
-## 5.4 代码编程方向
-
-
-### 5.4.1 MetaGPT  
-**GitHub**: [geekan/MetaGPT](https://github.com/geekan/MetaGPT)  
-**使用场景**：软件开发全流程自动化（需求分析→代码生成）。  
-**技术亮点**：SOP（标准操作流程）驱动的角色分工[[3]]。  
-
 ### 5.4.2 OpenHands  
 **GitHub**: [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)  
 **使用场景**：企业级软件开发自动化（如代码修改、Web 浏览）[[7]]。  
@@ -196,8 +187,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 **GitHub**: [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)  
 **使用场景**：LLM 驱动的研究与开发（R&D）闭环流程。  
 **技术亮点**：整合实验设计与代码实现的自动化迭代[[6]]。  
-
----
 
 
 - **AutoGLM**: [xiao9905/AutoGLM](https://github.com/xiao9905/AutoGLM)  
