@@ -129,6 +129,39 @@
 
 
 ## 其他开源
+
+### 1. **🤖 [AgentGPT](https://github.com/reworkd/AgentGPT)**  
+*简介：浏览器端部署目标驱动智能体，支持零代码编排（自然语言设定目标→自动分解任务）、Next.js可视化面板、开源扩展（OpenAI/Anthropic模型集成）。*  
+
+### 2. **🦉 [Camel-Owl](https://github.com/camel-ai/owl)**  
+*简介：全自动多Agent协作框架（关联[camel-ai/camel](https://github.com/camel-ai/camel)），实现复杂任务分解/多角色分工（如Planner-Executor协作）、优化Manus架构、深度工具链集成（含API调用错误处理）。*  
+
+### 3. **⚡ [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)**  
+*简介：端到端任务自动化引擎（代码生成/数据分析），内置思维链（CoT）多步推理引擎（子任务依赖管理）、自我修正机制（动态错误检测与重试策略）。*  
+
+### 4. **🛠️ [OpenHands](https://github.com/All-Hands-AI/OpenHands)**  
+*简介：企业级开发自动化平台，支持动态任务执行（代码修改/Web浏览）、角色自适应机制（智能调整Agent行为）。*  
+
+### 5. **🧑‍💻 [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)**  
+*简介：CLI工具实现自然语言→完整代码库生成，采用端到端代码生成架构，支持模块化扩展。*  
+
+### 6. **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**  
+*简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*  
+
+### 7. **🌐 [AutoGLM](https://github.com/xiao9905/AutoGLM)**  
+*简介：基于LLM的自主研究代理，支持结构化报告生成。*  
+
+### 8. **📊 [Llama Index](https://github.com/run-llama/llama_index)**  
+*简介：私有数据智能代理构建工具（如企业知识库问答）。*  
+
+### 9. **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**  
+*简介：企业级多智能体系统协作优化框架。*  
+
+### 10. **🧩 [Giselle](https://github.com/giselles-ai/giselle)**  
+*简介：节点式AI构建平台，支持多LLM/数据源连接，提供可视化编排界面。*  
+
+---
+
 **awesome-ai-agents**  <br>
 https://github.com/e2b-dev/awesome-ai-agents
 
@@ -140,60 +173,5 @@ https://github.com/FoundationAgents/awesome-foundation-agents
 A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and open-source models like DeepSeek, Qwen or Llama that you can run locally on your computer.  <br>
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
-
-### 🤖 **7. [AgentGPT](https://github.com/reworkd/AgentGPT)**  
-*自主智能体部署平台，支持浏览器端配置目标驱动的 AI 智能体。*  
-- **核心特点**：  
-  - **零代码智能体编排**：用户通过自然语言设定目标，系统自动分解任务并调用工具链执行。  
-  - **Web 优先架构**：基于 Next.js 实现可视化控制面板，实时展示任务状态与执行日志。  
-  - **开源社区驱动**：支持集成 OpenAI、Anthropic 等模型，工具插件生态持续扩展。
- 
-    
-### 5.2.2 Camel-Owl  
-**GitHub**:  
-- [camel-ai/owl](https://github.com/camel-ai/owl)  
-- [camel-ai/camel](https://github.com/camel-ai/camel)  
-
-**使用场景**：全自动多 Agent 协作（如自动化办公、复杂任务分解）。  
-**技术亮点**：复刻 Manus 并优化，支持多 Agent 协作与工具调用。  
-**源码解读**：  
-- **角色分工与协作**：模拟人类团队协作流程（如 `PlannerAgent` 与 `ExecutorAgent`）；  
-- **工具链集成**：分析外部 API 调用与错误处理逻辑（如 `ToolExecutor` 类）。  
-
-
----
-### 5.3.3 AutoGPT  
-**GitHub**: [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)  
-**使用场景**：端到端任务自动化（如代码生成、数据分析）[[3]]。  
-**技术亮点**：基于“思维链”（CoT）实现多步推理[[3]]。  
-**源码解读**：  
-- **CoT 实现逻辑**：研究子任务拆分与依赖关系管理（如 `TaskManager` 类）；  
-- **自我修正机制**：分析错误检测与重试策略（如异常捕获与回退逻辑）。  
-
 ---
 
-
-### 5.4.2 OpenHands  
-**GitHub**: [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)  
-**使用场景**：企业级软件开发自动化（如代码修改、Web 浏览）[[7]]。  
-**技术亮点**：动态任务执行与角色自适应机制[[4]]。  
-
-### 5.4.3 gpt-engineer  
-**GitHub**: [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)  
-**使用场景**：自然语言生成完整代码库的 CLI 工具。  
-**技术亮点**：端到端代码生成与模块化架构。  
-
-### 5.4.4 微软 RD-Agent  
-**GitHub**: [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)  
-**使用场景**：LLM 驱动的研究与开发（R&D）闭环流程。  
-**技术亮点**：整合实验设计与代码实现的自动化迭代[[6]]。  
-
-
-- **AutoGLM**: [xiao9905/AutoGLM](https://github.com/xiao9905/AutoGLM)  
-  基于 LLM 的自主研究代理，支持结构化研究报告生成。  
-- **Llama Index**: [run-llama/llama_index](https://github.com/run-llama/llama_index)  
-  使用场景：基于私有数据构建智能代理（如企业知识库问答）[[9]]。  
-- **NVIDIA AgentIQ**: [NVIDIA/AgentIQ](https://github.com/NVIDIA/AgentIQ)  
-  优化企业级多智能体系统协作效率。  
-- **Giselle**: [giselles-ai/giselle](https://github.com/giselles-ai/giselle)  
-  通过连接多个 LLM 和数据源，使用直观的节点式界面创建强大的 AI Agents。  
