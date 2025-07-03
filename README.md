@@ -93,21 +93,37 @@
   - **多工具链协同**：整合 Python 解释器、命令行工具和 API 服务，支持复杂指令解析（例：“分析医疗市场规模并生成 PDF 报告”）。  
   - **企业级部署**：提供云端 SaaS 服务（免费版至企业版）及自托管方案，适配商业分析、销售自动化等场景。  
 
-### 🤖 **3. [AgentGPT](https://github.com/reworkd/AgentGPT)**  
-*自主智能体部署平台，支持浏览器端配置目标驱动的 AI 智能体。*  
-- **核心特点**：  
-  - **零代码智能体编排**：用户通过自然语言设定目标，系统自动分解任务并调用工具链执行。  
-  - **Web 优先架构**：基于 Next.js 实现可视化控制面板，实时展示任务状态与执行日志。  
-  - **开源社区驱动**：支持集成 OpenAI、Anthropic 等模型，工具插件生态持续扩展。  
-
-### 🌐 **4. [Gemini CLI](https://github.com/google-gemini/gemini-cli)**  
+### 🌐 **3. [Gemini CLI](https://github.com/google-gemini/gemini-cli)**  
 *Google官方推出的Gemini命令行工具，支持多模态交互与本地文件处理。*  
 - **核心特点**：  
   - **多模态交互**：支持文本/图像混合输入，可解析图片内容并生成描述  
   - **本地文件处理**：支持上传PDF、图像等本地文件进行内容分析（`--file`参数）  
   - **流式响应**：实时显示API响应过程，支持对话式交互模式  
   - **多语言支持**：内置国际化配置，支持非英语内容生成  
-  - **开发者工具**：提供API调用统计、响应时间测量等调试功能  
+  - **开发者工具**：提供API调用统计、响应时间测量等调试功能
+ 
+### 💻 **4. [OpenAI Codex](https://github.com/openai/codex)**  
+* OpenAI 出品，专精于理解自然语言并生成对应代码。*  
+- **核心特点**：  
+  - **自然语言转代码**：可将人类语言描述直接转化为多种编程语言的函数或脚本。  
+  - **多语言支持**：精通 Python、JavaScript、Go 等主流语言，适配广泛开发场景。  
+  - **GitHub Copilot 核心**：作为底层引擎驱动智能编程助手，实现代码补全与生成功能。  
+
+### 🖥️ **5. [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)**  
+*字节跳动开源的桌面端UI自动化测试框架，支持跨平台界面元素识别与操作。*  
+- **核心特点**：  
+  - **视觉定位引擎**：基于CV算法实现精准控件识别，适应动态界面变化。  
+  - **无侵入式测试**：无需修改应用源码即可执行自动化操作与断言验证。  
+  - **多语言脚本支持**：兼容Python/Java等主流测试脚本，提供录制回放功能。  
+
+### 🧠 **6. [MetaGPT](https://github.com/geekan/MetaGPT)**  
+*多智能体协作框架，通过角色分工与SOP流程实现复杂任务分解执行。*  
+- **核心特点**：  
+  - **角色扮演机制**：智能体可担任产品经理/工程师等专业角色，模拟真实工作流程。  
+  - **标准化操作协议**：内置SOP引擎将复杂任务拆解为可执行原子操作链。  
+  - **全流程自动化**：支持从需求分析到代码生成、测试评审的完整开发生命周期。  
+  - **多模态输出**：同步生成需求文档/流程图/接口定义等标准化交付物。  
+
 ---
 
 
@@ -123,8 +139,17 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
 
+
 ## 其他开源
 
+### 🤖 **7. [AgentGPT](https://github.com/reworkd/AgentGPT)**  
+*自主智能体部署平台，支持浏览器端配置目标驱动的 AI 智能体。*  
+- **核心特点**：  
+  - **零代码智能体编排**：用户通过自然语言设定目标，系统自动分解任务并调用工具链执行。  
+  - **Web 优先架构**：基于 Next.js 实现可视化控制面板，实时展示任务状态与执行日志。  
+  - **开源社区驱动**：支持集成 OpenAI、Anthropic 等模型，工具插件生态持续扩展。
+ 
+    
 ### 5.2.2 Camel-Owl  
 **GitHub**:  
 - [camel-ai/owl](https://github.com/camel-ai/owl)  
@@ -147,7 +172,6 @@ https://github.com/Shubhamsaboo/awesome-llm-apps
 - **自我修正机制**：分析错误检测与重试策略（如异常捕获与回退逻辑）。  
 
 ---
-
 
 
 ## 5.4 代码编程方向
