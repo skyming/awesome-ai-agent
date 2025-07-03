@@ -42,24 +42,29 @@
 1. **🤖 [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)**  
    *简介：轻量级开发套件，支持快速构建生产级Agentic AI应用（Swarm项目升级版）。*
 
-2. **🌐 [Google Agent SDK](https://cloud.google.com/vertex-ai/agents)**  
-   *简介：谷歌多模态智能体开发套件，集成Vertex AI与Gemini模型。*
-
-3. **⚙️ [Microsoft AutoGen](https://github.com/microsoft/autogen)**  
-   *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
-
-4. **☁️ [AWS Agent SDK](https://github.com/strands-agents/sdk-python)**  
-   *简介：亚马逊云服务的智能体开发工具集（含Nova Act等组件）。*
-
-5. **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**  
+2. **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**  
    *简介：LangChain生态的有状态多代理系统，基于图结构构建循环工作流。*
 
-6. **🐉 [Qwen Agent](https://github.com/QwenLM/Qwen-Agent)**  
+3. **🌐 [Google Agent SDK](https://cloud.google.com/vertex-ai/agents)**  
+   *简介：谷歌多模态智能体开发套件，集成Vertex AI与Gemini模型。*
+
+4. **⚙️ [Microsoft AutoGen](https://github.com/microsoft/autogen)**  
+   *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
+
+5. **🤖 [Claude Code SDK (Python)](https://github.com/anthropic/claude-code-sdk-python)**  
+   *简介：Anthropic官方提供的Claude代码生成SDK（Python版），用于生成和编辑代码。*
+   
+6. **☁️ [AWS Agent SDK](https://github.com/strands-agents/sdk-python)**  
+   *简介：亚马逊云服务的智能体开发工具集（含Nova Act等组件）。*
+
+7. **🐉 [Qwen Agent](https://github.com/QwenLM/Qwen-Agent)**  
    *简介：基于通义千问的LLM应用框架，支持指令遵循、工具调用与记忆管理。*
 
-7. **👥 [CrewAI](https://github.com/joaomdmoura/crewai)**  
+8. **👥 [CrewAI](https://github.com/joaomdmoura/crewai)**  
    *简介：面向角色扮演型Agent的编排框架，支持任务委派与团队协作。*
 
+9. **📈 [TradingAgents](https://github.com/TauricResearch/TradingAgents)**  
+   *简介：开源金融交易 Agent 框架，支持量化策略开发与回测系统集成。*
 
 ## 开源项目
 
@@ -86,6 +91,14 @@
   - **Web 优先架构**：基于 Next.js 实现可视化控制面板，实时展示任务状态与执行日志。  
   - **开源社区驱动**：支持集成 OpenAI、Anthropic 等模型，工具插件生态持续扩展。  
 
+### 🌐 **4. [Gemini CLI](https://github.com/google-gemini/gemini-cli)**  
+*Google官方推出的Gemini命令行工具，支持多模态交互与本地文件处理。*  
+- **核心特点**：  
+  - **多模态交互**：支持文本/图像混合输入，可解析图片内容并生成描述  
+  - **本地文件处理**：支持上传PDF、图像等本地文件进行内容分析（`--file`参数）  
+  - **流式响应**：实时显示API响应过程，支持对话式交互模式  
+  - **多语言支持**：内置国际化配置，支持非英语内容生成  
+  - **开发者工具**：提供API调用统计、响应时间测量等调试功能  
 ---
 
 
