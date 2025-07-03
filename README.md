@@ -93,7 +93,7 @@
   - **多工具链协同**：整合 Python 解释器、命令行工具和 API 服务，支持复杂指令解析（例：“分析医疗市场规模并生成 PDF 报告”）。  
   - **企业级部署**：提供云端 SaaS 服务（免费版至企业版）及自托管方案，适配商业分析、销售自动化等场景。  
 
-### 🌐 **3. [Gemini CLI](https://github.com/google-gemini/gemini-cli)**  
+### 📊 **3. [Gemini CLI](https://github.com/google-gemini/gemini-cli)**  
 *Google官方推出的Gemini命令行工具，支持多模态交互与本地文件处理。*  
 - **核心特点**：  
   - **多模态交互**：支持文本/图像混合输入，可解析图片内容并生成描述  
@@ -102,7 +102,7 @@
   - **多语言支持**：内置国际化配置，支持非英语内容生成  
   - **开发者工具**：提供API调用统计、响应时间测量等调试功能
  
-### 💻 **4. [OpenAI Codex](https://github.com/openai/codex)**  
+### 🤖 **4. [OpenAI Codex](https://github.com/openai/codex)**  
 * OpenAI 出品，专精于理解自然语言并生成对应代码。*  
 - **核心特点**：  
   - **自然语言转代码**：可将人类语言描述直接转化为多种编程语言的函数或脚本。  
@@ -116,7 +116,7 @@
   - **无侵入式测试**：无需修改应用源码即可执行自动化操作与断言验证。  
   - **多语言脚本支持**：兼容Python/Java等主流测试脚本，提供录制回放功能。  
 
-### 🧠 **6. [MetaGPT](https://github.com/geekan/MetaGPT)**  
+### 👥 **6. [MetaGPT](https://github.com/geekan/MetaGPT)**  
 *多智能体协作框架，通过角色分工与SOP流程实现复杂任务分解执行。*  
 - **核心特点**：  
   - **角色扮演机制**：智能体可担任产品经理/工程师等专业角色，模拟真实工作流程。  
