@@ -23,6 +23,10 @@
 
 ## 入门实操
 
+
+- **🛠️ [Trae-Agent](https://github.com/bytedance/trae-agent)**  
+  *简介：字节跳动开源的智能开发工具核心组件，集成于AI原生IDE Trae（The Real AI Engineer），支持自然语言驱动的编程任务自动化，显著提升开发效率。提供多模型支持、工具链集成与操作日志追溯能力，助力开发者构建智能协作工作流。*  
+
 - **🤖 [OpenManus](https://github.com/mannaandpoem/OpenManus)**  
   *简介：MetaGPT团队开源多智能体协作框架，支持快速复刻Manus核心功能，提供模块化协作机制与完整工具链支持（含强化学习版本）。*  
 
