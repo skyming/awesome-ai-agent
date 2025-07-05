@@ -130,10 +130,11 @@
 
 ## Agent 论文
 
-**awesome-foundation-agents**   <br>
-a curated collection of papers exploring the path towards Foundation Agents, with a focus on formulating the core concepts and navigating the research landscape.  <br>
-https://github.com/FoundationAgents/awesome-foundation-agents
+### 1. **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
+*简介：系统性整理基础智能体（Foundation Agents）研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*  
 
+### 2. **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**  
+*简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*  
 
 ## 其他开源
 
