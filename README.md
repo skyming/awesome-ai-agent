@@ -23,7 +23,6 @@
 
 ## 入门实操
 
-
 - **🛠️ [Trae-Agent](https://github.com/bytedance/trae-agent)**  
   *简介：字节跳动开源的智能开发工具核心组件，集成于AI原生IDE Trae（The Real AI Engineer），支持自然语言驱动的编程任务自动化，显著提升开发效率。提供多模型支持、工具链集成与操作日志追溯能力，助力开发者构建智能协作工作流。*  
 
@@ -49,6 +48,15 @@
   红杉中国推出的**双轨测评体系**：  
   - *AGI Tracking*：测试技术上限  
   - *Profession-Aligned*：量化商业场景效用价值（如招聘/营销）。  
+
+## Agent 论文
+
+### 1. **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
+*简介：系统性整理基础智能体（Foundation Agents）研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*  
+
+### 2. **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**  
+*简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*  
+
 
 ## Agent SDK 
 
@@ -127,14 +135,6 @@
   - **标准化操作协议**：内置SOP引擎将复杂任务拆解为可执行原子操作链。  
   - **全流程自动化**：支持从需求分析到代码生成、测试评审的完整开发生命周期。  
   - **多模态输出**：同步生成需求文档/流程图/接口定义等标准化交付物。  
-
-## Agent 论文
-
-### 1. **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
-*简介：系统性整理基础智能体（Foundation Agents）研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*  
-
-### 2. **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**  
-*简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*  
 
 ## 其他开源
 
