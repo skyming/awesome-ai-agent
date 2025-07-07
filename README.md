@@ -88,6 +88,9 @@
 9. **📈 [TradingAgents](https://github.com/TauricResearch/TradingAgents)**  
    *简介：开源金融交易 Agent 框架，支持量化策略开发与回测系统集成。*
 
+10 **🚀 [阿里巴巴-Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)**  
+  *简介：阿里巴巴开源的 Spring AI 扩展库，集成通义千问等国产大模型，提供企业级 AI 应用开发框架与工具链。*
+
 ## 开源项目
 
 ### 🦌 **1. [DeerFlow](https://github.com/bytedance/deer-flow)**  
