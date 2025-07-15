@@ -125,14 +125,21 @@
   - **多语言支持**：精通 Python、JavaScript、Go 等主流语言，适配广泛开发场景。  
   - **GitHub Copilot 核心**：作为底层引擎驱动智能编程助手，实现代码补全与生成功能。  
 
-### 🖥️ **5. [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)**  
+### 🚀 **5. [Claude Code](https://github.com/anthropics/claude-code)**
+* Anthropic 推出的 Claude 模型代码接口，实现便捷的代码交互与推理。*
+- **核心特点**：
+  - **强大的代码能力**：基于 Claude 模型，擅长代码补全、调试、代码解释与生成等任务。
+  - **便捷的 API 封装**：通过 Python SDK 快速接入 Claude 的多轮对话与代码能力。
+  - **适配 Claude Sonnet 4**：支持 Claude 最新模型，特别适合开发智能编程助手或 AI agent。
+
+### 🖥️ **6. [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)**  
 *字节跳动开源的桌面端UI自动化测试框架，支持跨平台界面元素识别与操作。*  
 - **核心特点**：  
   - **视觉定位引擎**：基于CV算法实现精准控件识别，适应动态界面变化。  
   - **无侵入式测试**：无需修改应用源码即可执行自动化操作与断言验证。  
   - **多语言脚本支持**：兼容Python/Java等主流测试脚本，提供录制回放功能。  
 
-### 👥 **6. [MetaGPT](https://github.com/geekan/MetaGPT)**  
+### 👥 **7. [MetaGPT](https://github.com/geekan/MetaGPT)**  
 *多智能体协作框架，通过角色分工与SOP流程实现复杂任务分解执行。*  
 - **核心特点**：  
   - **角色扮演机制**：智能体可担任产品经理/工程师等专业角色，模拟真实工作流程。  
