@@ -30,7 +30,7 @@
 - **🤖 [OpenManus](https://github.com/mannaandpoem/OpenManus)**  
   *简介：MetaGPT团队开源多智能体协作框架，支持快速复刻Manus核心功能，提供模块化协作机制与完整工具链支持（含强化学习版本）。*  
 
-## Agent 论文
+## Agent 文章
 
 ### 1. **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
 *简介：系统性整理基础智能体（Foundation Agents）研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*  
@@ -38,6 +38,8 @@
 ### 2. **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**  
 *简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*  
 
+### 3. ** [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
+*Agents still face challenges working across many context windows. We looked to human engineers for inspiration in creating a more effective harness for long-running agents.*
 
 ## 评测基准
 
