@@ -93,6 +93,13 @@
 10 **🚀 [阿里巴巴-Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)**  
   *简介：阿里巴巴开源的 Spring AI 扩展库，集成通义千问等国产大模型，提供企业级 AI 应用开发框架与工具链。*
 
+## OpenClaw专题
+1. **📈 [openclaw](https://github.com/openclaw/openclaw)**  
+2. **📈 [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)**  
+3. **📈 [showcase](https://docs.openclaw.ai/start/showcase)**  
+4. **📈 [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)**  
+
+
 ## 开源项目
 
 ### 🦌 **1. [DeerFlow](https://github.com/bytedance/deer-flow)**  
