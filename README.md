@@ -60,6 +60,9 @@
   - *AGI Tracking*：测试技术上限  
   - *Profession-Aligned*：量化商业场景效用价值（如招聘/营销）。  
 
+5. **[ClawBench](https://github.com/reacher-z/ClawBench)**  
+   *简介：面向真实生产网页的 AI 浏览器 Agent 评测基准，153 个日常任务、144 个真实网站、15 个类别；通过提交拦截层（Chrome 扩展 + CDP）保证真实环境下的端到端评测不产生副作用。评测了 7 个前沿模型，最佳通过率 33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*  
+
 
 ## Agent SDK 
 
