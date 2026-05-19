@@ -184,6 +184,9 @@
 ### 10. **🧩 [Giselle](https://github.com/giselles-ai/giselle)**  
 *简介：节点式AI构建平台，支持多LLM/数据源连接，提供可视化编排界面。*  
 
+### 11. **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**
+*简介：本地优先的 AI 编码智能体会话观测工具，可读取 Claude Code、Codex CLI、Gemini CLI、Qwen Code、Aider、Cursor、OpenCode、OpenClaw 等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
+
 ---
 
 **awesome-ai-agents**  <br>
@@ -194,4 +197,3 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
 ---
-
