@@ -104,9 +104,8 @@
 
 
 ## RAG 实践
-1. **[RAG 全链路技术详解]（https://mp.weixin.qq.com/s/aA2PFaabKNlDq96jhAdDkQ）**
-2. **[AI 答疑助手优化实践：从 RAG 到 LightRAG 的全链路升级]（https://mp.weixin.qq.com/s/b7iygA6YIqFJ-b9Yr3EzHA）**
-
+  1. **[大淘宝技术-RAG 全链路技术详解](https://mp.weixin.qq.com/s/aA2PFaabKNlDq96jhAdDkQ)**
+  2. **[大淘宝技术-AI 答疑助手优化实践：从 RAG 到 LightRAG 的全链路升级](https://mp.weixin.qq.com/s/b7iygA6YIqFJ-b9Yr3EzHA)**
 
 ## 开源项目
 
