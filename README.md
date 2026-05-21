@@ -64,37 +64,79 @@
    *简介：面向真实生产网页的 AI 浏览器 Agent 评测基准，153 个日常任务、144 个真实网站、15 个类别；通过提交拦截层（Chrome 扩展 + CDP）保证真实环境下的端到端评测不产生副作用。评测了 7 个前沿模型，最佳通过率 33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*  
 
 
-## Agent SDK 
+## Agent 框架 
 
-1. **🤖 [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)**  
-   *简介：轻量级开发套件，支持快速构建生产级Agentic AI应用（Swarm项目升级版）。*
+### 一、通用开发框架
 
-2. **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**  
-   *简介：LangChain生态的有状态多代理系统，基于图结构构建循环工作流。*
+  1. **🔗 [LangChain](https://github.com/langchain-ai/langchain)**
+     *简介：最流行的LLM应用开发框架，提供链式调用、工具集成与Agent构建能力，生态丰富。*
 
-3. **🌐 [Google Agent SDK](https://cloud.google.com/vertex-ai/agents)**  
-   *简介：谷歌多模态智能体开发套件，集成Vertex AI与Gemini模型。*
+  2. **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**
+     *简介：LangChain生态的有状态多代理系统，基于图结构构建循环工作流, 应该是生产环境使用最多的框架了。*
 
-4. **⚙️ [Microsoft AutoGen](https://github.com/microsoft/autogen)**  
-   *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
+  3. **🤖 [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)**
+     *简介：轻量级开发套件，支持快速构建生产级Agentic AI应用（Swarm项目升级版）。*
 
-5. **🤖 [Claude Code SDK (Python)](https://github.com/anthropics/claude-code)**  
-   *简介：Anthropic官方提供的Claude代码生成SDK（Python版），用于生成和编辑代码。*
-   
-6. **☁️ [AWS Agent SDK](https://github.com/strands-agents/sdk-python)**  
-   *简介：亚马逊云服务的智能体开发工具集（含Nova Act等组件）。*
+  4. **🧠 [Semantic Kernel](https://github.com/microsoft/semantic-kernel)**
+     *简介：微软轻量级AI编排框架，支持技能规划、记忆管理，与Azure AI服务深度集成。*
 
-7. **🐉 [Qwen Agent](https://github.com/QwenLM/Qwen-Agent)**  
-   *简介：基于通义千问的LLM应用框架，支持指令遵循、工具调用与记忆管理。*
 
-8. **👥 [CrewAI](https://github.com/joaomdmoura/crewai)**  
-   *简介：面向角色扮演型Agent的编排框架，支持任务委派与团队协作。*
+  ### 二、多Agent协作框架
 
-9. **📈 [TradingAgents](https://github.com/TauricResearch/TradingAgents)**  
-   *简介：开源金融交易 Agent 框架，支持量化策略开发与回测系统集成。*
+  5. **⚙️ [Microsoft AutoGen](https://github.com/microsoft/autogen)**
+     *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
 
-10 **🚀 [阿里巴巴-Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)**  
-  *简介：阿里巴巴开源的 Spring AI 扩展库，集成通义千问等国产大模型，提供企业级 AI 应用开发框架与工具链。*
+  6. **👥 [CrewAI](https://github.com/joaomdmoura/crewai)**
+     *简介：面向角色扮演型Agent的编排框架，支持任务委派与团队协作。*
+
+  7. **🏢 [MetaGPT](https://github.com/geekan/MetaGPT)**
+     *简介：多Agent协作框架，模拟软件公司角色分工（产品经理、架构师、工程师等），支持完整软件开发流程自动化。*
+
+  8. **🔬 [AgentScope](https://github.com/modelscope/agentscope)**
+     *简介：阿里达摩院开源的多Agent框架，支持分布式部署、丰富工具生态与可视化工作流编排。*
+
+  9. **🤝 [AgentVerse](https://github.com/openbmb/agentverse)**
+     *简介：清华OpenBMB开源的多Agent框架，支持角色定制、协作模式与可视化环境模拟。*
+
+
+  ### 三、国产优化框架
+
+  10. **🐉 [Qwen Agent](https://github.com/QwenLM/Qwen-Agent)**
+     *简介：基于通义千问的LLM应用框架，支持指令遵循、工具调用与记忆管理。*
+
+  11. **🚀 [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)**
+     *简介：阿里巴巴开源的 Spring AI 扩展库，集成通义千问等国产大模型，提供企业级 AI 应用开发框架与工具链。*
+
+  12. **🌟 [Agents](https://github.com/ModelBest/Agents)**
+     *简介：智谱AI开源的Agent框架，支持多Agent协作、工具调用与GLM模型深度集成。*
+
+
+  ### 四、自主Agent框架
+
+  13. **🎯 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)**
+     *简介：2023年爆火的自主Agent项目，支持目标拆解、任务执行与自主迭代优化。*
+
+  14. **👶 [BabyAGI](https://github.com/yoheinakajima/babyagi)**
+     *简介：轻量级任务驱动Agent，基于向量存储实现任务管理与执行循环。*
+
+
+  ### 五、数据与RAG增强框架
+
+  15. **🔍 [LlamaIndex](https://github.com/run-llama/llama_index)**
+     *简介：数据框架+Agent构建工具，擅长结构化数据检索与多模态RAG Agent开发。*
+
+
+  ### 六、平台级工具
+
+  16. **🛠️ [Dify](https://github.com/langgenius/dify)**
+     *简介：开源LLM应用开发平台，提供可视化Agent编排、RAG工作流与一站式部署能力。*
+
+
+  ### 七、领域专用框架
+
+  17. **📈 [TradingAgents](https://github.com/TauricResearch/TradingAgents)**
+     *简介：开源金融交易Agent框架，支持量化策略开发与回测系统集成。*
+
 
 ## OpenClaw专题
 1. **📈 [openclaw](https://github.com/openclaw/openclaw)**  
@@ -108,6 +150,9 @@
   2. **[大淘宝技术-AI 答疑助手优化实践：从 RAG 到 LightRAG 的全链路升级](https://mp.weixin.qq.com/s/b7iygA6YIqFJ-b9Yr3EzHA)**
 
 ## 开源项目
+
+1. **🤖 [Claude Code](https://github.com/claude-code-best/claude-code)**  
+   *简介：Anthropic官方泄露版本的 Claude Code 源码。*
 
 ### 🦌 **1. [DeerFlow](https://github.com/bytedance/deer-flow)**  
 *字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。*  
