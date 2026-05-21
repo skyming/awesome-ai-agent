@@ -103,6 +103,11 @@
 4. **📈 [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)**  
 
 
+## RAG 实践
+1. **[RAG 全链路技术详解]（https://mp.weixin.qq.com/s/aA2PFaabKNlDq96jhAdDkQ）**
+2. **[AI 答疑助手优化实践：从 RAG 到 LightRAG 的全链路升级]（https://mp.weixin.qq.com/s/b7iygA6YIqFJ-b9Yr3EzHA）**
+
+
 ## 开源项目
 
 ### 🦌 **1. [DeerFlow](https://github.com/bytedance/deer-flow)**  
@@ -151,6 +156,7 @@
   - **标准化操作协议**：内置SOP引擎将复杂任务拆解为可执行原子操作链。  
   - **全流程自动化**：支持从需求分析到代码生成、测试评审的完整开发生命周期。  
   - **多模态输出**：同步生成需求文档/流程图/接口定义等标准化交付物。  
+
 
 ## 其他开源
 
