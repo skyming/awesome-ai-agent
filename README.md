@@ -43,24 +43,6 @@
   型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
 
 
-  ## 教程资源
-
-  - **📚 [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)**
-    *简介：微软官方21课时入门课程，覆盖提示工程到应用开发全流程。*
-
-  - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**
-    *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
-
-  - **🔍 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)**
-    *简介：全面的生成式AI资源中心，整合研究论文、面试题库、免费课程与开发笔记。*
-    
-  - **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**
-    *简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*
-
-  - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
-    *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
-
-
   ## Agent 框架
 
   ### 一、通用开发框架
@@ -74,8 +56,6 @@
   - **🤖 [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)**
     *简介：轻量级开发套件，支持快速构建生产级Agentic AI应用（Swarm项目升级版）。*
 
-  - **🧠 [Semantic Kernel](https://github.com/microsoft/semantic-kernel)**
-    *简介：微软轻量级AI编排框架，支持技能规划、记忆管理，与Azure AI服务深度集成。*
 
   ### 二、多Agent协作框架
 
@@ -88,11 +68,12 @@
   - **🏢 [MetaGPT](https://github.com/geekan/MetaGPT)**
     *简介：多Agent协作框架，模拟软件公司角色分工（产品经理、架构师、工程师等），支持完整软件开发流程自动化。*
 
+  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**
+    *简介：企业级多智能体系统协作优化框架。*
+
   - **🔬 [AgentScope](https://github.com/modelscope/agentscope)**
     *简介：阿里达摩院开源的多Agent框架，支持分布式部署、丰富工具生态与可视化工作流编排。*
 
-  - **🤝 [AgentVerse](https://github.com/openbmb/agentverse)**
-    *简介：清华OpenBMB开源的多Agent框架，支持角色定制、协作模式与可视化环境模拟。*
 
   ### 三、国产优化框架
 
@@ -102,8 +83,6 @@
   - **🚀 [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)**
     *简介：阿里巴巴开源的Spring AI扩展库，集成通义千问等国产大模型，提供企业级AI应用开发框架与工具链。*
 
-  - **🌟 [Agents](https://github.com/ModelBest/Agents)**
-    *简介：智谱AI开源的Agent框架，支持多Agent协作、工具调用与GLM模型深度集成。*
 
   ### 四、自主Agent框架
 
@@ -128,19 +107,6 @@
   - **📈 [TradingAgents](https://github.com/TauricResearch/TradingAgents)**
     *简介：开源金融交易Agent框架，支持量化策略开发与回测系统集成。*
 
-  ## OpenClaw专题
-
-  - **📈 [openclaw](https://github.com/openclaw/openclaw)**
-    *简介：OpenClaw开源项目。*
-
-  - **📈 [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)**
-    *简介：OpenClaw技能资源汇总。*
-
-  - **📈 [showcase](https://docs.openclaw.ai/start/showcase)**
-    *简介：OpenClaw展示案例。*
-
-  - **📈 [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)**
-    *简介：OpenClaw用例资源汇总。*
 
   ## RAG 实践
 
@@ -150,10 +116,22 @@
   - **📖 [大淘宝技术-AI 答疑助手优化实践：从 RAG 到 LightRAG 的全链路升级](https://mp.weixin.qq.com/s/b7iygA6YIqFJ-b9Yr3EzHA)**
     *简介：分享从RAG到LightRAG的优化升级实践经验。*
 
+  - **📖 [浏览器自动化：从GUI到OpenCLI](https://mp.weixin.qq.com/s/hp8yj2_qc2MmCi1jYpfx5g)**
+    *简介：探讨浏览器自动化从 GUI 到 OpenCLI 的技术演进与实践。*
+
   ## 开源项目
+
+  - **📈 [openclaw](https://github.com/openclaw/openclaw)**
+    *简介：OpenClaw开源项目。*
 
   - **🤖 [Claude Code](https://github.com/claude-code-best/claude-code)**
     *简介：Anthropic官方泄露版本的Claude Code源码。*
+
+  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**
+    *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
+
+  - **📊 [Gemini CLI](https://github.com/google-gemini/gemini-cli)**
+    *简介：Google官方推出的Gemini命令行工具，支持多模态交互与本地文件处理。核心特点：多模态交互、本地文件处理、流式响应、多语言支持、开发者工具。*
 
   - **🦌 [DeerFlow](https://github.com/bytedance/deer-flow)**
     *简介：字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。核心特点：多智能体分工（基于LangGraph实现模块化架构）、工具深度集成（支持Tavily/DuckDuckGo搜索、Python代
@@ -163,25 +141,11 @@
     *简介：Kortix AI推出的通用型智能体，专注于跨平台任务自动化执行。核心特点：浏览器自动化引擎（基于Playwright实现网页导航、数据抓取及表单操作）、安全沙箱环境（通过Docker容器隔离
   任务执行）、多工具链协同、企业级部署。*
 
-  - **📊 [Gemini CLI](https://github.com/google-gemini/gemini-cli)**
-    *简介：Google官方推出的Gemini命令行工具，支持多模态交互与本地文件处理。核心特点：多模态交互、本地文件处理、流式响应、多语言支持、开发者工具。*
-
-  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**
-    *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
 
   - **🖥️ [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)**
     *简介：字节跳动开源的桌面端UI自动化测试框架，支持跨平台界面元素识别与操作。核心特点：视觉定位引擎、无侵入式测试、多语言脚本支持。*
 
-  ## 其他开源
-
-  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**
-    *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
-
-  - **🖥️ [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)**
-    *简介：字节跳动开源的桌面端UI自动化测试框架，支持跨平台界面元素识别与操作。核心特点：视觉定位引擎、无侵入式测试、多语言脚本支持。*
-
-  ## 其他开源
-
+  
   - **🤖 [AgentGPT](https://github.com/reworkd/AgentGPT)**
     *简介：浏览器端部署目标驱动智能体，支持零代码编排（自然语言设定目标→自动分解任务）、Next.js可视化面板、开源扩展（OpenAI/Anthropic模型集成）。*
 
@@ -198,11 +162,6 @@
   - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**
     *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
 
-  - **🌐 [AutoGLM](https://github.com/xiao9905/AutoGLM)**
-    *简介：基于LLM的自主研究代理，支持结构化报告生成。*
-
-  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**
-    *简介：企业级多智能体系统协作优化框架。*
 
   - **🧩 [Giselle](https://github.com/giselles-ai/giselle)**
     *简介：节点式AI构建平台，支持多LLM/数据源连接，提供可视化编排界面。*
@@ -213,9 +172,35 @@
 
   ---
 
+
+  ## 资源中心
+
+  - **📚 [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)**
+    *简介：微软官方21课时入门课程，覆盖提示工程到应用开发全流程。*
+
+  - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**
+    *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
+
+  - **🔍 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)**
+    *简介：全面的生成式AI资源中心，整合研究论文、面试题库、免费课程与开发笔记。*
+    
+  - **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**
+    *简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*
+
+  - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
+    *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
+
+  - **📈 [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)**
+    *简介：OpenClaw技能资源汇总。*
+
+  - **📈 [showcase](https://docs.openclaw.ai/start/showcase)**
+    *简介：OpenClaw展示案例。*
+
+  - **📈 [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)**
+    *简介：OpenClaw用例资源汇总。*
+
   - **📚 [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)**
     *简介：AI Agent资源汇总。*
 
   - **📚 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**
     *简介：精选的LLM应用集合，基于RAG和AI agents构建，支持OpenAI、Anthropic、Google以及DeepSeek、Qwen、Llama等开源模型，可本地运行。*
-
