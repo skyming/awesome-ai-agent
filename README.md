@@ -20,17 +20,6 @@
     *简介：大淘宝技术团队撰写的实践指南，帮助开发者快速掌握大模型应用落地的核心方法论。*
 
 
-  ## 教程资源
-
-  - **🎓 [微软-AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)**
-    *简介：微软官方开源入门课程，包含12课时实践项目及行业应用案例解析。*
-
-  - **📚 [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)**
-    *简介：微软官方21课时入门课程，覆盖提示工程到应用开发全流程。*
-
-  - **🔍 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)**
-    *简介：全面的生成式AI资源中心，整合研究论文、面试题库、免费课程与开发笔记。*
-
   ## 入门实操
 
   - **🛠️ [Trae-Agent](https://github.com/bytedance/trae-agent)**
@@ -40,17 +29,6 @@
   - **🤖 [OpenManus](https://github.com/mannaandpoem/OpenManus)**
     *简介：MetaGPT团队开源多智能体协作框架，支持快速复刻Manus核心功能，提供模块化协作机制与完整工具链支持（含强化学习版本）。*
 
-  ## Agent 文章
-
-  - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**
-    *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
-
-  - **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**
-    *简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*
-
-  - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
-    *简介：Agents still face challenges working across many context windows. We looked to human engineers for inspiration in creating a more effective harness for long-running
-  agents.*
 
   ## 评测基准
 
@@ -63,6 +41,25 @@
   - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**
     *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。评测了7个前沿模
   型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
+
+
+  ## 教程资源
+
+  - **📚 [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)**
+    *简介：微软官方21课时入门课程，覆盖提示工程到应用开发全流程。*
+
+  - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**
+    *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
+
+  - **🔍 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)**
+    *简介：全面的生成式AI资源中心，整合研究论文、面试题库、免费课程与开发笔记。*
+    
+  - **🎓 [Awesome-Agent-Papers](https://github.com/luo-junyu/Awesome-Agent-Papers)**
+    *简介：智能体领域前沿论文聚合仓库，覆盖大语言模型智能体、多智能体协作、人-智能体交互三大方向，持续追踪学术界突破性成果。*
+
+  - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
+    *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
+
 
   ## Agent 框架
 
