@@ -7,32 +7,17 @@
   - **📊 [【译文】A Visual Guide to LLM Agents](https://mp.weixin.qq.com/s/y-JyvYaI3IQKE1ZM4RhiqA)**
     *简介：可视化解读LLM Agents技术架构，通过图形化演示降低理解门槛。*
     
-  - **🤖 [AI Agent：7大认知框架全解析与代码实现](https://zhuanlan.zhihu.com/p/703716036)**
-    *简介：系统拆解AI Agent核心框架设计，结合可复现代码演示工程实现路径。*
-
-  - **🔍 [技术人的大模型应用初学指南](https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ)**
-    *简介：大淘宝技术团队撰写的实践指南，帮助开发者快速掌握大模型应用落地的核心方法论。*
-
-  - **📝 [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)**
-    *思维链，Agent 推理能力核心。*
-    
-  - **🧠 [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)**
-    *扩展思维链，通过树结构探索多条推理路径，支持回溯和评估，解决复杂规划问题。*
-
-  - **🔄 [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)**
-    *引入反思机制，Agent 通过自我评估和记忆存储实现迭代改进，无需微调。*
-
-  - **🎯 [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)**
-    *提出 Reasoning + Acting 范式，是现代 Agent 的基础。*
-
-  - **🛠️ [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.02525)**
-    *提出自监督工具学习范式，LLM 自主决定何时、如何调用外部 API。*
-
   - **🏗️ [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)**
     *经典博客，系统拆解 Agent 架构。*
 
-  - **📚 [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)**
-    *综述论文，覆盖完整技术栈。*
+  - **🤖 [AI Agent：7大认知框架全解析与代码实现](https://zhuanlan.zhihu.com/p/703716036)**
+    *简介：系统拆解AI Agent核心框架设计，结合可复现代码演示工程实现路径。*
+
+  - **📝 [Agent 核心论文深度解析（译文集）](key-concepts/page_tran.md)**
+    *简介：深度解读 CoT (思维链)、ToT (思维树)、Reflexion (反思)、ReAct (推理+行动) 及 Toolformer (自监督工具学习) 等 Agent 核心论文，系统掌握智能体推理与规划的演进脉络。*
+
+  - **🔍 [技术人的大模型应用初学指南](https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ)**
+    *简介：大淘宝技术团队撰写的实践指南，帮助开发者快速掌握大模型应用落地的核心方法论。*
 
 
   ## 教程资源
