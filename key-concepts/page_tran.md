@@ -1,4 +1,3 @@
-# awesome-ai-agent
 
 ## 论文与博文精译
 

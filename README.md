@@ -45,67 +45,8 @@
 
   ## Agent 框架
 
-  ### 一、通用开发框架
-
-  - **🔗 [LangChain](https://github.com/langchain-ai/langchain)**
-    *简介：最流行的LLM应用开发框架，提供链式调用、工具集成与Agent构建能力，生态丰富。*
-
-  - **🧩 [LangGraph](https://langchain-ai.github.io/langgraph/)**
-    *简介：LangChain生态的有状态多代理系统，基于图结构构建循环工作流，应该是生产环境使用最多的框架了。*
-
-  - **🤖 [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)**
-    *简介：轻量级开发套件，支持快速构建生产级Agentic AI应用（Swarm项目升级版）。*
-
-
-  ### 二、多Agent协作框架
-
-  - **⚙️ [Microsoft AutoGen](https://github.com/microsoft/autogen)**
-    *简介：微软多代理对话框架，支持复杂工作流编排与自定义角色协作。*
-
-  - **👥 [CrewAI](https://github.com/joaomdmoura/crewai)**
-    *简介：面向角色扮演型Agent的编排框架，支持任务委派与团队协作。*
-
-  - **🏢 [MetaGPT](https://github.com/geekan/MetaGPT)**
-    *简介：多Agent协作框架，模拟软件公司角色分工（产品经理、架构师、工程师等），支持完整软件开发流程自动化。*
-
-  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**
-    *简介：企业级多智能体系统协作优化框架。*
-
-  - **🔬 [AgentScope](https://github.com/modelscope/agentscope)**
-    *简介：阿里达摩院开源的多Agent框架，支持分布式部署、丰富工具生态与可视化工作流编排。*
-
-
-  ### 三、国产优化框架
-
-  - **🐉 [Qwen Agent](https://github.com/QwenLM/Qwen-Agent)**
-    *简介：基于通义千问的LLM应用框架，支持指令遵循、工具调用与记忆管理。*
-
-  - **🚀 [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)**
-    *简介：阿里巴巴开源的Spring AI扩展库，集成通义千问等国产大模型，提供企业级AI应用开发框架与工具链。*
-
-
-  ### 四、自主Agent框架
-
-  - **🎯 [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)**
-    *简介：2023年爆火的自主Agent项目，支持目标拆解、任务执行与自主迭代优化。*
-
-  - **👶 [BabyAGI](https://github.com/yoheinakajima/babyagi)**
-    *简介：轻量级任务驱动Agent，基于向量存储实现任务管理与执行循环。*
-
-  ### 五、数据与RAG增强框架
-
-  - **🔍 [LlamaIndex](https://github.com/run-llama/llama_index)**
-    *简介：数据框架+Agent构建工具，擅长结构化数据检索与多模态RAG Agent开发。*
-
-  ### 六、平台级工具
-
-  - **🛠️ [Dify](https://github.com/langgenius/dify)**
-    *简介：开源LLM应用开发平台，提供可视化Agent编排、RAG工作流与一站式部署能力。*
-
-  ### 七、领域专用框架
-
-  - **📈 [TradingAgents](https://github.com/TauricResearch/TradingAgents)**
-    *简介：开源金融交易Agent框架，支持量化策略开发与回测系统集成。*
+  - **📖 [框架深度评测与对比分析](frameworks/frameworks-eval.md)**
+    *简介：全面评测主流 Agent 框架，覆盖六大类别：通用开发（LangChain/LangGraph/OpenAI Agents SDK）、多Agent协作（AutoGen/CrewAI/MetaGPT/AgentScope/Camel-Owl）、自主Agent（AutoGPT/BabyAGI/gpt-engineer）、数据与RAG（LlamaIndex/MemGPT）、平台级工具（Dify/Flowise/Spring AI Alibaba）、领域专用（TradingAgents/GPT-Researcher）。从架构设计、核心能力、适用场景等维度深度对比，提供选型决策矩阵，助你快速定位最佳技术方案。*
 
 
   ## RAG 实践
@@ -118,6 +59,16 @@
 
   - **📖 [浏览器自动化：从GUI到OpenCLI](https://mp.weixin.qq.com/s/hp8yj2_qc2MmCi1jYpfx5g)**
     *简介：探讨浏览器自动化从 GUI 到 OpenCLI 的技术演进与实践。*
+
+  ## 评估观测
+
+   - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**
+    *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
+  Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
+
+  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**
+    *简介：企业级智能体观测与优化工具包，提供运行时性能分析、执行流程追踪、超参数/提示词优化器，支持 MCP/A2A 协议。*
+
 
   ## 开源项目
 
@@ -149,26 +100,13 @@
   - **🤖 [AgentGPT](https://github.com/reworkd/AgentGPT)**
     *简介：浏览器端部署目标驱动智能体，支持零代码编排（自然语言设定目标→自动分解任务）、Next.js可视化面板、开源扩展（OpenAI/Anthropic模型集成）。*
 
-  - **🦉 [Camel-Owl](https://github.com/camel-ai/owl)**
-    *简介：全自动多Agent协作框架（关联[camel-ai/camel](https://github.com/camel-ai/camel)），实现复杂任务分解/多角色分工（如Planner-Executor协作）、优化Manus架构、深度工具链集成（
-  含API调用错误处理）。*
 
   - **🛠️ [OpenHands](https://github.com/All-Hands-AI/OpenHands)**
     *简介：企业级开发自动化平台，支持动态任务执行（代码修改/Web浏览）、角色自适应机制（智能调整Agent行为）。*
 
-  - **🧑‍💻 [gpt-engineer](https://github.com/AntonOsika/gpt-engineer)**
-    *简介：CLI工具实现自然语言→完整代码库生成，采用端到端代码生成架构，支持模块化扩展。*
 
   - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**
     *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
-
-
-  - **🧩 [Giselle](https://github.com/giselles-ai/giselle)**
-    *简介：节点式AI构建平台，支持多LLM/数据源连接，提供可视化编排界面。*
-
-  - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**
-    *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
-  Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
 
   ---
 
