@@ -48,16 +48,7 @@
   ## 评测基准
 
   - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**
-    *简介：深度解析主流Agent评估体系，揭示工业界与学术界对智能体能力的差异化验证逻辑。*
-
-  - **🌐 [GAIA Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)**
-    *简介：Meta与HuggingFace共建的多模态评测平台，聚焦复杂任务拆解与工具链协作能力验证，覆盖跨模态推理与工具调用场景。*
-
-  - **📚 [PaperBench](https://github.com/openai/preparedness/)** | **[技术解析](https://mp.weixin.qq.com/s/zIS2JQf3-o7GQ-EWriTjkQ)**
-    *简介：OpenAI开源的科学复现评测框架，2025年4月3日发布，通过8,316项子任务量化Agent复现论文的完整能力。*
-
-  - **🧠 [AgentBench](https://github.com/THUDM/AgentBench)**
-    *简介：清华大学主导的多环境实战基准，覆盖操作系统、数据库、知识图谱等8类真实场景，量化Agent动态决策能力。*
+    *简介：深度解析主流Agent评估体系，系统性梳理 GAIA、AgentBench、PaperBench、WAA等七大主流评测基准，覆盖通用能力、安全鲁棒性、中文场景及科研复现等多维度评估体系。*
 
   - **📊 [XBench](https://github.com/xbench-ai/xbench)**
     *简介：红杉中国推出的双轨测评体系：AGI Tracking测试技术上限，Profession-Aligned量化商业场景效用价值（如招聘/营销）。*
