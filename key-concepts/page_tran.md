@@ -1,8 +1,6 @@
 # awesome-ai-agent
 
-## 论文翻译
-
----
+## 论文与博文精译
 
 ### 📊 [思维链提示激发大型语言模型的推理能力 (Chain-of-Thought Prompting Elicits Reasoning in Large Language Models)](https://arxiv.org/pdf/2201.11903)
 

@@ -8,14 +8,14 @@
     *简介：可视化解读LLM Agents技术架构，通过图形化演示降低理解门槛。*
     
   - **🏗️ [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)**
-    *经典博客，系统拆解 Agent 架构。*
+    *简介：Lilian Weng (Lil'Log) 撰写的 Agent 领域里程碑式博文。系统性地讲述了 Agent = LLM + 规划 + 记忆 + 工具使用的架构公式，详细拆解了任务分解、自我反思、长短期记忆机制及外部工具集成等核心组件。*
 
   - **📝 [Agent 核心论文深度解析（译文集）](key-concepts/page_tran.md)**
     *简介：深度解读 CoT (思维链)、ToT (思维树)、Reflexion (反思)、ReAct (推理+行动) 及 Toolformer (自监督工具学习) 等 Agent 核心论文，系统掌握智能体推理与规划的演进脉络。*
 
   - **🤖 [AI Agent：7大认知框架全解析与代码实现](https://zhuanlan.zhihu.com/p/703716036)**
     *简介：系统拆解AI Agent核心框架设计，结合可复现代码演示工程实现路径。*
-    
+
   - **🔍 [技术人的大模型应用初学指南](https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ)**
     *简介：大淘宝技术团队撰写的实践指南，帮助开发者快速掌握大模型应用落地的核心方法论。*
 
