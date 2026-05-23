@@ -22,6 +22,7 @@
   - **📖 [Agent核心技术概念与范式发生了哪些演变以及背后的思考](https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ)**
     *简介：围绕Agent技术从能力拼装到工程化落地的演变路径，梳理核心概念、主流架构范式与关键取舍，结合实践反思其背后的方法论与设计思维。*
 
+
   ## 入门实操
 
   - **🛠️ [Trae-Agent](https://github.com/bytedance/trae-agent)**
@@ -53,10 +54,18 @@
   - **📖 [如何设计一个AI Agent系统](https://mp.weixin.qq.com/s/8ArJk0vpGP0o97kEtqscqA)**
     *简介：大淘宝 SRE 团队出品，从工程实践出发，系统讲解如何以LLM为认知核心，围绕规划、记忆、工具与执行框架构建可控可用的Agent系统，并结合研发流程、设计范式、知识管理与资损分析案例，给出工业落地方法论与实践体会。*
 
-  ## Hermes 实践
+  
+  ## Harness 实践
 
   - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**
     *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
+
+  - **📖 [用第一性原理拆解 Agentic Coding：从理论到实操](https://mp.weixin.qq.com/s/Zlwn42KyfjgwfX6lp-JthQ)**
+    *简介：从第一性原理出发，系统拆解 Agentic Coding 的底层机制与工程实践：涵盖 LLM 自回归与 Attention 约束、Agent Loop 与工具调用原理、上下文管理与短对话策略、项目规则与复利工程（Compounding Engineering）等关键方法，帮助开发者从“会用 AI”走向“驾驭 AI 协作”的实战能力升级。*
+
+  - **📖 [Claude Code Harness 工程：数仓侧落地方案｜得物技术](https://mp.weixin.qq.com/s/KmQJU7nXmYh5qgWPj4ajlw)**
+    *简介：围绕数仓场景中 AI Coding 的上下文失忆、规范不稳与 context 膨胀问题，提出以 CLAUDE.md 持久化、Auto Memory、hooks 强校验、subagents 隔离与 SKILL 改造为核心的五层 Harness 防御体系，并给出可直接落地的 8 步工作流与工程化实施路径。*
+
 
   ## RAG 实践
 
@@ -69,6 +78,7 @@
   - **📖 [浏览器自动化：从GUI到OpenCLI](https://mp.weixin.qq.com/s/hp8yj2_qc2MmCi1jYpfx5g)**
     *简介：探讨浏览器自动化从 GUI 到 OpenCLI 的技术演进与实践。*
 
+
   ## 评估观测
 
    - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**
@@ -80,6 +90,16 @@
     
   - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
     *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
+
+
+  ## 工具调用
+
+  - **📖 [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w)**
+    *简介：围绕“工具是 Agent 的用户界面”这一核心理念，系统讲解 MCP 工具在命名、描述、参数 schema、输出与错误处理上的设计方法，结合工具粒度控制、上下文与 token 成本、Skills 与 MCP 互补等实践，帮助提升 Agent 的工具选择准确率与调用稳定性。*
+
+  - **📖 [一文读懂 Agent Tools，拒绝复杂化、碎片化、黑盒化](https://mp.weixin.qq.com/s/rsu-k8NwzWceOfPxTRKkBA)**
+    *简介：从 Agent 工具全生命周期出发，系统梳理类型安全、LLM 友好接口、自我修复与人机确认等关键设计原则，并结合 AgentKit Gateway 在工具转化、调用治理、技能化管理与身份鉴权上的企业级实践，给出破解 Tools 碎片化、复杂化、黑盒化的落地路径。*
+
 
   ## 开源项目
 
