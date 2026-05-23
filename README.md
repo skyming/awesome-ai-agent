@@ -108,17 +108,16 @@
 
 
   ## 评估观测
+  - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
+    *简介：Anthropic 智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
 
-   - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**
+  - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**
     *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
   Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
 
   - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**
     *简介：企业级智能体观测与优化工具包，提供运行时性能分析、执行流程追踪、超参数/提示词优化器，支持 MCP/A2A 协议。*
     
-  - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**
-    *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
-
 
   ## 工具生态
 
