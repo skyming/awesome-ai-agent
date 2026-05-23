@@ -69,9 +69,6 @@
   - **📖 [逆向深扒Claude Code源码，我发现了什么！？](https://mp.weixin.qq.com/s/hskSjAkezaV2epVzUq6ziw)**
     *简介：基于 Claude Code v2.1.88 泄露源码的逆向工程分析，系统拆解其最小 Agent Loop 如何通过 12 层渐进式 Harness 升级为工业级编码代理，重点覆盖工具系统、权限与安全、上下文压缩、子代理协同、Skills 按需注入、会话持久化与编译时特性门控等核心设计。*
 
-
-    
-
   - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**
     *简介：基于 Claude Code 本地源码，沿“启动链路→Prompt 装配→主循环→工具契约→文件编辑约束→权限决策→上下文压缩与记忆续航”主线，系统拆解其 Agent Runtime 的分层实现与治理边界，并讨论高权限扩展入口（hooks/MCP/skills）带来的安全面问题。*
 
