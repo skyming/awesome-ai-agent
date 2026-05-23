@@ -19,6 +19,8 @@
   - **🔍 [技术人的大模型应用初学指南](https://mp.weixin.qq.com/s/NeR1yPdmK6Z1hZVLRSgxrQ)**
     *简介：大淘宝技术团队撰写的实践指南，帮助开发者快速掌握大模型应用落地的核心方法论。*
 
+  - **📖 [Agent核心技术概念与范式发生了哪些演变以及背后的思考](https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ)**
+    *简介：围绕Agent技术从能力拼装到工程化落地的演变路径，梳理核心概念、主流架构范式与关键取舍，结合实践反思其背后的方法论与设计思维。*
 
   ## 入门实操
 
@@ -51,6 +53,10 @@
   - **📖 [如何设计一个AI Agent系统](https://mp.weixin.qq.com/s/8ArJk0vpGP0o97kEtqscqA)**
     *简介：大淘宝 SRE 团队出品，从工程实践出发，系统讲解如何以LLM为认知核心，围绕规划、记忆、工具与执行框架构建可控可用的Agent系统，并结合研发流程、设计范式、知识管理与资损分析案例，给出工业落地方法论与实践体会。*
 
+  ## Hermes 实践
+
+  - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**
+    *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
 
   ## RAG 实践
 
