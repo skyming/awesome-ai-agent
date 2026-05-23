@@ -49,7 +49,7 @@
   ## Agent 框架
 
   - **📖 [框架深度评测与对比分析](frameworks/frameworks-eval.md)**
-    *简介：全面评测主流 Agent 框架，覆盖六大类别：通用开发（LangChain/LangGraph/OpenAI Agents SDK）、多Agent协作（AutoGen/CrewAI/MetaGPT/AgentScope/Camel-Owl）、自主Agent（AutoGPT/BabyAGI/gpt-engineer）、数据与RAG（LlamaIndex/MemGPT）、平台级工具（Dify/Flowise/Spring AI Alibaba）、领域专用（TradingAgents/GPT-Researcher）。从架构设计、核心能力、适用场景等维度深度对比，提供选型决策矩阵，助你快速定位最佳技术方案。*
+    *简介：全面评测主流 Agent 框架，覆盖六大类别：通用开发（LangChain/LangGraph/OpenAI Agents SDK）、多Agent协作（AutoGen/CrewAI/MetaGPT/AgentScope/Camel-Owl）、自主Agent（AutoGPT/BabyAGI/gpt-engineer）、数据与RAG（LlamaIndex/MemGPT）、平台级工具（Dify/Flowise/Spring AI Alibaba）、领域专用（TradingAgents/GPT-Researcher）。从架构设计、核心能力、适用场景等维度深度对比，提供选型决策矩阵，实际感受发展过快，26年开始趋向于学习 openclaw/claudecode/harmess ，通过AI撸代码实现了。*
 
   - **📖 [如何设计一个AI Agent系统](https://mp.weixin.qq.com/s/8ArJk0vpGP0o97kEtqscqA)**
     *简介：大淘宝 SRE 团队出品，从工程实践出发，系统讲解如何以LLM为认知核心，围绕规划、记忆、工具与执行框架构建可控可用的Agent系统，并结合研发流程、设计范式、知识管理与资损分析案例，给出工业落地方法论与实践体会。*
