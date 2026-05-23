@@ -60,11 +60,38 @@
   - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**
     *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
 
+  - **📖 [Agent Harness 解析：智能体架构深度拆解](https://mp.weixin.qq.com/s/H8_U4vENXJuiojXtXbCF5w)**
+    *简介：系统拆解 Agent Harness 的核心定义与工程边界，覆盖编排循环、工具调用、记忆体系、上下文管理、状态持久化、错误恢复与安全护栏等关键组件，并对 Anthropic、OpenAI、LangChain 等主流框架的落地模式进行对比，帮助从“模型能力”转向“基础设施能力”理解生产级智能体。*
+
   - **📖 [用第一性原理拆解 Agentic Coding：从理论到实操](https://mp.weixin.qq.com/s/Zlwn42KyfjgwfX6lp-JthQ)**
     *简介：从第一性原理出发，系统拆解 Agentic Coding 的底层机制与工程实践：涵盖 LLM 自回归与 Attention 约束、Agent Loop 与工具调用原理、上下文管理与短对话策略、项目规则与复利工程（Compounding Engineering）等关键方法，帮助开发者从“会用 AI”走向“驾驭 AI 协作”的实战能力升级。*
 
+  - **📖 [逆向深扒Claude Code源码，我发现了什么！？](https://mp.weixin.qq.com/s/hskSjAkezaV2epVzUq6ziw)**
+    *简介：基于 Claude Code v2.1.88 泄露源码的逆向工程分析，系统拆解其最小 Agent Loop 如何通过 12 层渐进式 Harness 升级为工业级编码代理，重点覆盖工具系统、权限与安全、上下文压缩、子代理协同、Skills 按需注入、会话持久化与编译时特性门控等核心设计。*
+
+
+    
+
+  - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**
+    *简介：基于 Claude Code 本地源码，沿“启动链路→Prompt 装配→主循环→工具契约→文件编辑约束→权限决策→上下文压缩与记忆续航”主线，系统拆解其 Agent Runtime 的分层实现与治理边界，并讨论高权限扩展入口（hooks/MCP/skills）带来的安全面问题。*
+
+  - **📖 [拆完Hermes源码，我发现Agent的"自我进化"根本不需要训练模型](https://mp.weixin.qq.com/s/qdycBcCUujnVBkO4vky0wA)**
+    *简介：基于 Hermes Agent 源码逆向分析，重点拆解其通过“四维记忆 + 技能自动生成 + 后台审查（KEPA）”实现的自进化机制，说明 Agent 能力提升可通过 Prompt Engineering 与文件持久化闭环达成，而不必依赖模型微调，并与 OpenClaw 的学习范式做了工程化对比。*
+
+  - **📖 [QQ音乐Harness Engineering实践](https://mp.weixin.qq.com/s/yw3DvqKBIV5fIZkSG12zdA)**
+    *简介：结合 QQ 音乐在 Monorepo Microservices 场景的落地案例，系统阐述如何以“代码产出 = AI 能力 × 上下文质量”为核心，通过五阶段四门禁、三层知识体系、三仓联动、Skill/Agent/Command 协同与 Self-Refinement 闭环，将 AI 协作从对话式编码升级为可控、可审计、可复用的工程流程。*
+
   - **📖 [Claude Code Harness 工程：数仓侧落地方案｜得物技术](https://mp.weixin.qq.com/s/KmQJU7nXmYh5qgWPj4ajlw)**
     *简介：围绕数仓场景中 AI Coding 的上下文失忆、规范不稳与 context 膨胀问题，提出以 CLAUDE.md 持久化、Auto Memory、hooks 强校验、subagents 隔离与 SKILL 改造为核心的五层 Harness 防御体系，并给出可直接落地的 8 步工作流与工程化实施路径。*
+
+
+  ## 感知记忆 
+
+  - **📖 [从架构到代码：深入理解 OpenClaw 的双源记忆系统](https://mp.weixin.qq.com/s/Ok3VwXft5fvvNWLBL6r2AA)**
+    *简介：围绕 OpenClaw 的“动态会话日志（JSONL）+ 静态长期记忆（Markdown）”双源记忆架构，深入拆解记忆生成、分块索引、向量与关键词混合检索（sqlite-vec + FTS5）以及 Agent 调用链路，并分析其在上下文容量、信息保真与 token 成本之间的工程权衡。*
+
+  - **📖 [深度拆解 Hermes Agent 记忆系统：它修正了 OpenClaw 的哪层误区？](https://mp.weixin.qq.com/s/0n5aw2I0yoyHS7W5fQ6ydA)**
+    *简介：从运行时分层视角解析 Hermes 的记忆设计：通过 MEMORY/USER 热记忆、session_search 历史检索、skills 程序性记忆与可选 Honcho 外部建模，将“常驻事实、历史档案与流程经验”分层治理，并结合压缩前 memory flush 与 prompt cache 稳定前缀策略，展示其对长期 Agent 连续性与成本控制的工程取舍。*
 
 
   ## RAG 实践
