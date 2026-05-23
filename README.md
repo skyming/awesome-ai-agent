@@ -23,29 +23,6 @@
     *简介：围绕Agent技术从能力拼装到工程化落地的演变路径，梳理核心概念、主流架构范式与关键取舍，结合实践反思其背后的方法论与设计思维。*
 
 
-  ## 入门实操
-
- - **🛠️ [Trae-Agent](https://github.com/bytedance/trae-agent)**  
-    *简介：字节跳动开源的智能开发工具核心组件，集成于AI原生IDE Trae（The Real AI
-  Engineer），支持自然语言驱动的编程任务自动化，显著提升开发效率。提供多模型支持、工具链集成与操作日志追溯能力，助力开发者构建智能协作工作流。*
-
- - **🤖 [OpenManus](https://github.com/mannaandpoem/OpenManus)**  
-    *简介：MetaGPT团队开源多智能体协作框架，支持快速复刻Manus核心功能，提供模块化协作机制与完整工具链支持（含强化学习版本）。*
-
-
-  ## 评测基准
-
- - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
-    *简介：深度解析主流Agent评估体系，系统性梳理 GAIA、AgentBench、PaperBench、WAA等七大主流评测基准，覆盖通用能力、安全鲁棒性、中文场景及科研复现等多维度评估体系。*
-
- - **📊 [XBench](https://github.com/xbench-ai/xbench)**  
-    *简介：红杉中国推出的双轨测评体系：AGI Tracking测试技术上限，Profession-Aligned量化商业场景效用价值（如招聘/营销）。*
-
- - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  
-    *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。评测了7个前沿模
-  型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
-
-
   ## Agent 框架
 
  - **📖 [框架深度评测与对比分析](frameworks/frameworks-eval.md)**  
@@ -128,7 +105,21 @@
     *简介：从 Agent 工具全生命周期出发，系统梳理类型安全、LLM 友好接口、自我修复与人机确认等关键设计原则，并结合 AgentKit Gateway 在工具转化、调用治理、技能化管理与身份鉴权上的企业级实践，给出破解 Tools 碎片化、复杂化、黑盒化的落地路径。*
 
 
+  ## 评测基准
+
+ - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
+    *简介：深度解析主流Agent评估体系，系统性梳理 GAIA、AgentBench、PaperBench、WAA等七大主流评测基准，覆盖通用能力、安全鲁棒性、中文场景及科研复现等多维度评估体系。*
+
+ - **📊 [XBench](https://github.com/xbench-ai/xbench)**  
+    *简介：红杉中国推出的双轨测评体系：AGI Tracking测试技术上限，Profession-Aligned量化商业场景效用价值（如招聘/营销）。*
+
+ - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  
+    *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。评测了7个前沿模
+  型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
+
+
   ## 安全实践
+
 
 
   ## 开源项目
@@ -169,7 +160,15 @@
  - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**  
     *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
 
-  ---
+
+  ## 实操 DEMO
+
+ - **🛠️ [Trae-Agent](https://github.com/bytedance/trae-agent)**  
+    *简介：字节跳动开源的智能开发工具核心组件，集成于AI原生IDE Trae（The Real AI
+  Engineer），支持自然语言驱动的编程任务自动化，显著提升开发效率。提供多模型支持、工具链集成与操作日志追溯能力，助力开发者构建智能协作工作流。*
+
+ - **🤖 [OpenManus](https://github.com/mannaandpoem/OpenManus)**  
+    *简介：MetaGPT团队开源多智能体协作框架，支持快速复刻Manus核心功能，提供模块化协作机制与完整工具链支持（含强化学习版本）。*
 
 
   ## 资源中心
