@@ -57,9 +57,6 @@
   
   ## Harness 实践
 
-  - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**
-    *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
-
   - **📖 [Agent Harness 解析：智能体架构深度拆解](https://mp.weixin.qq.com/s/H8_U4vENXJuiojXtXbCF5w)**
     *简介：系统拆解 Agent Harness 的核心定义与工程边界，覆盖编排循环、工具调用、记忆体系、上下文管理、状态持久化、错误恢复与安全护栏等关键组件，并对 Anthropic、OpenAI、LangChain 等主流框架的落地模式进行对比，帮助从“模型能力”转向“基础设施能力”理解生产级智能体。*
 
@@ -71,6 +68,13 @@
 
   - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**
     *简介：基于 Claude Code 本地源码，沿“启动链路→Prompt 装配→主循环→工具契约→文件编辑约束→权限决策→上下文压缩与记忆续航”主线，系统拆解其 Agent Runtime 的分层实现与治理边界，并讨论高权限扩展入口（hooks/MCP/skills）带来的安全面问题。*
+
+  - **📄 [Claude Code 源码架构深度解析 V2.1（PDF）](https://github.com/tvytlx/ai-agent-deep-dive/blob/main/ai-agent-deep-dive-v2.1.pdf)**
+    *简介：基于对 4756 个源码文件的系统梳理，全文按“CLI 到 Agent OS 视角、主循环与 Prompt 编排、42 工具执行管道、多 Agent 分工调度、Skill/Plugin/MCP 生态、上下文预算与记忆系统、产品化落地与设计原则”展开，适合从工程实现层面建立对 Claude Code Agent Runtime 的整体认知。*
+
+
+  - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**
+    *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
 
   - **📖 [拆完Hermes源码，我发现Agent的"自我进化"根本不需要训练模型](https://mp.weixin.qq.com/s/qdycBcCUujnVBkO4vky0wA)**
     *简介：基于 Hermes Agent 源码逆向分析，重点拆解其通过“四维记忆 + 技能自动生成 + 后台审查（KEPA）”实现的自进化机制，说明 Agent 能力提升可通过 Prompt Engineering 与文件持久化闭环达成，而不必依赖模型微调，并与 OpenClaw 的学习范式做了工程化对比。*
@@ -116,13 +120,16 @@
     *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
 
 
-  ## 工具调用
+  ## 工具生态
 
   - **📖 [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w)**
     *简介：围绕“工具是 Agent 的用户界面”这一核心理念，系统讲解 MCP 工具在命名、描述、参数 schema、输出与错误处理上的设计方法，结合工具粒度控制、上下文与 token 成本、Skills 与 MCP 互补等实践，帮助提升 Agent 的工具选择准确率与调用稳定性。*
 
   - **📖 [一文读懂 Agent Tools，拒绝复杂化、碎片化、黑盒化](https://mp.weixin.qq.com/s/rsu-k8NwzWceOfPxTRKkBA)**
     *简介：从 Agent 工具全生命周期出发，系统梳理类型安全、LLM 友好接口、自我修复与人机确认等关键设计原则，并结合 AgentKit Gateway 在工具转化、调用治理、技能化管理与身份鉴权上的企业级实践，给出破解 Tools 碎片化、复杂化、黑盒化的落地路径。*
+
+
+  ## 安全实践
 
 
   ## 开源项目
