@@ -34,6 +34,19 @@
   
   ## Harness 实践
 
+ - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**  
+   *简介：Harness 设计是 Agentic Coding 前沿性能的关键。本文介绍 Anthropic 如何在前端设计与长时自主软件工程任务中进一步释放 Claude 的能力。*
+
+- **📖 [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)**  
+   *简介：Harness 设计是 Agentic Coding 前沿性能的关键。本文分享 Anthropic 如何在前端设计与长时自主软件工程任务中进一步推动 Claude 的能力边界。*
+
+- **📖 [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)**  
+   *简介：Context 是 AI Agent 的关键且有限资源。本文系统讨论如何高效策划、组织与管理上下文，以提升智能体在复杂任务中的稳定性与产出质量。*
+
+- **📖 [OpenAI — Harness Engineering: Harnessing Codex in an Agent-First World](https://openai.com/zh-Hans-CN/index/harness-engineering/)**  
+   *简介：OpenAI 分享在 Agent-First 时代如何通过 Harness Engineering 驱动 Codex 的稳定产出，重点覆盖上下文组织、工具调用编排、执行反馈闭环与工程可控性。*
+
+
  - **📖 [Agent Harness 解析：智能体架构深度拆解](https://mp.weixin.qq.com/s/H8_U4vENXJuiojXtXbCF5w)**  
     *简介：系统拆解 Agent Harness 的核心定义与工程边界，覆盖编排循环、工具调用、记忆体系、上下文管理、状态持久化、错误恢复与安全护栏等关键组件，并对 Anthropic、OpenAI、LangChain 等主流框架的落地模式进行对比，帮助从“模型能力”转向“基础设施能力”理解生产级智能体。*
 
@@ -93,8 +106,6 @@
  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**  
     *简介：企业级智能体观测与优化工具包，提供运行时性能分析、执行流程追踪、超参数/提示词优化器，支持 MCP/A2A 协议。*
     
- - **📖 [Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)**  
-    *简介：智能体在跨多个上下文窗口协作时仍面临挑战。我们从人类工程师的工作方式中汲取灵感，旨在为长期运行的智能体构建更高效的运行与评估框架。*
 
   ## 工具生态
 
@@ -103,6 +114,12 @@
 
  - **📖 [一文读懂 Agent Tools，拒绝复杂化、碎片化、黑盒化](https://mp.weixin.qq.com/s/rsu-k8NwzWceOfPxTRKkBA)**  
     *简介：从 Agent 工具全生命周期出发，系统梳理类型安全、LLM 友好接口、自我修复与人机确认等关键设计原则，并结合 AgentKit Gateway 在工具转化、调用治理、技能化管理与身份鉴权上的企业级实践，给出破解 Tools 碎片化、复杂化、黑盒化的落地路径。*
+
+- **📖 [Code execution with MCP: Building more efficient agents](https://www.anthropic.com/engineering/code-execution-with-mcp)**  
+   *简介：传统直接工具调用会为每个定义与中间结果持续消耗上下文。本文说明为何让 Agent 通过编写代码来调用工具更易扩展，并详细介绍在 MCP 中的实现方式。*
+
+- **📖 [Writing effective tools for agents — with agents](https://www.anthropic.com/engineering/writing-tools-for-agents)**  
+   *简介：Agent 的效果高度依赖可用工具质量。本文分享如何编写高质量工具与评测流程，并说明如何借助 Claude 反向优化其自身工具以进一步提升性能。*
 
 
   ## 评测基准
