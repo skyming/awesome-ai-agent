@@ -59,10 +59,6 @@
  - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**  
     *简介：基于 Claude Code 本地源码，沿“启动链路→Prompt 装配→主循环→工具契约→文件编辑约束→权限决策→上下文压缩与记忆续航”主线，系统拆解其 Agent Runtime 的分层实现与治理边界，并讨论高权限扩展入口（hooks/MCP/skills）带来的安全面问题。*
 
- - **📄 [Claude Code 源码架构深度解析 V2.1（PDF）](https://github.com/tvytlx/ai-agent-deep-dive/blob/main/ai-agent-deep-dive-v2.1.pdf)**  
-    *简介：基于对 4756 个源码文件的系统梳理，全文按“CLI 到 Agent OS 视角、主循环与 Prompt 编排、42 工具执行管道、多 Agent 分工调度、Skill/Plugin/MCP 生态、上下文预算与记忆系统、产品化落地与设计原则”展开，适合从工程实现层面建立对 Claude Code Agent Runtime 的整体认知。*
-
-
  - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**  
     *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
 
