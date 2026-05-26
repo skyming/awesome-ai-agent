@@ -130,9 +130,30 @@
     *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。评测了7个前沿模
   型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
 
+  ## 自我进化
 
+  - **📄 [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)**
+      *简介：Aman Madaan et al. (CMU, Google, Allen AI)，单一 LLM 同时作为生成器、反馈提供者和优化者，通过迭代式自我反馈改进输出，无需额外训练数据或强化学习。在 7 个任务上平均提升 20%。*
+
+  - **📄 [OPRO: Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409)**
+      *简介：Chengrun Yang et al. (Google DeepMind) 提出的方法，将 LLM 作为通用优化器，用自然语言描述优化任务，以历史解和评分为上下文迭代生成新候选解。GSM8K 提升 8%，Big-Bench Hard 提升 50%。*
+
+  - **📄 [TextGrad: Automatic Differentiation via Text](https://arxiv.org/abs/2406.07496)**
+      *简介：Mert Yuksekgonul et al. (Stanford) 提出的框架，借鉴神经网络反向传播思想，通过 LLM 提供的文本反馈"反向传播"优化复合 AI 系统各组件。采用 PyTorch 风格 API，GPT-4o 准确率从 51% 提升至
+  55%。[[GitHub](https://github.com/zou-group/TextGrad)]*
+
+  - **📄 [DSPy: Compiling Declarative Language Model Calls](https://arxiv.org/abs/2310.03714)**
+      *简介：Omar Khattab et al. (Stanford) 提出的声明式 LM 编程框架，将 LM 管道抽象为计算图，编译器自动优化提示词、微调策略与推理流程。GPT-3.5 提升 >25%，llama2-13b-chat 提升
+  >65%。[[文档](https://dspy.ai/)]*
+
+  - **📄 [ADAS: Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435)**
+      *简介： Shengran Hu, Cong Lu, Jeff Clune 提出"元智能体搜索"（Meta Agent Search）框架，让智能体通过编程自动发现新智能体架构，构建不断增长的发现档案。发明的智能体超越手工设计 SOTA，且跨领域迁移鲁棒。*
+
+  - **📄 [STOP: Self-Teaching Optimization Program]()**
+      *简介：递归自改进框架，LLM 通过生成自教学样本、反思自身解法、蒸馏推理能力来实现无外部数据的持续优化。核心是代码层面的递归改进循环。*
+
+  
   ## 安全实践
-
 
 
   ## 开源项目
