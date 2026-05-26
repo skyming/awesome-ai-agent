@@ -28,6 +28,12 @@
  - **📖 [框架深度评测与对比分析](frameworks/frameworks-eval.md)**  
     *简介：全面评测主流 Agent 框架，覆盖六大类别：通用开发（LangChain/LangGraph/OpenAI Agents SDK）、多Agent协作（AutoGen/CrewAI/MetaGPT/AgentScope/Camel-Owl）、自主Agent（AutoGPT/BabyAGI/gpt-engineer）、数据与RAG（LlamaIndex/MemGPT）、平台级工具（Dify/Flowise/Spring AI Alibaba）、领域专用（TradingAgents/GPT-Researcher）。从架构设计、核心能力、适用场景等维度深度对比，提供选型决策矩阵，助你快速定位最佳技术方案。*
 
+ - **📖 [LangGraph 官方文档](https://langchain-ai.github.io/langgraph/)**
+     *简介：LangChain 团队推出的状态图式 Agent 编排框架，支持循环、分支、持久化与人工干预，提供细粒度控制流与记忆管理，适合构建复杂多步骤 Agent 工作流。*
+
+ - **📄 [AutoGen: Enabling Next-Gen LLM Application via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)**
+     *简介：微软研究院提出的多 Agent 对话框架，支持 Agent 间自主对话协作、人机协同、代码执行与工具调用，可构建研究助手、编码团队等复杂应用场景。*
+    
  - **📖 [如何设计一个AI Agent系统](https://mp.weixin.qq.com/s/8ArJk0vpGP0o97kEtqscqA)**  
     *简介：大淘宝 SRE 团队出品，从工程实践出发，系统讲解如何以LLM为认知核心，围绕规划、记忆、工具与执行框架构建可控可用的Agent系统，并结合研发流程、设计范式、知识管理与资损分析案例，给出工业落地方法论与实践体会。*
 
@@ -56,9 +62,6 @@
  - **📖 [逆向深扒Claude Code源码，我发现了什么！？](https://mp.weixin.qq.com/s/hskSjAkezaV2epVzUq6ziw)**  
     *简介：基于 Claude Code v2.1.88 泄露源码的逆向工程分析，系统拆解其最小 Agent Loop 如何通过 12 层渐进式 Harness 升级为工业级编码代理，重点覆盖工具系统、权限与安全、上下文压缩、子代理协同、Skills 按需注入、会话持久化与编译时特性门控等核心设计。*
 
- - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**  
-    *简介：基于 Claude Code 本地源码，沿“启动链路→Prompt 装配→主循环→工具契约→文件编辑约束→权限决策→上下文压缩与记忆续航”主线，系统拆解其 Agent Runtime 的分层实现与治理边界，并讨论高权限扩展入口（hooks/MCP/skills）带来的安全面问题。*
-
  - **📖 [深度解析 Hermes Agent 如何实现“自进化”及其 Prompt / Context / Harness 的设计实践](https://mp.weixin.qq.com/s/2xFei8dMx99lc-iyrZZrww)**  
     *简介：聚焦 Hermes 从“自主执行”迈向“自进化”的关键机制，系统拆解动态 Skill 沉淀与 RL 训练闭环两条演进路径，并从 Prompt、Context、Harness 三个工程维度分析其在异构模型兼容、长上下文压缩、记忆管理、错误自愈与安全约束上的设计取舍与落地实践。*
 
@@ -80,6 +83,11 @@
  - **📖 [深度拆解 Hermes Agent 记忆系统：它修正了 OpenClaw 的哪层误区？](https://mp.weixin.qq.com/s/0n5aw2I0yoyHS7W5fQ6ydA)**  
     *简介：从运行时分层视角解析 Hermes 的记忆设计：通过 MEMORY/USER 热记忆、session_search 历史检索、skills 程序性记忆与可选 Honcho 外部建模，将“常驻事实、历史档案与流程经验”分层治理，并结合压缩前 memory flush 与 prompt cache 稳定前缀策略，展示其对长期 Agent 连续性与成本控制的工程取舍。*
 
+  - **📄 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)**
+     *简介：借鉴操作系统内存分页机制，将有限上下文窗口视为"主存"，外部存储视为"磁盘"，通过自主管理的内存分页与检索策略突破上下文瓶颈，支持长期对话与多会话持久化。*
+
+  - **📄 [Let All Context Be Memorized: A Memory Bank Design for LLMs](https://arxiv.org/abs/2402.13315)**
+     *简介：提出记忆银行架构，将历史信息按重要性分层存储，通过计算记忆的"存取频率"与"时间衰减"实现动态召回，有效缓解长对话中的信息遗忘问题。*
 
   ## RAG 实践
 
@@ -92,6 +100,11 @@
  - **📖 [浏览器自动化：从GUI到OpenCLI](https://mp.weixin.qq.com/s/hp8yj2_qc2MmCi1jYpfx5g)**  
     *简介：探讨浏览器自动化从 GUI 到 OpenCLI 的技术演进与实践。*
 
+  - **📄 [LightRAG: Simple and Fast Retrieval-Augmented Generation](https://arxiv.org/abs/2410.05779)**
+     *简介：轻量级 RAG 框架，采用双层检索架构（细粒度关键词 + 精粒度语义），显著降低索引与查询延迟，相比 GraphRAG 在效率与成本上更友好，适合快速落地场景。*
+
+  - **📄 [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)**
+     *简介：微软提出的图结构 RAG 方法，将文档实体抽取为知识图谱，通过社区检测与分层摘要实现"全局问题"的答案合成，在需要跨文档推理的场景中表现优异。*
 
   ## 评估观测
 
@@ -154,8 +167,17 @@
 
   
   ## 安全实践
+  
+  - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**  
+    *简介：基于 Claude Code 本地源码，沿“启动链路→Prompt 装配→主循环→工具契约→文件编辑约束→权限决策→上下文压缩与记忆续航”主线，系统拆解其 Agent Runtime 的分层实现与治理边界，并讨论高权限扩展入口（hooks/MCP/skills）带来的安全面问题。*
 
+  - **🛡️ [AgentDojo: A Benchmark for Evaluating the Safety of LLM Agents](https://arxiv.org/abs/2406.05156)**
+     *简介：Agent 安全评测基准，覆盖提示注入、工具滥用、权限绕过、数据泄露等 50+ 攻击场景，提供标准化攻击库与防御评测流程，量化 Agent 安全边界。*
 
+  - **🛡️ [ToolEmu: A Framework for Evaluating the Safety of Tool-Using LLMs](https://arxiv.org/abs/2402.00908)**
+     *简介：工具使用安全风险分析框架，通过模拟工具执行环境检测 Agent 在调用工具时的潜在危害行为（如文件删除、API 滥用），支持风险等级分类与安全策略制定。*
+
+    
   ## 开源项目
 
  - **📈 [openclaw](https://github.com/openclaw/openclaw)**  
