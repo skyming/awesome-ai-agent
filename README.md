@@ -108,6 +108,13 @@
 
   ## 评估观测
 
+  - **📊 [Bringing Observability to Claude Code: OpenTelemetry in Action](https://signoz.io/blog/claude-code-monitoring-with-opentelemetry/)**
+    *简介：SigNoz 官方出品的深度实践指南，从零搭建 OpenTelemetry 监控体系。深入剖析 Token 用量分析、成本核算、响应延迟控制等生产级场景，适合需要完整可观测性方案的团队落地实施。*
+
+  - **🔧 [@devtheops/opencode-plugin-otel](https://github.com/devtheops/opencode-plugin-otel) · [npm](https://www.npmjs.com/package/@devtheops/opencode-plugin-otel)**
+    *简介：功能完善的开源 OTel 插件，完整呈现 Claude Code 到 OpenTelemetry 的数据链路。通过研读源码可深入理解如何为 AI
+  应用构建生产级可观测性数据模型，是学习和定制监控方案的绝佳参考实现。*
+
   - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**  
     *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
   Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
@@ -143,6 +150,7 @@
     *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。评测了7个前沿模
   型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
 
+  
   ## 自我进化
 
   - **📄 [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)**
