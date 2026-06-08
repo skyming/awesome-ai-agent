@@ -74,6 +74,9 @@
  - **📖 [Claude Code Harness 工程：数仓侧落地方案｜得物技术](https://mp.weixin.qq.com/s/KmQJU7nXmYh5qgWPj4ajlw)**  
     *简介：围绕数仓场景中 AI Coding 的上下文失忆、规范不稳与 context 膨胀问题，提出以 CLAUDE.md 持久化、Auto Memory、hooks 强校验、subagents 隔离与 SKILL 改造为核心的五层 Harness 防御体系，并给出可直接落地的 8 步工作流与工程化实施路径。*
 
+ - **📖 [横向拆解Claude Code、Codex等六大Agent上下文压缩策略后，我们做了第 7 个](https://mp.weixin.qq.com/s/BQwyvE2qIfguwKk63F3LZw)**  
+    *简介：横向对比 Claude Code、Codex、OpenCode、Cline、Cursor、Amp 与 MemGPT/Letta 的上下文压缩策略，提炼分层渐进、成本递增、增量摘要、用户消息保护与单调边界等共识，并面向云端多用户 Agent 落地四级水位线（Snip / Prune / Summarize）方案，补充存储分离、跨轮缓存与多用户隔离等工程实践。*
+
 
   ## 感知记忆 
 
