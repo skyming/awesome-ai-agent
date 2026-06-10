@@ -109,7 +109,7 @@
   - **📄 [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/abs/2404.16130)**
      *简介：微软提出的图结构 RAG 方法，将文档实体抽取为知识图谱，通过社区检测与分层摘要实现"全局问题"的答案合成，在需要跨文档推理的场景中表现优异。*
 
-  ## 评估观测
+## 评估观测
 
   - **📊 [Bringing Observability to Claude Code: OpenTelemetry in Action](https://signoz.io/blog/claude-code-monitoring-with-opentelemetry/)**
     *简介：SigNoz 官方出品的深度实践指南，从零搭建 OpenTelemetry 监控体系。深入剖析 Token 用量分析、成本核算、响应延迟控制等生产级场景，适合需要完整可观测性方案的团队落地实施。*
@@ -117,6 +117,9 @@
   - **🔧 [@devtheops/opencode-plugin-otel](https://github.com/devtheops/opencode-plugin-otel) · [npm](https://www.npmjs.com/package/@devtheops/opencode-plugin-otel)**
     *简介：功能完善的开源 OTel 插件，完整呈现 Claude Code 到 OpenTelemetry 的数据链路。通过研读源码可深入理解如何为 AI
   应用构建生产级可观测性数据模型，是学习和定制监控方案的绝佳参考实现。*
+
+ - **📖 [Agent Tracing 技术方案对比：LangSmith vs Langfuse vs Phoenix](https://mp.weixin.qq.com/s/iVsw0u4sRa7IOA2iGtsYIw)**  
+    *简介：横向对比 LangSmith、Langfuse、Phoenix 三款 Agent Tracing 方案，覆盖产品定位、追踪/评测/数据集/监控、框架集成、部署方式与定价，并指出 LangSmith 不支持私有化部署，补充 Langfuse 与 Phoenix 作为可自部署替代选型。*
 
   - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**  
     *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
