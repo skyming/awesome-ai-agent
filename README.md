@@ -200,6 +200,9 @@
  - **🤖 [Claude Code](https://github.com/claude-code-best/claude-code)**  
     *简介：Anthropic官方泄露版本的Claude Code源码。*
 
+ - **🛠️ [NotFair](https://github.com/nowork-studio/NotFair)**  
+    *简介：面向营销场景的开源 Claude Code Skills 套件（约2.9k stars，MIT开源）。覆盖 SEO 站点分析、关键词研究、内容写作、Google Ads 审计与出价管理、Meta Ads（Facebook + Instagram）广告效果分析，通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 Google Analytics（GA4）MCP 接入实时数据，是目前开源生态中覆盖付费广告+自然搜索最完整的 Agent Skills 实现。*
+
  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**  
     *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
 
