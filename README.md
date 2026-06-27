@@ -272,3 +272,6 @@
 
  - **📚 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**  
     *简介：精选的LLM应用集合，基于RAG和AI agents构建，支持OpenAI、Anthropic、Google以及DeepSeek、Qwen、Llama等开源模型，可本地运行。*
+
+
+- [ai-delivery-spec](https://github.com/franklinxkk/ai-delivery-spec) - AI原生软件交付框架：交互总账（12倍原型压缩）、FRR补全门禁、AC-YAML、三工作路径。含CRM/交通/教育/医疗4领域模块。
