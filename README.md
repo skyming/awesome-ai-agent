@@ -230,8 +230,12 @@
     *简介：企业级开发自动化平台，支持动态任务执行（代码修改/Web浏览）、角色自适应机制（智能调整Agent行为）。*
 
 
- - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**  
+ - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**
     *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
+
+
+ - **🤖 [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus)**
+    *简介：NetMind.AI 开源的 AI 智能体团队工作空间。不同于拼装智能体的框架，NarraNexus 提供一支现成的智能体团队——自带记忆、可跨会话保持上下文，从第一天起就能协作并使用工具。支持多智能体协作（PM、开发、部署、研究等角色）、组合式模块化能力（Memory、Awareness、Chat、RAG、Jobs、Skills）、Matrix 通信协议、MCP 工具集成，以及云端/macOS/本地多种部署方式。*
 
 
   ## 实操 DEMO
