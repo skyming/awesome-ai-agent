@@ -158,7 +158,13 @@
 
   
   ## 自我进化
+  
+  - **📄 [翁荔博客-通过Harness工程实现AI自我提升](https://mp.weixin.qq.com/s/kZrryL8_fxfq2pSFw6LSqg)**
+      *简介：翁荔在文中系统梳理了从 ACE、Meta Context Engineering 到 Self-Harness、Darwin Gödel Machine 等一系列围绕「Harness 自我优化」展开的研究工作，并试图回答：递归式自我提升（RSI）究竟会先发生在模型权重层面，还是先发生在这层「脚手架」上*
 
+  - **📄 [翁荔长文谈Harness自进化：Agent越用越强，评测难点怎么破？](https://mp.weixin.qq.com/s/_9KACIPUZhPYfqvhpffzVQ)**
+      *简介：现有 Agent benchmark 大多仍然面向静态系统无法回答 harness evolution 中更关键的问题：一次更新到底改进了什么？提升是否能迁移到未见任务？是否只是过拟合近期反馈？是否遗忘了旧能力？是否引入了更高成本或运行时不稳定？*
+      
   - **📄 [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)**
       *简介：Aman Madaan et al. (CMU, Google, Allen AI)，单一 LLM 同时作为生成器、反馈提供者和优化者，通过迭代式自我反馈改进输出，无需额外训练数据或强化学习。在 7 个任务上平均提升 20%。*
 
