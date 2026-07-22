@@ -246,8 +246,8 @@
 
   ## 资源中心
 
- - **📚 [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)**  
-    *简介：微软官方21课时入门课程，覆盖提示工程到应用开发全流程。*
+ - **📚 [《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）](https://github.com/bojieli/ai-agent-book)**  
+    *简介：《深入理解 AI Agent：设计原理与工程实践》开源主仓库：全书正文、编译版 PDF 与按章配套代码。*
 
  - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
     *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
