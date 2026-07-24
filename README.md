@@ -200,6 +200,9 @@
     
   ## 开源项目
 
+ - **🌳 [fractal](https://github.com/plasma-ai/fractal)**  
+    *简介：层级式编码智能体编排运行时。每个节点都在独立的 Git worktree 中通过自主循环推进任务，并可将可分离的子任务递归委派给子节点；支持深度、子节点数、成本和时间限制，使用本地 SQLite 数据库记录运行状态，并提供实时终端监控与干预。*
+
  - **📈 [openclaw](https://github.com/openclaw/openclaw)**  
     *简介：OpenClaw开源项目。*
 
