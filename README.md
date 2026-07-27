@@ -206,45 +206,31 @@
  - **🤖 [Claude Code](https://github.com/claude-code-best/claude-code)**  
     *简介：Anthropic官方泄露版本的Claude Code源码。*
 
- - **🛠️ [NotFair](https://github.com/nowork-studio/NotFair)**  
-    *简介：面向营销场景的开源 Claude Code Skills 套件（约2.9k stars，MIT开源）。覆盖 SEO 站点分析、关键词研究、内容写作、Google Ads 审计与出价管理、Meta Ads（Facebook + Instagram）广告效果分析，通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 Google Analytics（GA4）MCP 接入实时数据，是目前开源生态中覆盖付费广告+自然搜索最完整的 Agent Skills 实现。*
-
  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**  
     *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
-
- - **📊 [Gemini CLI](https://github.com/google-gemini/gemini-cli)**  
-    *简介：Google官方推出的Gemini命令行工具，支持多模态交互与本地文件处理。核心特点：多模态交互、本地文件处理、流式响应、多语言支持、开发者工具。*
 
  - **🦌 [DeerFlow](https://github.com/bytedance/deer-flow)**  
     *简介：字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。核心特点：多智能体分工（基于LangGraph实现模块化架构）、工具深度集成（支持Tavily/DuckDuckGo搜索、Python代
   码执行、学术资源抓取）、人机协同创作（提供类Notion的交互式编辑界面）、MCP无缝扩展。*
 
+ - **🦌 [HKUDS-VideoAgent](https://github.com/HKUDS/VideoAgent)**  
+    *简介：VideoAgent: 一站式智能体框架，用于视频理解、编辑与再创作*
+
+ - **🦌 [HKUDS-DeepTutor](https://github.com/HKUDS/DeepTutor)**  
+    *简介：DeepTutor 是一个智能体原生的学习工作区，在一个可扩展的系统中集成了辅导、解题、出题、研究、可视化及掌握度练习等多种功能。*
+
  - **🌐 [Suna](https://github.com/kortix-ai/suna)**  
     *简介：Kortix AI推出的通用型智能体，专注于跨平台任务自动化执行。核心特点：浏览器自动化引擎（基于Playwright实现网页导航、数据抓取及表单操作）、安全沙箱环境（通过Docker容器隔离
   任务执行）、多工具链协同、企业级部署。*
 
-
- - **🖥️ [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)**  
-    *简介：字节跳动开源的桌面端UI自动化测试框架，支持跨平台界面元素识别与操作。核心特点：视觉定位引擎、无侵入式测试、多语言脚本支持。*
-
-  
- - **🤖 [AgentGPT](https://github.com/reworkd/AgentGPT)**  
-    *简介：浏览器端部署目标驱动智能体，支持零代码编排（自然语言设定目标→自动分解任务）、Next.js可视化面板、开源扩展（OpenAI/Anthropic模型集成）。*
-
-
- - **🛠️ [OpenHands](https://github.com/All-Hands-AI/OpenHands)**  
-    *简介：企业级开发自动化平台，支持动态任务执行（代码修改/Web浏览）、角色自适应机制（智能调整Agent行为）。*
-
-
- - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**  
-    *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
+ - **🛠️ [NotFair](https://github.com/nowork-studio/NotFair)**  
+    *简介：面向营销场景的开源 Claude Code Skills 套件（约2.9k stars，MIT开源）。覆盖 SEO 站点分析、关键词研究、内容写作、Google Ads 审计与出价管理、Meta Ads（Facebook + Instagram）广告效果分析，通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 Google Analytics（GA4）MCP 接入实时数据，是目前开源生态中覆盖付费广告+自然搜索最完整的 Agent Skills 实现。*
 
  - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
     *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
  - **🌳 [fractal](https://github.com/plasma-ai/fractal)**  
     *简介：层级式编码智能体编排运行时。每个节点都在独立的 Git worktree 中通过自主循环推进任务，并可将可分离的子任务递归委派给子节点；支持深度、子节点数、成本和时间限制，使用本地 SQLite 数据库记录运行状态，并提供实时终端监控与干预。*
-
 
   ## 资源中心
 
