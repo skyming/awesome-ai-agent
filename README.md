@@ -200,9 +200,6 @@
     
   ## 开源项目
 
- - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
-    *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
-
  - **📈 [openclaw](https://github.com/openclaw/openclaw)**  
     *简介：OpenClaw开源项目。*
 
@@ -242,6 +239,8 @@
  - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**  
     *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
 
+ - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
+    *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
   ## 实操 DEMO
 
