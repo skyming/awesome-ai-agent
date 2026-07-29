@@ -131,6 +131,9 @@
 
   ## 工具生态
 
+ - **🔗 [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay)**  
+   *简介：开源、本地优先的 Agent 能力中继 CLI，可将 Claude Code、Codex 等本机 Agent 或自动化任务通过受信局域网暴露给其他 Agent 调用，同时让提示词、依赖、工作目录与凭据留在发布者设备上。*
+
  - **📖 [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w)**  
     *简介：围绕“工具是 Agent 的用户界面”这一核心理念，系统讲解 MCP 工具在命名、描述、参数 schema、输出与错误处理上的设计方法，结合工具粒度控制、上下文与 token 成本、Skills 与 MCP 互补等实践，帮助提升 Agent 的工具选择准确率与调用稳定性。*
 
