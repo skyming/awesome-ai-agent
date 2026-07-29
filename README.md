@@ -125,6 +125,9 @@
     *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
   Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
 
+  - **🛠️ [nika](https://github.com/supernovae-st/nika)**  
+    *简介：Rust 编写的开源（AGPL）AI 工作流引擎，.nika.yaml 声明式 DAG，执行前静态检查（schema/权限/成本预估），执行后输出防篡改执行轨迹；本地优先（Ollama/llama.cpp/vLLM、离线 mock），内置 MCP 客户端与服务端，适合把重复的 agent 任务固化为可审计工作流。*
+
  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**  
     *简介：企业级智能体观测与优化工具包，提供运行时性能分析、执行流程追踪、超参数/提示词优化器，支持 MCP/A2A 协议。*
     
