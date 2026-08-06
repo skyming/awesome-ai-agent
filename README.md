@@ -144,7 +144,7 @@
    *简介：Agent 的效果高度依赖可用工具质量。本文分享如何编写高质量工具与评测流程，并说明如何借助 Claude 反向优化其自身工具以进一步提升性能。*
 
 
-  ## 评测基准
+## 评测基准
 
  - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
     *简介：深度解析主流Agent评估体系，系统性梳理 GAIA、AgentBench、PaperBench、WAA等七大主流评测基准，覆盖通用能力、安全鲁棒性、中文场景及科研复现等多维度评估体系。*
@@ -199,8 +199,10 @@
 
     
   ## 开源项目
-
- - **📈 [openclaw](https://github.com/openclaw/openclaw)**  
+  - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
+    *简介：A self-improving RLM agent for coding workflows and long-running autonomous tasks。*
+    
+ - **🤖 [openclaw](https://github.com/openclaw/openclaw)**  
     *简介：OpenClaw开源项目。*
 
  - **🤖 [Claude Code](https://github.com/claude-code-best/claude-code)**  
