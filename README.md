@@ -125,6 +125,9 @@
     *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
   Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
 
+  - **📊 [flameox](https://github.com/morluto/flameox)**  
+    *简介：面向智能体的性能分析与优化工具包：协调 PyTorch Profiler、Nsight Systems 等工具，保留原生追踪证据并比较实验，帮助定位应用、原生服务、GPU 内核和推理负载的瓶颈。*
+
  - **🚀 [NVIDIA AgentIQ](https://github.com/NVIDIA/AgentIQ)**  
     *简介：企业级智能体观测与优化工具包，提供运行时性能分析、执行流程追踪、超参数/提示词优化器，支持 MCP/A2A 协议。*
     
