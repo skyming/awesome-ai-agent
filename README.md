@@ -199,7 +199,7 @@
 
     
   ## 开源项目
-  - **🧠 [LWC](https://github.com/JanYork/llm-wiki-cli)**  
+  - **🧠 [LWC](https://github.com/JanYork/llm-wiki-cli)**
     *简介：面向 AI 编程 Agent 的主动式项目记忆 CLI，支持跨会话、来源可追溯的 Wiki 记忆、SQLite/FTS5 全文检索、可选文档与代码图谱，并通过只读 MCP 接口向 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 Agent 提供有边界的检索能力。*
 
   - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
