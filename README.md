@@ -202,11 +202,6 @@
 
     
   ## 开源项目
-  - **🧠 [LWC](https://github.com/JanYork/llm-wiki-cli)**
-    *简介：面向 AI 编程 Agent 的主动式项目记忆 CLI，支持跨会话、来源可追溯的 Wiki 记忆、SQLite/FTS5 全文检索、可选文档与代码图谱，并通过只读 MCP 接口向 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 Agent 提供有边界的检索能力。*
-
-  - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
-    *简介：A self-improving RLM agent for coding workflows and long-running autonomous tasks。*
     
  - **🤖 [openclaw](https://github.com/openclaw/openclaw)**  
     *简介：OpenClaw开源项目。*
@@ -214,6 +209,9 @@
  - **🤖 [Claude Code](https://github.com/claude-code-best/claude-code)**  
     *简介：Anthropic官方泄露版本的Claude Code源码。*
 
+ - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
+    *简介：A self-improving RLM agent for coding workflows and long-running autonomous tasks。*
+    
  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**  
     *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
 
@@ -239,6 +237,9 @@
 
  - **🌳 [fractal](https://github.com/plasma-ai/fractal)**  
     *简介：层级式编码智能体编排运行时。每个节点都在独立的 Git worktree 中通过自主循环推进任务，并可将可分离的子任务递归委派给子节点；支持深度、子节点数、成本和时间限制，使用本地 SQLite 数据库记录运行状态，并提供实时终端监控与干预。*
+
+  - **🧠 [LWC](https://github.com/JanYork/llm-wiki-cli)**
+    *简介：面向 AI 编程 Agent 的主动式项目记忆 CLI，支持跨会话、来源可追溯的 Wiki 记忆、SQLite/FTS5 全文检索、可选文档与代码图谱，并通过只读 MCP 接口向 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 Agent 提供有边界的检索能力。*
 
   ## 资源中心
 
