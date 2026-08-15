@@ -211,9 +211,12 @@
 
  - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
     *简介：A self-improving RLM agent for coding workflows and long-running autonomous tasks。*
-    
+ 
  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**  
     *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
+
+ - **🤖 [DeepSeek-Harness]( https://github.com/deepseek-ai/deepseek-harness)**  
+    *简介：DeepSeek出品，DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）,它采用一切皆插件的架构，并由 Cordis 驱动。*
 
  - **🦌 [DeerFlow](https://github.com/bytedance/deer-flow)**  
     *简介：字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。核心特点：多智能体分工（基于LangGraph实现模块化架构）、工具深度集成（支持Tavily/DuckDuckGo搜索、Python代
