@@ -71,6 +71,10 @@
  - **📖 [QQ音乐Harness Engineering实践](https://mp.weixin.qq.com/s/yw3DvqKBIV5fIZkSG12zdA)**  
     *简介：结合 QQ 音乐在 Monorepo Microservices 场景的落地案例，系统阐述如何以“代码产出 = AI 能力 × 上下文质量”为核心，通过五阶段四门禁、三层知识体系、三仓联动、Skill/Agent/Command 协同与 Self-Refinement 闭环，将 AI 协作从对话式编码升级为可控、可审计、可复用的工程流程。*
 
+ - **📖 [淘宝主播Agent的Harness工程实战](https://mp.weixin.qq.com/s/Ky7oM7NIytxThVk4APjiTg)**  
+   *简介：本文介绍了淘宝主播Agent的Harness工程实战，旨在通过构建模型外层的工程化“骨架”解决大模型在高风险、高并发直播场景中不可控、易漂移的问题。*
+
+
  - **📖 [Claude Code Harness 工程：数仓侧落地方案｜得物技术](https://mp.weixin.qq.com/s/KmQJU7nXmYh5qgWPj4ajlw)**  
     *简介：围绕数仓场景中 AI Coding 的上下文失忆、规范不稳与 context 膨胀问题，提出以 CLAUDE.md 持久化、Auto Memory、hooks 强校验、subagents 隔离与 SKILL 改造为核心的五层 Harness 防御体系，并给出可直接落地的 8 步工作流与工程化实施路径。*
 
