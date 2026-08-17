@@ -218,6 +218,9 @@
 
  - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
     *简介：A self-improving RLM agent for coding workflows and long-running autonomous tasks。*
+
+ - **🤖 [agent-qa](https://github.com/vostride/agent-qa)**
+    *简介：面向软件团队的开源自进化 QA Agent，可用自然语言编写并运行 Web 与移动端测试，通过跨运行记忆适应 UI 变化并发现回归问题。*
  
  - **🤖 [OpenAI Codex](https://github.com/openai/codex)**  
     *简介：OpenAI出品，专精于理解自然语言并生成对应代码。核心特点：自然语言转代码、多语言支持、GitHub Copilot核心引擎。*
