@@ -52,7 +52,6 @@
 - **📖 [OpenAI — Harness Engineering: Harnessing Codex in an Agent-First World](https://openai.com/zh-Hans-CN/index/harness-engineering/)**  
    *简介：OpenAI 分享在 Agent-First 时代如何通过 Harness Engineering 驱动 Codex 的稳定产出，重点覆盖上下文组织、工具调用编排、执行反馈闭环与工程可控性。*
 
-
  - **📖 [Agent Harness 解析：智能体架构深度拆解](https://mp.weixin.qq.com/s/H8_U4vENXJuiojXtXbCF5w)**  
     *简介：系统拆解 Agent Harness 的核心定义与工程边界，覆盖编排循环、工具调用、记忆体系、上下文管理、状态持久化、错误恢复与安全护栏等关键组件，并对 Anthropic、OpenAI、LangChain 等主流框架的落地模式进行对比，帮助从“模型能力”转向“基础设施能力”理解生产级智能体。*
 
@@ -73,7 +72,6 @@
 
  - **📖 [淘宝主播Agent的Harness工程实战](https://mp.weixin.qq.com/s/Ky7oM7NIytxThVk4APjiTg)**  
    *简介：本文介绍了淘宝主播Agent的Harness工程实战，旨在通过构建模型外层的工程化“骨架”解决大模型在高风险、高并发直播场景中不可控、易漂移的问题。*
-
 
  - **📖 [Claude Code Harness 工程：数仓侧落地方案｜得物技术](https://mp.weixin.qq.com/s/KmQJU7nXmYh5qgWPj4ajlw)**  
     *简介：围绕数仓场景中 AI Coding 的上下文失忆、规范不稳与 context 膨胀问题，提出以 CLAUDE.md 持久化、Auto Memory、hooks 强校验、subagents 隔离与 SKILL 改造为核心的五层 Harness 防御体系，并给出可直接落地的 8 步工作流与工程化实施路径。*
@@ -128,6 +126,9 @@
  - **📖 [Agent Tracing 技术方案对比：LangSmith vs Langfuse vs Phoenix](https://mp.weixin.qq.com/s/iVsw0u4sRa7IOA2iGtsYIw)**  
     *简介：横向对比 LangSmith、Langfuse、Phoenix 三款 Agent Tracing 方案，覆盖产品定位、追踪/评测/数据集/监控、框架集成、部署方式与定价，并指出 LangSmith 不支持私有化部署，补充 Langfuse 与 Phoenix 作为可自部署替代选型。*
 
+ - **📖 [AI 评测还在看准确率？数据科学早就用因果推断做归因分析了](https://mp.weixin.qq.com/s/2b08quBZnhOHkkIJgfg5rQ)**  
+    *简介：大淘宝技术出品，本文旨在解决传统AI评测仅关注相关性而忽略因果性的局限，引入数据科学中的因果推断与博弈论方法进行归因分析，以精准量化LLM及Agent系统中各组件对结果的真实贡献度。*
+
   - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**  
     *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen
   Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
@@ -141,9 +142,6 @@
 
   ## 工具生态
 
- - **🔗 [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay)**  
-   *简介：开源、本地优先的 Agent 能力中继 CLI，可将 Claude Code、Codex 等本机 Agent 或自动化任务通过受信局域网暴露给其他 Agent 调用，同时让提示词、依赖、工作目录与凭据留在发布者设备上。*
-
  - **📖 [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w)**  
     *简介：围绕“工具是 Agent 的用户界面”这一核心理念，系统讲解 MCP 工具在命名、描述、参数 schema、输出与错误处理上的设计方法，结合工具粒度控制、上下文与 token 成本、Skills 与 MCP 互补等实践，帮助提升 Agent 的工具选择准确率与调用稳定性。*
 
@@ -155,6 +153,9 @@
 
 - **📖 [Writing effective tools for agents — with agents](https://www.anthropic.com/engineering/writing-tools-for-agents)**  
    *简介：Agent 的效果高度依赖可用工具质量。本文分享如何编写高质量工具与评测流程，并说明如何借助 Claude 反向优化其自身工具以进一步提升性能。*
+
+ - **🔗 [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay)**  
+   *简介：开源、本地优先的 Agent 能力中继 CLI，可将 Claude Code、Codex 等本机 Agent 或自动化任务通过受信局域网暴露给其他 Agent 调用，同时让提示词、依赖、工作目录与凭据留在发布者设备上。*
 
 
 ## 评测基准
