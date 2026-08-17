@@ -88,7 +88,10 @@
     *简介：围绕 OpenClaw 的“动态会话日志（JSONL）+ 静态长期记忆（Markdown）”双源记忆架构，深入拆解记忆生成、分块索引、向量与关键词混合检索（sqlite-vec + FTS5）以及 Agent 调用链路，并分析其在上下文容量、信息保真与 token 成本之间的工程权衡。*
 
  - **📖 [深度拆解 Hermes Agent 记忆系统：它修正了 OpenClaw 的哪层误区？](https://mp.weixin.qq.com/s/0n5aw2I0yoyHS7W5fQ6ydA)**  
-    *简介：从运行时分层视角解析 Hermes 的记忆设计：通过 MEMORY/USER 热记忆、session_search 历史检索、skills 程序性记忆与可选 Honcho 外部建模，将“常驻事实、历史档案与流程经验”分层治理，并结合压缩前 memory flush 与 prompt cache 稳定前缀策略，展示其对长期 Agent 连续性与成本控制的工程取舍。*
+    *简介：大淘宝技术出品，系统梳理了Agent长期记忆能力的评测全景，涵盖基准数据集、评估框架与记忆系统三大核心维度。*
+
+ - **📖 [Agent-Memory 评测全景：基准、评估与记忆系统（理论篇）](https://mp.weixin.qq.com/s/JZhN6auXKOzEh3OHgkjrdw)**  
+    *简介：围绕 OpenClaw 的“动态会话日志（JSONL）+ 静态长期记忆（Markdown）”双源记忆架构，深入拆解记忆生成、分块索引、向量与关键词混合检索（sqlite-vec + FTS5）以及 Agent 调用链路，并分析其在上下文容量、信息保真与 token 成本之间的工程权衡。*
 
   - **📄 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)**
      *简介：借鉴操作系统内存分页机制，将有限上下文窗口视为"主存"，外部存储视为"磁盘"，通过自主管理的内存分页与检索策略突破上下文瓶颈，支持长期对话与多会话持久化。*
