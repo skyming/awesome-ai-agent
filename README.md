@@ -229,6 +229,9 @@
  - **🤖 [DeepSeek-Harness]( https://github.com/deepseek-ai/deepseek-harness)**  
     *简介：DeepSeek出品，DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）,它采用一切皆插件的架构，并由 Cordis 驱动。*
 
+ - **🤖 [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)**  
+    *简介：Apache-2.0 开源、本地优先的 Agent 运行时，提供持久会话、隔离命令与文件执行、快照、审计回放、权限及凭据治理；内置 MCP Server 和原生 DeepSeek Harness 插件，并已收录至官方 MCP Registry。*
+
  - **🦌 [DeerFlow](https://github.com/bytedance/deer-flow)**  
     *简介：字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。核心特点：多智能体分工（基于LangGraph实现模块化架构）、工具深度集成（支持Tavily/DuckDuckGo搜索、Python代
   码执行、学术资源抓取）、人机协同创作（提供类Notion的交互式编辑界面）、MCP无缝扩展。*
