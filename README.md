@@ -23,7 +23,7 @@
     *简介：围绕Agent技术从能力拼装到工程化落地的演变路径，梳理核心概念、主流架构范式与关键取舍，结合实践反思其背后的方法论与设计思维。*
 
 
-  ## Agent 框架
+  ## 框架&工程
 
  - **📖 [框架深度评测与对比分析](frameworks/frameworks-eval.md)**  
     *简介：全面评测主流 Agent 框架，覆盖六大类别：通用开发（LangChain/LangGraph/OpenAI Agents SDK）、多Agent协作（AutoGen/CrewAI/MetaGPT/AgentScope/Camel-Owl）、自主Agent（AutoGPT/BabyAGI/gpt-engineer）、数据与RAG（LlamaIndex/MemGPT）、平台级工具（Dify/Flowise/Spring AI Alibaba）、领域专用（TradingAgents/GPT-Researcher）。从架构设计、核心能力、适用场景等维度深度对比，提供选型决策矩阵，助你快速定位最佳技术方案。*
@@ -36,6 +36,9 @@
     
  - **📖 [如何设计一个AI Agent系统](https://mp.weixin.qq.com/s/8ArJk0vpGP0o97kEtqscqA)**  
     *简介：大淘宝 SRE 团队出品，从工程实践出发，系统讲解如何以LLM为认知核心，围绕规划、记忆、工具与执行框架构建可控可用的Agent系统，并结合研发流程、设计范式、知识管理与资损分析案例，给出工业落地方法论与实践体会。*
+
+ - **📖 [Running a Software Factory Efficiently at Uber Scale](https://www.uber.com/us/en/blog/efficient-software-factory/)**  
+    *简介：Uber 已将 AI 智能体全面融入软件开发全流程，实现超 70% 的合并请求（PR）由智能体驱动，使用规模大幅增长。本文介绍了 Uber“软件工厂”的架构体系，并分享了其在推动 AI 广泛应用的同时，通过智能调度与优化显著降低 AI 成本的实践经验。*
 
   
   ## Harness 实践
