@@ -160,6 +160,8 @@
  - **🔗 [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay)**  
    *简介：开源、本地优先的 Agent 能力中继 CLI，可将 Claude Code、Codex 等本机 Agent 或自动化任务通过受信局域网暴露给其他 Agent 调用，同时让提示词、依赖、工作目录与凭据留在发布者设备上。*
 
+  - **🔬 [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) · [npm](https://www.npmjs.com/package/orcareplay)**
+    *简介：在进程与 socket 层记录 coding agent 的整场运行——模型请求、shell 命令的退出码、每轮文件变更、MCP 调用落在同一条时间线上。与只做观测的方案不同，它能把这次运行**重新跑一遍**：断网重放逐字节复现，或从任一检查点分叉到另一个模型，让两个模型面对完全相同的上下文与文件状态。Apache-2.0。*
 
 ## 评测基准
 
