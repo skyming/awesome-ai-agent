@@ -171,11 +171,15 @@
  - **📊 [XBench](https://github.com/xbench-ai/xbench)**  
     *简介：红杉中国推出的双轨测评体系：AGI Tracking测试技术上限，Profession-Aligned量化商业场景效用价值（如招聘/营销）。*
 
- - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  
-    *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。评测了7个前沿模
-  型，最佳通过率33.3%。[[paper](https://arxiv.org/abs/2604.08523)]*
+ - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  [paper](https://arxiv.org/abs/2604.08523)
+    *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。*
 
-  
+- **📊 [VBench](https://github.com/Vchitect/VBench)**  
+  *简介：全面评估视频生成模型的基准测试套件。它通过多维度的分层评估体系，将“视频生成质量”拆解为多个细粒度指标，提供客观、精细化的评测方法，并与人类视觉偏好高度对齐（CVPR 2024 Highlight）。*
+
+- **📊 [VBench-2.0](https://github.com/Vchitect/VBench/tree/master/VBench-2.0)**  
+  *简介：新一代视频生成模型评测基准，核心聚焦于模型的“内在真实性（Intrinsic Faithfulness）”。它将评估维度从早期的基础技术质量（如像素保真度、简单的提示词依从性），扩展到了常识推理、物理规律真实性、人类运动姿态及创意组合等更复杂的高阶能力评测。*
+    
   ## 自我进化
   
   - **📄 [翁荔博客-通过Harness工程实现AI自我提升](https://mp.weixin.qq.com/s/kZrryL8_fxfq2pSFw6LSqg)**
