@@ -143,7 +143,7 @@
     *简介：企业级智能体观测与优化工具包，提供运行时性能分析、执行流程追踪、超参数/提示词优化器，支持 MCP/A2A 协议。*
     
 
-  ## 工具生态
+ ## 工具生态
 
  - **📖 [如何让你的 Agent 更准确：MCP 工具设计技巧](https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w)**  
     *简介：围绕“工具是 Agent 的用户界面”这一核心理念，系统讲解 MCP 工具在命名、描述、参数 schema、输出与错误处理上的设计方法，结合工具粒度控制、上下文与 token 成本、Skills 与 MCP 互补等实践，帮助提升 Agent 的工具选择准确率与调用稳定性。*
@@ -171,8 +171,8 @@
  - **📊 [XBench](https://github.com/xbench-ai/xbench)**  
     *简介：红杉中国推出的双轨测评体系：AGI Tracking测试技术上限，Profession-Aligned量化商业场景效用价值（如招聘/营销）。*
 
- - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  [paper](https://arxiv.org/abs/2604.08523)
-    *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。*
+ - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  
+    *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。[paper](https://arxiv.org/abs/2604.08523)*
 
 - **📊 [VBench](https://github.com/Vchitect/VBench)**  
   *简介：全面评估视频生成模型的基准测试套件。它通过多维度的分层评估体系，将“视频生成质量”拆解为多个细粒度指标，提供客观、精细化的评测方法，并与人类视觉偏好高度对齐（CVPR 2024 Highlight）。*
