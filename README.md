@@ -267,6 +267,9 @@
   - **🧠 [LWC](https://github.com/JanYork/llm-wiki-cli)**
     *简介：面向 AI 编程 Agent 的主动式项目记忆 CLI，支持跨会话、来源可追溯的 Wiki 记忆、SQLite/FTS5 全文检索、可选文档与代码图谱，并通过只读 MCP 接口向 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 Agent 提供有边界的检索能力。*
 
+  - **🤖 [YYLO](https://github.com/yylo-dev/yylo)**
+    *简介：开源的编码智能体命令行编排器：每个任务在独立的 Git 分支/worktree 中实现，由类型化任务、验证、合并与发布就绪边界约束交付；内置 Pi 子代理（yy pi / ypl）与模型别名，合并队列按风险分级执行审查，并以目标 SHA 冻结与预期旧值校验保证 AI 产出的仓库变更可审查、可回溯。MIT 开源。*
+
   ## 资源中心
 
  - **📚 [《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）](https://github.com/bojieli/ai-agent-book)**  
