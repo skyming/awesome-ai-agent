@@ -243,20 +243,12 @@
 - **🌐 [Suna](https://github.com/kortix-ai/suna)**  
   *简介：Kortix AI推出的通用型智能体，专注于跨平台任务自动化执行。核心特点：浏览器自动化引擎（基于Playwright实现网页导航、数据抓取及表单操作）、安全沙箱环境（通过Docker容器隔离任务执行）、多工具链协同、企业级部署。*
 
-- **🤖 [agent-qa](https://github.com/vostride/agent-qa)**  
-  *简介：面向软件团队的开源自进化 QA Agent，可用自然语言编写并运行 Web 与移动端测试，通过跨运行记忆适应 UI 变化并发现回归问题。*
-
 - **🛠️ [NotFair](https://github.com/nowork-studio/NotFair)**  
   *简介：面向营销场景的开源 Claude Code Skills 套件（约2.9k stars，MIT开源）。覆盖 SEO 站点分析、关键词研究、内容写作、Google Ads 审计与出价管理、Meta Ads（Facebook + Instagram）广告效果分析，通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 Google Analytics（GA4）MCP 接入实时数据，是目前开源生态中覆盖付费广告+自然搜索最完整的 Agent Skills 实现。*
 
 - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
   *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
-- **🌳 [fractal](https://github.com/plasma-ai/fractal)**  
-  *简介：层级式编码智能体编排运行时。每个节点都在独立的 Git worktree 中通过自主循环推进任务，并可将可分离的子任务递归委派给子节点；支持深度、子节点数、成本和时间限制，使用本地 SQLite 数据库记录运行状态，并提供实时终端监控与干预。*
-
-- **🧠 [LWC](https://github.com/JanYork/llm-wiki-cli)**  
-  *简介：面向 AI 编程 Agent 的主动式项目记忆 CLI，支持跨会话、来源可追溯的 Wiki 记忆、SQLite/FTS5 全文检索、可选文档与代码图谱，并通过只读 MCP 接口向 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 等 Agent 提供有边界的检索能力。*
 
 ## 资源中心
 
