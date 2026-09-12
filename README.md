@@ -80,6 +80,9 @@
 - **📖 [横向拆解Claude Code、Codex等六大Agent上下文压缩策略后，我们做了第 7 个](https://mp.weixin.qq.com/s/BQwyvE2qIfguwKk63F3LZw)**  
   *简介：横向对比 Claude Code、Codex、OpenCode、Cline、Cursor、Amp 与 MemGPT/Letta 的上下文压缩策略，提炼分层渐进、成本递增、增量摘要、用户消息保护与单调边界等共识，并面向云端多用户 Agent 落地四级水位线（Snip / Prune / Summarize）方案，补充存储分离、跨轮缓存与多用户隔离等工程实践。*
 
+- **📖 [Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763)**<br>
+  *简介：淘天直播数字人 Agent 技术报告，介绍可独立更新的 Skills、Tools、Prompts 与 Hooks，以及通过 Harness-State Augmentation 改善模型对运行时变化的适应能力。*
+
 ## 感知记忆
 
 - **📖 [从架构到代码：深入理解 OpenClaw 的双源记忆系统](https://mp.weixin.qq.com/s/Ok3VwXft5fvvNWLBL6r2AA)**  
