@@ -252,6 +252,9 @@
 - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
   *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
+- **🤖 [Solgrok](https://github.com/LMajster/sgrok)**  
+  *简介：Solana 链上自主 Creator-Ops Agent（$SGROK）。在 Bags.fm 运行，持续推广与自动领取/归集 creator fees，面向 24/7 自主运营。站点：https://lmajster.github.io/sgrok/ 交易：https://bags.fm/7QpJ8Pb3pGhoArRPJu3TXbx1p3ezn3TCwz6cMcwQBAGS*
+
 
 ## 资源中心
 
