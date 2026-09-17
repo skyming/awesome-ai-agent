@@ -22,6 +22,9 @@
 - **📖 [Agent核心技术概念与范式发生了哪些演变以及背后的思考](https://mp.weixin.qq.com/s/11Krmb5KYmCHDQ4zN9O4uQ)**  
   *简介：围绕Agent技术从能力拼装到工程化落地的演变路径，梳理核心概念、主流架构范式与关键取舍，结合实践反思其背后的方法论与设计思维。*
 
+- **📚 [《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）](https://github.com/bojieli/ai-agent-book)**  
+  *简介：《深入理解 AI Agent：设计原理与工程实践》开源主仓库：全书正文、编译版 PDF 与按章配套代码。*
+  
 ## 框架&工程
 
 - **📖 [框架深度评测与对比分析](frameworks/frameworks-eval.md)**  
@@ -254,9 +257,6 @@
 
 
 ## 资源中心
-
-- **📚 [《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）](https://github.com/bojieli/ai-agent-book)**  
-  *简介：《深入理解 AI Agent：设计原理与工程实践》开源主仓库：全书正文、编译版 PDF 与按章配套代码。*
 
 - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
   *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
