@@ -237,8 +237,9 @@
 - **🤖 [prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)**  
   *简介：Prime Intellect 开源的自改进编码 / 研究 Agent harness。以 RLM（持久 Python REPL + 递归子代理）与 Continual Harness（可沉淀的提示、记忆、Skills、子代理规格）为核心，支持 `/refine` 基于轨迹做小步证据化更新，面向长时自主任务与后台持续运行。*
 
-- **🦌 [DeerFlow](https://github.com/bytedance/deer-flow)**  
-  *简介：字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。核心特点：多智能体分工（基于LangGraph实现模块化架构）、工具深度集成（支持Tavily/DuckDuckGo搜索、Python代码执行、学术资源抓取）、人机协同创作（提供类Notion的交互式编辑界面）、MCP无缝扩展。*
+ - **🦌 [DeerFlow](https://github.com/bytedance/deer-flow)**  
+    *简介：字节跳动推出的深度研究框架，集成多智能体协作与端到端研究自动化。核心特点：多智能体分工（基于LangGraph实现模块化架构）、工具深度集成（支持Tavily/DuckDuckGo搜索、Python代
+  码执行、学术资源抓取）、人机协同创作（提供类Notion的交互式编辑界面）、MCP无缝扩展。*
 
 - **🦌 [HKUDS-VideoAgent](https://github.com/HKUDS/VideoAgent)**  
   *简介：VideoAgent: 一站式智能体框架，用于视频理解、编辑与再创作*
@@ -258,6 +259,8 @@
 - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
   *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
+ - **🤖 [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)**
+    *简介：本地优先的 TypeScript Agent Runtime，提供持久化会话、沙箱工具执行、MCP 集成、记忆、凭据、审计日志与执行回放，支持 Local、Docker、Kubernetes 和自托管部署。*
 
 ## 资源中心
 
