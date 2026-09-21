@@ -103,6 +103,9 @@
 - **📄 [Let All Context Be Memorized: A Memory Bank Design for LLMs](https://arxiv.org/abs/2402.13315)**  
   *简介：提出记忆银行架构，将历史信息按重要性分层存储，通过计算记忆的"存取频率"与"时间衰减"实现动态召回，有效缓解长对话中的信息遗忘问题。*
 
+- **🧠 [Mnemoverse Memory](https://github.com/mnemoverse/mcp-memory-server)**  
+  *简介：面向 AI Agent 的 MCP 持久记忆服务器。Agent 对召回的记忆反馈“有帮助”或“有误导”，后续召回会据此重新排序；同一份记忆在 Claude Code、Cursor、VS Code、ChatGPT 之间共用。两种接入方式：npm 包 `@mnemoverse/mcp-memory-server` 以 API key 在本地运行，或直连托管端点 `mcp.mnemoverse.com/mcp` 以 OAuth 登录。MCP 服务器与 Python SDK 为 MIT 开源，记忆引擎为托管服务，提供免费额度。*
+
 ## RAG 实践
 
 - **📖 [大淘宝技术-RAG 全链路技术详解](https://mp.weixin.qq.com/s/aA2PFaabKNlDq96jhAdDkQ)**  
