@@ -266,6 +266,9 @@
 
 - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
   *简介：系统性整理基础智能体研究路径的论文精选集，聚焦核心概念定义与技术演进脉络，提供领域研究全景导航。*
+- **📦 [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault)**  
+  *简介：43 个在售 AI 产品的系统提示词与工具定义存档，其中 44 份由本机代理在真实请求里录得，按版本和入口分别记数：Claude Code 交互式 26,131 字符 35 个工具、`claude -p` 20,806 字符 29 个工具，OpenClaw 21,630 字符 38 个工具，DeepSeek dsh 4,656 字符 25 个工具。每份文件标明是实录还是模型复述。*
+
 
 - **🔍 [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)**  
   *简介：全面的生成式AI资源中心，整合研究论文、面试题库、免费课程与开发笔记。*
