@@ -86,6 +86,9 @@
 - **📖 [Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763)**<br>
   *简介：淘天直播数字人 Agent 技术报告，介绍可独立更新的 Skills、Tools、Prompts 与 Hooks，以及通过 Harness-State Augmentation 改善模型对运行时变化的适应能力。*
 
+- **📖 [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738)**  
+  *简介：关于 Agent 循环（Agent Loop）的综述，梳理模型外层的控制策略、通过 Agentic RL 训练出的循环、终止条件与自我验证、上下文管理与错误恢复、Skills 以及生产级 Coding Harness，并讨论如何区分 Harness 和模型各自带来的提升。*
+
 ## 感知记忆
 
 - **📖 [从架构到代码：深入理解 OpenClaw 的双源记忆系统](https://mp.weixin.qq.com/s/Ok3VwXft5fvvNWLBL6r2AA)**  
