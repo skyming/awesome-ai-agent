@@ -259,7 +259,7 @@
 - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
   *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
-- **📋 [Tale](https://github.com/tale-project/tale)**  
+- **📋 [Tale](https://github.com/tale-project/tale)**\
   *简介：可自托管的项目工作区，让人和 AI 智能体共享任务、文件与知识。任务分配给智能体后，由用户显式启动执行，再审核报告和交付文件；Community 版本采用 MIT 许可证，基础设施与模型调用费用另计。[文档](https://docs.tale.dev/platform/projects/task-automation)*
 
  - **🤖 [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)**
