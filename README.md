@@ -262,6 +262,9 @@
  - **🤖 [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)**
     *简介：本地优先的 TypeScript Agent Runtime，提供持久化会话、沙箱工具执行、MCP 集成、记忆、凭据、审计日志与执行回放，支持 Local、Docker、Kubernetes 和自托管部署。*
 
+- **🤖 [Markus](https://github.com/markus-global/markus)**  
+  *简介：开源 AI 工作团队（AI Workforce）平台，用角色化智能体组建团队、拆解并委派任务、并行执行与质量评审，内置跨会话持久记忆与智能体间通信，支持自托管。*
+
 ## 资源中心
 
 - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
