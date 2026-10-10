@@ -137,6 +137,9 @@
 - **📖 [AI 评测还在看准确率？数据科学早就用因果推断做归因分析了](https://mp.weixin.qq.com/s/2b08quBZnhOHkkIJgfg5rQ)**  
   *简介：大淘宝技术出品，本文旨在解决传统AI评测仅关注相关性而忽略因果性的局限，引入数据科学中的因果推断与博弈论方法进行归因分析，以精准量化LLM及Agent系统中各组件对结果的真实贡献度。*
 
+- **📖 [OpenLLmetry](https://github.com/traceloop/openllmetry)**  
+  *简介：Traceloop 出品，一个基于 OpenTelemetry 构建的开源 LLM 可观测性与监控框架，旨在帮助开发者对大模型应用、Prompt、向量数据库及各大 LLM/Agent 供应商的调用链路进行全链路追踪、性能监控与故障排查。*
+
 - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**  
   *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
 
