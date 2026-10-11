@@ -169,6 +169,9 @@
 - **🔬 [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) · [npm](https://www.npmjs.com/package/orcareplay)**  
   *简介：在进程与 socket 层记录 coding agent 的整场运行——模型请求、shell 命令的退出码、每轮文件变更、MCP 调用落在同一条时间线上。与只做观测的方案不同，它能把这次运行**重新跑一遍**：断网重放逐字节复现，或从任一检查点分叉到另一个模型，让两个模型面对完全相同的上下文与文件状态。Apache-2.0。*
 
+- **🛠️ [Archcore](https://github.com/archcore-ai/archcore)**  
+  *简介：面向 AI 编码代理的 Git 原生上下文工程与规格驱动开发。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
