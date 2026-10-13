@@ -175,6 +175,9 @@
 - **🛠️ [Archcore](https://github.com/archcore-ai/archcore)**  
   *简介：面向 AI 编码代理的 Git 原生上下文工程与规格驱动开发。*
 
+- **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
+  *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 1,000+ 应用与 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
