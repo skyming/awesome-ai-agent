@@ -140,6 +140,9 @@
 - **📖 [OpenLLmetry](https://github.com/traceloop/openllmetry)**  
   *简介：Traceloop 出品，一个基于 OpenTelemetry 构建的开源 LLM 可观测性与监控框架，旨在帮助开发者对大模型应用、Prompt、向量数据库及各大 LLM/Agent 供应商的调用链路进行全链路追踪、性能监控与故障排查。*
 
+- **📖 [Laminar](https://github.com/lmnr-ai/lmnr)**  
+  *简介：Laminar（YC S24）出品，一个专为 AI Agent 打造的开源可观测性平台。基于 OpenTelemetry，一行代码即可自动追踪 Vercel AI SDK、LangChain、OpenAI、Anthropic、Gemini 等调用链路，并提供行为信号告警、评测（Evals）、SQL 查询与仪表盘、数据标注与数据集，以及可自托管的高性能追踪能力，方便开发者监控、排查和评估 Agent 应用。*
+  
 - **📊 [agenttrace](https://github.com/luoyuctl/agenttrace)**  
   *简介：本地优先的AI编码智能体会话观测工具，可读取Claude Code、Codex CLI、Gemini CLI、Qwen Code、Aider、Cursor、OpenCode、OpenClaw等日志，帮助开发者查看成本、Token、耗时、工具失败和慢任务原因。*
 
