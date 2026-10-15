@@ -246,6 +246,9 @@
 - **🤖 [DeepSeek-Harness]( https://github.com/deepseek-ai/deepseek-harness)**  
   *简介：DeepSeek出品，DeepSeek Harness（dsh）是由 DeepSeek AI 开发的开源 agent harness（智能体框架）,它采用一切皆插件的架构，并由 Cordis 驱动。*
 
+- **🤖 [Pi](https://github.com/earendil-works/pi)**  
+  *简介：由 Earendil 开发的开源最小化、可扩展的智能体框架（agent harness）与 AI 编码助手。它采用高度可定制的扩展架构，支持通过扩展、技能、提示词模板和主题进行深度定制，并可通过 npm 或 git 分享 Pi 包。*
+
 - **🤖 [grok-bot-0.18-reconstructed](https://github.com/skyming/grok-bot-0.18-reconstructed)**  
   *简介：与 Claude Code / Codex（单厂商终端 Agent）和 DeepSeek-Harness（通用插件化 harness）不同，本项目重建的是桌面端 Grok Bot 产品形态：Electron GUI + Host/Coordinator 控制面，把 Cursor / Claude Code / Codex / OpenRouter 当作可切换推理后端，并配套本地用量统计与可选 Docker 沙箱。价值在于对照「桌面 Agent 壳 + 多后端路由」如何落地，而非再提供一套 CLI coding agent。*
 
