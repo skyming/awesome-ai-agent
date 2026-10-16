@@ -181,6 +181,9 @@
 - **🛠️ [PlaceCall](https://voygr.tech/placecall/) · [GitHub](https://github.com/voygr-tech/placecall)**  
   *简介：让 AI Agent 给美国商家拨打真实电话（订位、预约、询价）：提供远程 MCP 服务器（`https://api.voygr.tech/mcp`）、REST API 与 Agent Skill，可应对语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。仅限美国号码；托管付费服务，每个新 API 密钥含 250 次免费通话，之后按通话结果计费；客户端（Skill 与插件）MIT 开源。*
 
+- **🛠️ [CurlShot](https://curlshot.com) · [GitHub](https://github.com/SergiuPogor/curlshot-mcp)**  
+  *简介：让 Agent“看见”渲染后网页的托管截图服务：通过远程 MCP 服务器（`https://curlshot.com/api/mcp`）的 `take_screenshot` 工具，把任意公开网址截图后以模型可读的图片返回，也可输出 PDF 或页面滚动视频；支持整页截图、手机/平板预设、深色模式与按 CSS 选择器截取单个元素，适合让 Coding Agent 检查已部署页面的实际效果。也提供 REST API，免费版每月 100 次截图。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
