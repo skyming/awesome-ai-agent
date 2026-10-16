@@ -178,6 +178,9 @@
 - **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
   *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 1,000+ 应用与 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
+- **🛠️ [CurlShot](https://curlshot.com) · [GitHub](https://github.com/SergiuPogor/curlshot-mcp)**  
+  *简介：让 Agent“看见”渲染后网页的托管截图服务：通过远程 MCP 服务器（`https://curlshot.com/api/mcp`）的 `take_screenshot` 工具，把任意公开网址截图后以模型可读的图片返回，也可输出 PDF 或页面滚动视频；支持整页截图、手机/平板预设、深色模式与按 CSS 选择器截取单个元素，适合让 Coding Agent 检查已部署页面的实际效果。也提供 REST API，免费版每月 100 次截图。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
