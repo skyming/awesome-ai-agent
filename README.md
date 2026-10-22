@@ -286,6 +286,9 @@
 - **🤖 [Markus](https://github.com/markus-global/markus)**  
   *简介：开源 AI 工作团队（AI Workforce）平台，用角色化智能体组建团队、拆解并委派任务、并行执行与质量评审，内置跨会话持久记忆与智能体间通信，支持自托管。*
 
+- **🤖 [Orbi](https://github.com/orbi-build/orbi)**  
+  *简介：开源（AGPL-3.0）、可自托管的 GitHub 交付 Agent（[官网](https://orbi.build/zh/?ref=dir-skyming)）。给 Issue 打上 `ai-ready` 标签后，Agent 在隔离 worktree 中实现并测试、开 PR，再由另一个 AI 会话独立评审、修复问题，评审与 CI 都通过后才合并；GitHub Issues 即唯一状态存储，无数据库与队列。*
+
 ## 资源中心
 
 - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
