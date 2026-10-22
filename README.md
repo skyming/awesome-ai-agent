@@ -181,6 +181,9 @@
 - **🛠️ [PlaceCall](https://voygr.tech/placecall/) · [GitHub](https://github.com/voygr-tech/placecall)**  
   *简介：让 AI Agent 给美国商家拨打真实电话（订位、预约、询价）：提供远程 MCP 服务器（`https://api.voygr.tech/mcp`）、REST API 与 Agent Skill，可应对语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。仅限美国号码；托管付费服务，每个新 API 密钥含 250 次免费通话，之后按通话结果计费；客户端（Skill 与插件）MIT 开源。*
 
+- **🛠️ [deed.page](https://deed.page) · [GitHub](https://github.com/f-o-x11/deed-page-skill)**  
+  *简介：为 AI Agent 提供的静态托管：一次 curl 请求或远程 MCP 调用（`https://deed.page/mcp`）即可把 Agent 生成的 HTML 报告、看板或静态文件夹发布到永久公开 URL，无需注册账号；提供 Agent Skill（`npx skills add f-o-x11/deed-page-skill`），支持 Claude Code、Codex、Cursor 等。文档：https://deed.page/docs*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
