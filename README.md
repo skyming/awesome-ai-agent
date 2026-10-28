@@ -235,6 +235,9 @@
 - **🛡️ [ToolEmu: A Framework for Evaluating the Safety of Tool-Using LLMs](https://arxiv.org/abs/2402.00908)**  
   *简介：工具使用安全风险分析框架，通过模拟工具执行环境检测 Agent 在调用工具时的潜在危害行为（如文件删除、API 滥用），支持风险等级分类与安全策略制定。*
 
+- **🛡️ [npmscan](https://npmscan.com/mcp) · [GitHub](https://github.com/salemalem/npmscan-mcp-plugin)**  
+  *简介：面向 AI 编程 Agent 的 npm 供应链安全检查：远程 MCP 服务器（`https://npmscan.com/api/mcp`）加 5 个 Skill，让 Agent 在推荐或安装 npm 包前检查恶意包、已知漏洞、仿冒包名、维护者变更、安装脚本和发布来源证明，并可对依赖变更给出 PASS/WARN/FAIL 合并结论。只读、免费、无需注册；服务端不开源，客户端插件与 Skills 为 MIT 开源。*
+
 ## 开源项目
 
 - **🤖 [openclaw](https://github.com/openclaw/openclaw)**  
