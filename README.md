@@ -176,7 +176,7 @@
   *简介：面向 AI 编码代理的 Git 原生上下文工程与规格驱动开发。*
 
 - **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
-  *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 1,000+ 应用与 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
+  *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
 - **🛠️ [PlaceCall](https://voygr.tech/placecall/) · [GitHub](https://github.com/voygr-tech/placecall)**  
   *简介：让 AI Agent 给美国商家拨打真实电话（订位、预约、询价）：提供远程 MCP 服务器（`https://api.voygr.tech/mcp`）、REST API 与 Agent Skill，可应对语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。仅限美国号码；托管付费服务，每个新 API 密钥含 250 次免费通话，之后按通话结果计费；客户端（Skill 与插件）MIT 开源。*
@@ -197,6 +197,13 @@
 
 - **📊 [VBench-2.0](https://github.com/Vchitect/VBench/tree/master/VBench-2.0)**  
   *简介：新一代视频生成模型评测基准，核心聚焦于模型的“内在真实性（Intrinsic Faithfulness）”。它将评估维度从早期的基础技术质量（如像素保真度、简单的提示词依从性），扩展到了常识推理、物理规律真实性、人类运动姿态及创意组合等更复杂的高阶能力评测。*
+
+- **📊 [SciΠvot](https://arxiv.org/abs/2610.21082)**  
+  *简介：评测科研 agent 在关键节点上像 Principal Investigator 一样做判断的能力。248 道题来自 6 个月真实研究中资深研究者对 LLM agent 的纠正，覆盖 26 个项目、6 个学科。5 个前沿模型里有 4 个正确率低于瞎蒙，最好的那一个也只有 63.5%，而无领域背景知识的人类轻松达到 73.4%。[[code](https://github.com/AutoResearch-Factory/SciPIvot)]*
+
+- **📊 [PerspectiveGap](https://arxiv.org/abs/2606.08878)**  
+  *简介：首个评测 LLM 多 agent 提示词写作的 benchmark。10 种拓扑、110 个场景，测 LLM 能不能把上下文片段分配给对的 subagent。33 个商业模型的平均通过率只有 17.2%。[[code](https://github.com/WhymustIhaveaname/PerspectiveGap)]*
+
 
 ## 自我进化
 
@@ -224,6 +231,10 @@
 - **📄 [STOP: Self-Teaching Optimization Program]()**  
   *简介：递归自改进框架，LLM 通过生成自教学样本、反思自身解法、蒸馏推理能力来实现无外部数据的持续优化。核心是代码层面的递归改进循环。*
 
+- **📄 [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177)**  
+  *简介：基于 Prompt Economy 的全学科自动科研系统。在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。[[code](https://github.com/AutoResearch-Factory/Agon)]*
+
+
 ## 安全实践
 
 - **📖 [Claude Code 源码架构解析：从启动、Prompt 到权限管道](https://mp.weixin.qq.com/s/ibU8rAPPkcWrBKw3wArUFw)**  
@@ -234,6 +245,9 @@
 
 - **🛡️ [ToolEmu: A Framework for Evaluating the Safety of Tool-Using LLMs](https://arxiv.org/abs/2402.00908)**  
   *简介：工具使用安全风险分析框架，通过模拟工具执行环境检测 Agent 在调用工具时的潜在危害行为（如文件删除、API 滥用），支持风险等级分类与安全策略制定。*
+
+- **🛡️ [npmscan](https://npmscan.com/mcp) · [GitHub](https://github.com/salemalem/npmscan-mcp-plugin)**  
+  *简介：面向 AI 编程 Agent 的 npm 供应链安全检查：远程 MCP 服务器（`https://npmscan.com/api/mcp`）加 5 个 Skill，让 Agent 在推荐或安装 npm 包前检查恶意包、已知漏洞、仿冒包名、维护者变更、安装脚本和发布来源证明，并可对依赖变更给出 PASS/WARN/FAIL 合并结论。只读、免费、无需注册；服务端不开源，客户端插件与 Skills 为 MIT 开源。*
 
 ## 开源项目
 
@@ -289,6 +303,8 @@
 - **🤖 [Volt](https://github.com/LeulAria/VOLT)**  
   *简介：基于 VS Code 内核的开源 AI 代码编辑器，可运行 Claude Code、Codex、OpenCode 等编码代理或本地模型（Ollama、LM Studio），自带密钥；智能体改动可逐块保留/撤销。*
 
+- **🤖 [Sno Station](https://github.com/sno-ai/sno-station)**  
+  *简介：开源、本地运行的多智能体团队，把 Codex、Claude Code、Cursor、Hermes Agent 和 OpenClaw 放进同一个团队：一个 Agent 额度用完，另一个接着做同一个任务；写代码的和审代码的不是同一个 Agent，跨厂商互相评审。Apache-2.0。*
 
 ## 资源中心
 
