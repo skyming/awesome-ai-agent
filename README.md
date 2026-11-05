@@ -294,12 +294,20 @@
 - **🛠️ [NotFair](https://github.com/nowork-studio/NotFair)**  
   *简介：面向营销场景的开源 Claude Code Skills 套件（约2.9k stars，MIT开源）。覆盖 SEO 站点分析、关键词研究、内容写作、Google Ads 审计与出价管理、Meta Ads（Facebook + Instagram）广告效果分析，通过 Google Ads MCP、Meta Ads MCP、Google Search Console MCP 和 Google Analytics（GA4）MCP 接入实时数据，是目前开源生态中覆盖付费广告+自然搜索最完整的 Agent Skills 实现。*
 
+ - **🔬 [微软 RD-Agent](https://github.com/microsoft/RD-Agent)**
+    *简介：LLM驱动的研发闭环系统，整合自动化实验迭代（实验设计→代码实现）、加速技术方案落地。*
+    
 - **🖥️ [Orkas](https://github.com/Orkas-AI/Orkas)**  
   *简介：开源、本地优先的多智能体桌面客户端，由 Commander 协调专业智能体并行或串行完成复杂任务，支持 macOS、Windows 与 Linux。*
 
  - **🤖 [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)**
     *简介：本地优先的 TypeScript Agent Runtime，提供持久化会话、沙箱工具执行、MCP 集成、记忆、凭据、审计日志与执行回放，支持 Local、Docker、Kubernetes 和自托管部署。*
 
+ - **🤖 [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus)**
+    *简介：NetMind.AI 开源的 AI 智能体团队工作空间。不同于拼装智能体的框架，NarraNexus 提供一支现成的智能体团队——自带记忆、可跨会话保持上下文，从第一天起就能协作并使用工具。支持多智能体协作（PM、开发、部署、研究等角色）、组合式模块化能力（Memory、Awareness、Chat、RAG、Jobs、Skills）、Matrix 通信协议、MCP 工具集成，以及云端/macOS/本地多种部署方式。*
+
+
+  ## 实操 DEMO
 - **🤖 [Markus](https://github.com/markus-global/markus)**  
   *简介：开源 AI 工作团队（AI Workforce）平台，用角色化智能体组建团队、拆解并委派任务、并行执行与质量评审，内置跨会话持久记忆与智能体间通信，支持自托管。*
 
