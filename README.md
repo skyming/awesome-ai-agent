@@ -176,7 +176,7 @@
   *简介：面向 AI 编码代理的 Git 原生上下文工程与规格驱动开发。*
 
 - **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
-  *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 1,000+ 应用与 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
+  *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
 - **🛠️ [PlaceCall](https://voygr.tech/placecall/) · [GitHub](https://github.com/voygr-tech/placecall)**  
   *简介：让 AI Agent 给美国商家拨打真实电话（订位、预约、询价）：提供远程 MCP 服务器（`https://api.voygr.tech/mcp`）、REST API 与 Agent Skill，可应对语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。仅限美国号码；托管付费服务，每个新 API 密钥含 250 次免费通话，之后按通话结果计费；客户端（Skill 与插件）MIT 开源。*
