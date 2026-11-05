@@ -181,6 +181,9 @@
 - **🛠️ [PlaceCall](https://voygr.tech/placecall/) · [GitHub](https://github.com/voygr-tech/placecall)**  
   *简介：让 AI Agent 给美国商家拨打真实电话（订位、预约、询价）：提供远程 MCP 服务器（`https://api.voygr.tech/mcp`）、REST API 与 Agent Skill，可应对语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。仅限美国号码；托管付费服务，每个新 API 密钥含 250 次免费通话，之后按通话结果计费；客户端（Skill 与插件）MIT 开源。*
 
+- **🛠️ [NeverApply](https://neverapply.co/features/mcp) · [GitHub](https://github.com/kasovy/neverapply-mcp)**  
+  *简介：NeverApply 托管的 MCP 服务器（https://neverapply.co/mcp，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端搜索和匹配职位、定制简历、回答筛选问题、准备面试，并在你确认后投递职位。共 15 个工具，提供免费版和付费版。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
