@@ -303,6 +303,9 @@
 - **🤖 [Markus](https://github.com/markus-global/markus)**  
   *简介：开源 AI 工作团队（AI Workforce）平台，用角色化智能体组建团队、拆解并委派任务、并行执行与质量评审，内置跨会话持久记忆与智能体间通信，支持自托管。*
 
+- **🤖 [Volt](https://github.com/LeulAria/VOLT)**  
+  *简介：基于 VS Code 内核的开源 AI 代码编辑器，可运行 Claude Code、Codex、OpenCode 等编码代理或本地模型（Ollama、LM Studio），自带密钥；智能体改动可逐块保留/撤销。*
+
 - **🤖 [Sno Station](https://github.com/sno-ai/sno-station)**  
   *简介：开源、本地运行的多智能体团队，把 Codex、Claude Code、Cursor、Hermes Agent 和 OpenClaw 放进同一个团队：一个 Agent 额度用完，另一个接着做同一个任务；写代码的和审代码的不是同一个 Agent，跨厂商互相评审。Apache-2.0。*
 
