@@ -198,6 +198,13 @@
 - **📊 [VBench-2.0](https://github.com/Vchitect/VBench/tree/master/VBench-2.0)**  
   *简介：新一代视频生成模型评测基准，核心聚焦于模型的“内在真实性（Intrinsic Faithfulness）”。它将评估维度从早期的基础技术质量（如像素保真度、简单的提示词依从性），扩展到了常识推理、物理规律真实性、人类运动姿态及创意组合等更复杂的高阶能力评测。*
 
+- **📊 [SciΠvot](https://arxiv.org/abs/2610.21082)**  
+  *简介：评测科研 agent 在关键节点上像 Principal Investigator 一样做判断的能力。248 道题来自 6 个月真实研究中资深研究者对 LLM agent 的纠正，覆盖 26 个项目、6 个学科。5 个前沿模型里有 4 个正确率低于瞎蒙，最好的那一个也只有 63.5%，而无领域背景知识的人类轻松达到 73.4%。[[code](https://github.com/AutoResearch-Factory/SciPIvot)]*
+
+- **📊 [PerspectiveGap](https://arxiv.org/abs/2606.08878)**  
+  *简介：首个评测 LLM 多 agent 提示词写作的 benchmark。10 种拓扑、110 个场景，测 LLM 能不能把上下文片段分配给对的 subagent。33 个商业模型的平均通过率只有 17.2%。[[code](https://github.com/WhymustIhaveaname/PerspectiveGap)]*
+
+
 ## 自我进化
 
 - **📄 [翁荔博客-通过Harness工程实现AI自我提升](https://mp.weixin.qq.com/s/kZrryL8_fxfq2pSFw6LSqg)**  
@@ -223,6 +230,10 @@
 
 - **📄 [STOP: Self-Teaching Optimization Program]()**  
   *简介：递归自改进框架，LLM 通过生成自教学样本、反思自身解法、蒸馏推理能力来实现无外部数据的持续优化。核心是代码层面的递归改进循环。*
+
+- **📄 [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177)**  
+  *简介：基于 Prompt Economy 的全学科自动科研系统。在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。[[code](https://github.com/AutoResearch-Factory/Agon)]*
+
 
 ## 安全实践
 
