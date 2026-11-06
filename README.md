@@ -197,6 +197,9 @@
 
 - **🔍 [ClawBench](https://github.com/reacher-z/ClawBench)**  
   *简介：面向真实生产网页的AI浏览器Agent评测基准，153个日常任务、144个真实网站、15个类别；通过提交拦截层（Chrome扩展+CDP）保证真实环境下的端到端评测不产生副作用。[paper](https://arxiv.org/abs/2604.08523)*
+- **🔍 [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench)**  
+  *简介：通过浏览器探索参考网站，评测 AI 智能体重建前端、后端及交互行为的能力；完整任务材料按 HF 的访问流程获取。*
+
 
 - **📊 [VBench](https://github.com/Vchitect/VBench)**  
   *简介：全面评估视频生成模型的基准测试套件。它通过多维度的分层评估体系，将“视频生成质量”拆解为多个细粒度指标，提供客观、精细化的评测方法，并与人类视觉偏好高度对齐（CVPR 2024 Highlight）。*
