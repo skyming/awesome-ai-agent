@@ -187,6 +187,9 @@
 - **🛠️ [NeverApply](https://neverapply.co/features/mcp) · [GitHub](https://github.com/kasovy/neverapply-mcp)**  
   *简介：NeverApply 托管的 MCP 服务器（https://neverapply.co/mcp，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端搜索和匹配职位、定制简历、回答筛选问题、准备面试，并在你确认后投递职位。共 15 个工具，提供免费版和付费版。*
 
+- **🛠️ [BulkPublish](https://www.bulkpublish.com/integrations/mcp-server/) · [GitHub](https://github.com/azeemkafridi/bulkpublish-ai-toolkit)**  
+  *简介：BulkPublish 托管的 MCP 服务器（`https://mcp.bulkpublish.com/mcp`，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端在 15 个社交平台上起草、排期、跨平台发布并查看分析（含媒体上传、标签与审批）。提供免费版与付费版；客户端配置与 Agent Skills 开源。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
