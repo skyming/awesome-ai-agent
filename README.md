@@ -190,6 +190,9 @@
 - **🛠️ [BulkPublish](https://www.bulkpublish.com/integrations/mcp-server/) · [GitHub](https://github.com/azeemkafridi/bulkpublish-ai-toolkit)**  
   *简介：BulkPublish 托管的 MCP 服务器（`https://mcp.bulkpublish.com/mcp`，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端在 15 个社交平台上起草、排期、跨平台发布并查看分析（含媒体上传、标签与审批）。提供免费版与付费版；客户端配置与 Agent Skills 开源。*
 
+- **🛠️ [Datacircle](https://datacircle.dev) · [MCP](https://api.datacircle.dev/mcp)**  
+  *简介：对所有 GTM API 做基准测试并把结果发布在网站上。开放的 MCP 服务器（`https://api.datacircle.dev/mcp`，Streamable HTTP，无需密钥）让 Agent 列出 GTM API、按 API、供应商或价格搜索方案。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
