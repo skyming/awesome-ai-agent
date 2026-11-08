@@ -190,6 +190,9 @@
 - **🛠️ [BulkPublish](https://www.bulkpublish.com/integrations/mcp-server/) · [GitHub](https://github.com/azeemkafridi/bulkpublish-ai-toolkit)**  
   *简介：BulkPublish 托管的 MCP 服务器（`https://mcp.bulkpublish.com/mcp`，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端在 15 个社交平台上起草、排期、跨平台发布并查看分析（含媒体上传、标签与审批）。提供免费版与付费版；客户端配置与 Agent Skills 开源。*
 
+- **🛠️ [Imagera](https://imagera.ai/mcp) · [GitHub](https://github.com/alexadams6ix/imagera-skills)**  
+  *简介：Imagera 托管的 MCP 服务器（`https://mcp.imagera.ai/mcp`，Streamable HTTP，OAuth 登录），让 Claude Code、Codex、Cursor 等 MCP 客户端生成和编辑图片、视频、配音与音乐，并运行产品图、广告、短视频等多步任务；保存的 Character ID 让同一张脸或同一个产品在多个镜头中保持一致。每次生成前先报出积分价格，需付费 Imagera 账号；插件与 Skills 以 MIT 开源。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
