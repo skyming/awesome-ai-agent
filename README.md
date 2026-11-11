@@ -175,20 +175,9 @@
 - **🔬 [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) · [npm](https://www.npmjs.com/package/orcareplay)**  
   *简介：在进程与 socket 层记录 coding agent 的整场运行——模型请求、shell 命令的退出码、每轮文件变更、MCP 调用落在同一条时间线上。与只做观测的方案不同，它能把这次运行**重新跑一遍**：断网重放逐字节复现，或从任一检查点分叉到另一个模型，让两个模型面对完全相同的上下文与文件状态。Apache-2.0。*
 
-- **🛠️ [Archcore](https://github.com/archcore-ai/archcore)**  
-  *简介：面向 AI 编码代理的 Git 原生上下文工程与规格驱动开发。*
-
 - **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
   *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
-- **🛠️ [PlaceCall](https://voygr.tech/placecall/) · [GitHub](https://github.com/voygr-tech/placecall)**  
-  *简介：让 AI Agent 给美国商家拨打真实电话（订位、预约、询价）：提供远程 MCP 服务器（`https://api.voygr.tech/mcp`）、REST API 与 Agent Skill，可应对语音菜单、等待和转接，通话中能把问题转回给用户，结束后返回结构化结果、文字记录和录音。仅限美国号码；托管付费服务，每个新 API 密钥含 250 次免费通话，之后按通话结果计费；客户端（Skill 与插件）MIT 开源。*
-
-- **🛠️ [NeverApply](https://neverapply.co/features/mcp) · [GitHub](https://github.com/kasovy/neverapply-mcp)**  
-  *简介：NeverApply 托管的 MCP 服务器（https://neverapply.co/mcp，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端搜索和匹配职位、定制简历、回答筛选问题、准备面试，并在你确认后投递职位。共 15 个工具，提供免费版和付费版。*
-
-- **🛠️ [BulkPublish](https://www.bulkpublish.com/integrations/mcp-server/) · [GitHub](https://github.com/azeemkafridi/bulkpublish-ai-toolkit)**  
-  *简介：BulkPublish 托管的 MCP 服务器（`https://mcp.bulkpublish.com/mcp`，Streamable HTTP，OAuth 2.1 登录），让 Claude、Cursor、Cline 等 MCP 客户端在 15 个社交平台上起草、排期、跨平台发布并查看分析（含媒体上传、标签与审批）。提供免费版与付费版；客户端配置与 Agent Skills 开源。*
 
 ## 评测基准
 
