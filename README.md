@@ -317,6 +317,12 @@
 - **🤖 [Sno Station](https://github.com/sno-ai/sno-station)**  
   *简介：开源、本地运行的多智能体团队，把 Codex、Claude Code、Cursor、Hermes Agent 和 OpenClaw 放进同一个团队：一个 Agent 额度用完，另一个接着做同一个任务；写代码的和审代码的不是同一个 Agent，跨厂商互相评审。Apache-2.0。*
 
+- **🔬 [AgonAlpha](https://github.com/AutoResearch-Factory/AgonAlpha)**  
+  *简介：用 LLM 多 agent 方法自动挖掘因子（alpha）。在 WorldQuant BRAIN 上提交的 60 次中，拿到了 17 个 SPECTACULAR，Fitness 最高 9.50，Sharpe 最高 3.48。[[paper](https://arxiv.org/abs/2608.11250)]*
+
+- **🔬 [AutoSR](https://github.com/AutoResearch-Factory/AutoSR)**  
+  *简介：多 agent 符号回归（symbolic regression）。精确恢复所有已发表的符号回归系统都解不出的 3 道 cp3-bench 题。有望解决此前符号回归（1）只有公式没有洞见（2）过拟合数据点，抗噪声和外插能力差，的问题。在 [autosr.app](https://autosr.app) 上开放给大家免费试用。[[paper](https://arxiv.org/abs/2608.16876)]*
+
 ## 资源中心
 
 - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
