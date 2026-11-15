@@ -178,6 +178,9 @@
 - **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
   *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
+- **🎬 [GetYouTubeTranscript MCP](https://getyoutubetranscript.com/youtube-mcp-server) · [GitHub](https://github.com/tubeagentkit/youtube-mcp)**  
+  *简介：让 Agent 读取 YouTube 视频：远程 MCP 服务器（`https://getyoutubetranscript.com/api/mcp`，支持 OAuth 或 API Key）提供 13 个只读工具，可获取带时间戳的字幕、搜索视频和频道、列出频道和播放列表中的视频；另有可在 Claude Code、Codex、Cursor 中使用的 Skill（[youtube-transcript-skills](https://github.com/tubeagentkit/youtube-transcript-skills)）。新账号送 100 积分。*
+
 
 ## 评测基准
 
