@@ -250,6 +250,9 @@
 - **🛡️ [npmscan](https://npmscan.com/mcp) · [GitHub](https://github.com/salemalem/npmscan-mcp-plugin)**  
   *简介：面向 AI 编程 Agent 的 npm 供应链安全检查：远程 MCP 服务器（`https://npmscan.com/api/mcp`）加 5 个 Skill，让 Agent 在推荐或安装 npm 包前检查恶意包、已知漏洞、仿冒包名、维护者变更、安装脚本和发布来源证明，并可对依赖变更给出 PASS/WARN/FAIL 合并结论。只读、免费、无需注册；服务端不开源，客户端插件与 Skills 为 MIT 开源。*
 
+- **🛡️ [Ironheights](https://www.ironheights.dev) · [GitHub](https://github.com/Frank-Masciopinto/ironheights)**  
+  *简介：开源、本地运行的 Agent Skill 安装前扫描器（Apache-2.0，`npx ironheights scan <目录>`）：把 OpenClaw、Claude Code、Codex、Cursor 的 SKILL.md 技能目录和 MCP 配置当作数据读取（不执行），标记指令覆盖、隐藏文本、读取凭据路径、外传数据、`curl|sh` 远程安装与持久化等模式；另提供 MCP 服务器（`check_skill`）与 GitHub Action。基于规则，用纯自然语言写成的攻击可能漏报，“无发现”不等于安全。*
+
 ## 开源项目
 
 - **🤖 [openclaw](https://github.com/openclaw/openclaw)**  
