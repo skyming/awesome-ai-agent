@@ -304,6 +304,9 @@
  - **🤖 [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus)**
     *简介：NetMind.AI 开源的 AI 智能体团队工作空间。不同于拼装智能体的框架，NarraNexus 提供一支现成的智能体团队——自带记忆、可跨会话保持上下文，从第一天起就能协作并使用工具。支持多智能体协作（PM、开发、部署、研究等角色）、组合式模块化能力（Memory、Awareness、Chat、RAG、Jobs、Skills）、Matrix 通信协议、MCP 工具集成，以及云端/macOS/本地多种部署方式。*
 
+- **🔍 [last30days](https://github.com/mvanhorn/last30days-skill)**  
+  *简介：开源（MIT）Agent Skill，用 `/last30days <主题>` 调研任意话题：检索 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 与网页过去 30 天的内容，按真实互动（点赞、投票、预测市场赔率）排序，再由 Agent 汇总成一份带引用的简报。Reddit、HN、Polymarket、GitHub 无需配置即可使用，支持 Claude Code、Codex、Cursor、Gemini CLI 等 50+ 款 Agent Skills 宿主，安装：`npx skills add mvanhorn/last30days-skill -g`。*
+
 
   ## 实操 DEMO
 - **🤖 [Markus](https://github.com/markus-global/markus)**  
