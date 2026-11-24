@@ -179,6 +179,9 @@
   *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
 
+- **🛠️ [Datacircle](https://datacircle.dev) · [MCP](https://api.datacircle.dev/mcp)**  
+  *简介：对所有 GTM API 做基准测试并把结果发布在网站上。开放的 MCP 服务器（`https://api.datacircle.dev/mcp`，Streamable HTTP，无需密钥）让 Agent 列出 GTM API、按 API、供应商或价格搜索方案。*
+
 ## 评测基准
 
 - **📊 [AI Agent评测基准大揭秘：智能体的「体检标准」](https://mp.weixin.qq.com/s/9GCY-ufxNVnc-yCdFGnOeQ)**  
