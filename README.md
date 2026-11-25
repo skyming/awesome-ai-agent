@@ -308,6 +308,10 @@
   *简介：开源（MIT）Agent Skill，用 `/last30days <主题>` 调研任意话题：检索 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 与网页过去 30 天的内容，按真实互动（点赞、投票、预测市场赔率）排序，再由 Agent 汇总成一份带引用的简报。Reddit、HN、Polymarket、GitHub 无需配置即可使用，支持 Claude Code、Codex、Cursor、Gemini CLI 等 50+ 款 Agent Skills 宿主，安装：`npx skills add mvanhorn/last30days-skill -g`。*
 
 
+- **📊 [AlphaSift](https://github.com/ZhuLinsen/alphasift)**  
+  *简介：开源（Apache-2.0）AI Agent 驱动的多市场量化选股与公开实证雷达（支持 A股 / 美股 / 港股 / 日股 / 韩股 / 台股 / 印股 7 大市场）。核心由无状态 CLI / 本地 Web UI / MCP Server（13 个只读工具 + 4 项资源）与 Agent Skill 构成（默认零 LLM token 消耗，按需挂载 BYOK 策略工坊），自带真实收盘价 T+1/T+5/T+10 公开模拟跟踪与防未来数据泄露 Purged Walk-Forward 回放检验，PyPI 安装：`pip install alphasift`（或 `npx skills add ZhuLinsen/alphasift -g`）。*
+
+
   ## 实操 DEMO
 - **🤖 [Markus](https://github.com/markus-global/markus)**  
   *简介：开源 AI 工作团队（AI Workforce）平台，用角色化智能体组建团队、拆解并委派任务、并行执行与质量评审，内置跨会话持久记忆与智能体间通信，支持自托管。*
