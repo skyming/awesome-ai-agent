@@ -89,6 +89,9 @@
 - **📖 [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738)**  
   *简介：关于 Agent 循环（Agent Loop）的综述，梳理模型外层的控制策略、通过 Agentic RL 训练出的循环、终止条件与自我验证、上下文管理与错误恢复、Skills 以及生产级 Coding Harness，并讨论如何区分 Harness 和模型各自带来的提升。*
 
+- **📖 [Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime](https://doi.org/10.20944/preprints202603.1756.v2)**  
+  *简介：将语言智能体的 Harness 层拆解为 Control（控制）、Agency（行动能力）与 Runtime（运行时）三个维度（CAR），梳理从软件工程到 Prompt / Context Engineering 再到 Harness Engineering 的演进脉络，审计 63 项 Harness 相关工作，讨论 Agent 性能提升中有多少来自 Harness 而非模型本身，并提出轻量级报告规范 HarnessCard。*
+
 ## 感知记忆
 
 - **📖 [从架构到代码：深入理解 OpenClaw 的双源记忆系统](https://mp.weixin.qq.com/s/Ok3VwXft5fvvNWLBL6r2AA)**  
