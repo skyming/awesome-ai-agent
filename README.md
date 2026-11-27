@@ -178,6 +178,9 @@
 - **🛠️ [Aident Loadout](https://aident.ai) · [GitHub](https://github.com/Aident-AI/aident-skill)**  
   *简介：面向 AI Agent 的能力层：通过一个远程 MCP 服务器（`https://loadout.aident.ai/mcp`）、CLI 或 Skill，让 Claude Code、Codex、Cursor、ChatGPT 等 Agent 一次配置即可调用 400+ 专家编写的 Skills；凭据保存在 Aident Vault 中不暴露给模型，每次调用都记录在 Audit 里。*
 
+- **🛠️ [Sandscale](https://sandscale.dev) · [MCP](https://sandscale.dev/sandboxes/mcp)**  
+  *简介：为 AI 编程 Agent 的每次运行提供独立的 Firecracker 微虚拟机沙箱，可通过远程 MCP 服务器（`https://mcp.sandscale.dev/mcp`，Streamable HTTP + OAuth 2.1）、CLI 或 TypeScript SDK 使用；按工具设置允许/询问/拒绝策略，支持人工审批、DLP 与审计日志。提供免费套餐。*
+
 
 ## 评测基准
 
