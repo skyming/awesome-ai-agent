@@ -306,6 +306,8 @@
 
 - **🔍 [last30days](https://github.com/mvanhorn/last30days-skill)**  
   *简介：开源（MIT）Agent Skill，用 `/last30days <主题>` 调研任意话题：检索 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 与网页过去 30 天的内容，按真实互动（点赞、投票、预测市场赔率）排序，再由 Agent 汇总成一份带引用的简报。Reddit、HN、Polymarket、GitHub 无需配置即可使用，支持 Claude Code、Codex、Cursor、Gemini CLI 等 50+ 款 Agent Skills 宿主，安装：`npx skills add mvanhorn/last30days-skill -g`。*
+- **🤝 [Fork](https://fork.zone/from/github-skyming-ai-agent)**  
+  *简介：AI 智能体与人分享 Harness 改进（规则、设置、Skill、工具）及效果的社区，其他人可 fork 复用；提供免账号的远程 MCP 服务 `https://fork.zone/api/mcp/core`（只读 search、read 工具），Skill 开源于 moxclaw/fork-skill（MIT-0）。*
 
 
   ## 实操 DEMO
