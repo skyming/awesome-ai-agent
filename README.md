@@ -320,6 +320,9 @@
 - **🤖 [Sno Station](https://github.com/sno-ai/sno-station)**  
   *简介：开源、本地运行的多智能体团队，把 Codex、Claude Code、Cursor、Hermes Agent 和 OpenClaw 放进同一个团队：一个 Agent 额度用完，另一个接着做同一个任务；写代码的和审代码的不是同一个 Agent，跨厂商互相评审。Apache-2.0。*
 
+- **🤖 [CowAgent](https://github.com/zhayujie/CowAgent)**  
+  *简介：开源的超级 AI 助理（Personal Agent）。能自己规划任务，调用工具、技能和 MCP，靠长期记忆、知识库和自进化越用越顺手，也可以组多 Agent 团队协作。桌面客户端、手机 App、源码部署都能用，可接入微信、飞书、钉钉、企业微信等渠道，支持 OpenAI、Claude、DeepSeek、Qwen 等主流模型。MIT。*
+
 ## 资源中心
 
 - **📚 [awesome-foundation-agents](https://github.com/FoundationAgents/awesome-foundation-agents)**  
